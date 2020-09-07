@@ -1,0 +1,37 @@
+{
+  "studentId": "ID789",
+  "coursesPlanned": [
+  ],
+  "planTermConstraints": [
+    {
+      "termSeason": "Summer",
+      "termYear": 2020,
+      "minTermPlanCredits": 0,
+      "maxTermPlanCredits": 4
+    },
+    {
+      "termSeason": "Summer",
+      "termYear": 2021,
+      "minTermPlanCredits": 0,
+      "maxTermPlanCredits": 4
+    },
+    {
+      "termSeason": "Summer",
+      "termYear": 2022,
+      "minTermPlanCredits": 0,
+      "maxTermPlanCredits": 4
+    },
+    {
+      "termSeason": "Summer",
+      "termYear": 2023,
+      "minTermPlanCredits": 0,
+      "maxTermPlanCredits": 4
+    },
+    {
+      "termSeason": "Summer",
+      "termYear": 2024,
+      "minTermPlanCredits": 0,
+      "maxTermPlanCredits": 4
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "coursesTaken": [
+    {
+      "courseId": "HNR-100",
+      "grade": "CR",
+      "numCredits": 1,
+      "examType": "",
+      "termSeason": "Fall",
+      "termYear": 2018
+    },
+    {
+      "courseId": "HNR-100",
+      "grade": "CR",
+      "numCredits": 1,
+      "examType": "",
+      "termSeason": "Spring",
+      "termYear": 2019
+    },
+    {
+      "courseId": "HNR-100",
+      "grade": "CR",
+      "numCredits": 1,
+      "examType": "",
+      "termSeason": "Fall",
+      "termYear": 2019
+    },
+    {
+      "courseId": "HNR-100",
+      "grade": "CR",
+      "numCredits": 1,
+      "examType": "",
+      "termSeason": "Spring",
+      "termYear": 2020
+    },
+    {
+      "courseId": "CIS-125",
+      "examType": "",
+      "grade": "A",
+      "numCredits": 4,
+      "termSeason": "Fall",
+      "termYear": 2017
+    },
+    {
+      "courseId": "CIS-126",
+      "examType": "",
+      "grade": "C",
+      "numCredits": 4,
+      "termSeason": "Fall",
+      "termYear": 2017
+    },
+    {
+      "courseId": "CIS-221",
+      "examType": "",
+      "grade": "B+",
+      "numCredits": 4,
+      "termSeason": "Spring",
+      "termYear": 2019
+    },
+    {
+      "courseId": "CIS-222",
+      "examType": "",
+      "grade": "B+",
+      "numCredits": 4,
+      "termSeason": "Fall",
+      "termYear": 2018
+    },
+    {
+      "courseId": "CIS-301",
+      "examType": "",
+      "grade": "TR",
+      "numCredits": 3,
+      "termSeason": "Fall",
+      "termYear": 2019
+    },
+    {
+      "courseId": "CIS-302",
+      "examType": "",
+      "grade": "B-",
+      "numCredits": 3,
+      "termSeason": "Fall",
+      "termYear": 2019
+    },
+    {
+      "courseId": "CIS-320",
+      "examType": "",
+      "grade": "B",
+      "numCredits": 4,
+      "termSeason": "Winter",
+      "termYear": 2018
+    },
+    {
+      "courseId": "CIS-325",
+      "examType": "",
+      "grade": "A-",
+      "numCredits": 4,
+      "termSeason": "Winter",
+      "termYear": 2018
+    },
+    {
+      "courseId": "CIS-336",
+      "examType": "",
+      "grade": "B",
+      "numCredits": 3,
+      "termSeason": "Spring",
+      "termYear": 2018
+    },
+    {
+      "courseId": "CIS-342",
+      "examType": "",
+      "grade": "C-",
+      "numCredits": 3,
+      "termSeason": "Spring",
+      "termYear": 2018
+    },
+    {
+      "courseId": "CIS-363",
+      "examType": "",
+      "grade": "C+",
+      "numCredits": 3,
+      "termSeason": "Summer",
+      "termYear": 2018
+    },
+    {
+      "courseId": "CIS-482",
+      "examType": "",
+      "grade": "C",
+      "numCredits": 2,
+      "termSeason": "Spring",
+      "termYear": 2020
+    },
+    {
+      "courseId": "CIS-492",
+      "examType": "",
+      "grade": "C-",
+      "numCredits": 2,
+      "termSeason": "Spring",
+      "termYear": 2020
+    },
+    {
+      "courseId": "MUS-185",
+      "examType": "",
+      "grade": "C+",
+      "numCredits": 2,
+      "termSeason": "Fall",
+      "termYear": 2019
+    },
+    {
+      "courseId": "MUS-188",
+      "examType": "",
+      "grade": "C",
+      "numCredits": 1,
+      "termSeason": "Fall",
+      "termYear": 2018
+    },
+    {
+      "courseId": "MUS-188",
+      "examType": "",
+      "grade": "B",
+      "numCredits": 1,
+      "termSeason": "Winter",
+      "termYear": 2017
+    },
+    {
+      "courseId": "MUS-188",
+      "examType": "",
+      "grade": "A",
+      "numCredits": 1,
+      "termSeason": "Winter",
+      "termYear": 2019
+    },
+    {
+      "courseId": "MUS-187",
+      "examType": "",
+      "grade": "C",
+      "numCredits": 1,
+      "termSeason": "Winter",
+      "termYear": 2019
+    },
+    {
+      "courseId": "MUS-187",
+      "examType": "",
+      "grade": "B",
+      "numCredits": 1,
+      "termSeason": "Summer",
+      "termYear": 2018
+    },
+    {
+      "courseId": "MUS-187",
+      "examType": "",
+      "grade": "C",
+      "numCredits": 1,
+      "termSeason": "Summer",
+      "termYear": 2019
+    },
+    {
+      "courseId": "ENG-180",
+      "examType": "AP",
+      "grade": "CR",
+      "numCredits": 3
+    },
+    {
+      "courseId": "PHL-180",
+      "examType": "",
+      "grade": "D+",
+      "numCredits": 3,
+      "termSeason": "Summer",
+      "termYear": 2017
+    },
+    {
+      "courseId": "ENG-222",
+      "examType": "CLEP",
+      "grade": "NC",
+      "numCredits": 3,
+      "termSeason": "Summer",
+      "termYear": 2018
+    },
+    {
+      "courseId": "ENG-301",
+      "examType": "",
+      "grade": "C-",
+      "numCredits": 3,
+      "termSeason": "Winter",
+      "termYear": 2019
+    },
+    {
+      "courseId": "THE-101",
+      "examType": "",
+      "grade": "A",
+      "numCredits": 3,
+      "termSeason": "Summer",
+      "termYear": 2019
+    },
+    {
+      "courseId": "THE-102",
+      "examType": "",
+      "grade": "A",
+      "numCredits": 3,
+      "termSeason": "Summer",
+      "termYear": 2018
+    },
+    {
+      "courseId": "JAV-101",
+      "examType": "",
+      "grade": "A",
+      "numCredits": 3,
+      "termSeason": "Winter",
+      "termYear": 2017
+    },
+    {
+      "courseId": "CPP-101",
+      "examType": "",
+      "grade": "IP",
+      "numCredits": 3,
+      "termSeason": "Summer",
+      "termYear": 2019
+    },
+    {
+      "courseId": "FOR-101",
+      "examType": "",
+      "grade": "A",
+      "numCredits": 3,
+      "termSeason": "Fall",
+      "termYear": 2019
+    },
+    {
+      "courseId": "FOR-102",
+      "examType": "",
+      "grade": "B",
+      "numCredits": 3,
+      "termSeason": "Fall",
+      "termYear": 2019
+    },
+    {
+      "courseId": "COB-101",
+      "examType": "",
+      "grade": "A",
+      "numCredits": 4,
+      "termSeason": "Winter",
+      "termYear": 2018
+    },
+    {
+      "courseId": "ECO-101",
+      "examType": "",
+      "grade": "B",
+      "numCredits": 3,
+      "termSeason": "Fall",
+      "termYear": 2018
+    },
+    {
+      "courseId": "POL-101",
+      "examType": "",
+      "grade": "C-",
+      "numCredits": 3,
+      "termSeason": "Fall",
+      "termYear": 2018
+    },
+    {
+      "courseId": "PSY-101",
+      "examType": "",
+      "grade": "C",
+      "numCredits": 3,
+      "termSeason": "Fall",
+      "termYear": 2018
+    },
+    {
+      "courseId": "XYZ-101",
+      "examType": "",
+      "grade": "B",
+      "numCredits": 3,
+      "termSeason": "Fall",
+      "termYear": 2018
+    },
+    {
+      "courseId": "BUS-100",
+      "grade": "A",
+      "numCredits": 3,
+      "examType": ""
+    },
+    {
+      "courseId": "BUS-101",
+      "grade": "A",
+      "numCredits": 3,
+      "examType": ""
+    },
+    {
+      "courseId": "ACC-201",
+      "grade": "A",
+      "numCredits": 3,
+      "examType": ""
+    },
+    {
+      "courseId": "ACC-202",
+      "grade": "A",
+      "numCredits": 3,
+      "examType": ""
+    },
+    {
+      "courseId": "ECO-212",
+      "grade": "A",
+      "numCredits": 3,
+      "examType": ""
+    },
+    {
+      "courseId": "ECO-213",
+      "grade": "A",
+      "numCredits": 3,
+      "examType": ""
+    },
+    {
+      "courseId": "MKG-210",
+      "grade": "A",
+      "numCredits": 3,
+      "examType": ""
+    },
+    {
+      "courseId": "MNG-210",
+      "grade": "A",
+      "numCredits": 3,
+      "examType": ""
+    }
+  ],
+  "firstName": "Foo",
+  "lastName": "Bar-Baz",
+  "studentId": "ID456",
+  "currentTermSeason": "Spring",
+  "currentTermYear": 2020
+}

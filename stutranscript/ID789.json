@@ -1,0 +1,145 @@
+{
+  "firstName": "John",
+  "lastName": "Newton",
+  "studentId": "ID789",
+  "curriculum": {
+    "majors": [
+      "#MusicEducationBM",
+      "#MusicInstrument",
+      "#EnglishBA",
+      "#KinesiologyBS"
+    ],
+    "minors": [
+      "#ComputerScience"
+    ],
+    "concentrations": [
+      "#CreativeWriting",
+      "#Nursing",
+      "#PremedicineDentistryVeterinary",
+      "#PreNursing",
+      "#PreOccupationalTherapy",
+      "#PreOptometry",
+      "#PrePharmacy",
+      "#PrePhysicalTherapy",
+      "#PrePhysicianAssistant"
+    ],
+    "specializations": [
+    ],
+    "flags": [
+      "#xferStudentTwoSemestersCollegeLevelWriting",
+      "#firstYearStudentXferCreditCollegeLevelComposition",
+      "#inSelectedHonorsFellowsProgram",
+      "#inGlobalHonorsScholarsProgram",
+      "#validateForeignLanguageI",
+      "#validateForeignLanguageII"
+    ]
+  },
+  "coursesTaken": [
+    {
+      "courseId": "NUR-221",
+      "grade": "B",
+      "numCredits": 2,
+      "examType": "",
+      "termSeason": "Fall",
+      "termYear": 2020
+    },
+    {
+      "courseId": "BIO-111",
+      "grade": "A-",
+      "numCredits": 4,
+      "examType": "",
+      "termSeason": "Fall",
+      "termYear": 2020
+    },
+    {
+      "courseId": "MAT-113",
+      "grade": "B+",
+      "numCredits": 3,
+      "examType": "",
+      "termSeason": "Fall",
+      "termYear": 2020
+    },
+    {
+      "courseId": "BIL-101",
+      "grade": "A",
+      "numCredits": 3,
+      "examType": "",
+      "termSeason": "Fall",
+      "termYear": 2020
+    },
+    {
+      "courseId": "MAT-305",
+      "grade": "B",
+      "numCredits": 3,
+      "examType": "",
+      "termSeason": "Fall",
+      "termYear": 2020
+    },
+    {
+      "courseId": "THT-120",
+      "grade": "B",
+      "numCredits": 1,
+      "examType": "",
+      "termSeason": "Fall",
+      "termYear": 2020
+    },
+    {
+      "courseId": "THT-120",
+      "grade": "B",
+      "numCredits": 1,
+      "examType": "",
+      "termSeason": "Winter",
+      "termYear": 2020
+    },
+    {
+      "courseId": "THT-120",
+      "grade": "B",
+      "numCredits": 1,
+      "examType": "",
+      "termSeason": "Spring",
+      "termYear": 2021
+    },
+    {
+      "courseId": "BIO-213",
+      "grade": "B",
+      "numCredits": 1,
+      "examType": "",
+      "termSeason": "Fall",
+      "termYear": 2021
+    },
+    {
+      "courseId": "ECB-349",
+      "grade": "A-",
+      "numCredits": 0,
+      "examType": "",
+      "termSeason": "Fall",
+      "termYear": 2020
+    },
+    {
+      "courseId": "ENG-141",
+      "grade": "A-",
+      "numCredits": 0,
+      "examType": "",
+      "termSeason": "Spring",
+      "termYear": 2021
+    },
+    {
+      "courseId": "FRE-101",
+      "grade": "A-",
+      "numCredits": 0,
+      "examType": "",
+      "termSeason": "Summer",
+      "termYear": 2021
+    },
+    {
+      "courseId": "FRE-102",
+      "grade": "A-",
+      "numCredits": 0,
+      "examType": "",
+      "termSeason": "Fall",
+      "termYear": 2021
+    }
+  ],
+  "currentTermSeason": "Fall",
+  "currentTermYear": 2020
+}

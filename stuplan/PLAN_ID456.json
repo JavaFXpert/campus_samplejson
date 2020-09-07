@@ -1,0 +1,91 @@
+{
+  "studentId": "ID456",
+  "coursesPlanned": [
+    {
+      "courseId": "CIS-497",
+      "examType": "",
+      "numCredits": 3,
+      "termSeason": "Fall",
+      "termYear": 2021
+    },
+    {
+      "courseId": "ZZZ-999",
+      "examType": "",
+      "numCredits": 3
+    }
+  ],
+  "planTermConstraints": [
+    {
+      "termSeason": "Summer",
+      "termYear": 2020,
+      "minTermPlanCredits": 3,
+      "maxTermPlanCredits": 6
+    },
+    {
+      "termSeason": "Fall",
+      "termYear": 2020,
+      "minTermPlanCredits": 6,
+      "maxTermPlanCredits": 10
+    },
+    {
+      "termSeason": "Winter",
+      "termYear": 2020,
+      "minTermPlanCredits": 2,
+      "maxTermPlanCredits": 3
+    },
+    {
+      "termSeason": "Spring",
+      "termYear": 2021,
+      "minTermPlanCredits": 8,
+      "maxTermPlanCredits": 12
+    },
+    {
+      "termSeason": "Summer",
+      "termYear": 2021,
+      "minTermPlanCredits": 0,
+      "maxTermPlanCredits": 6
+    },
+    {
+      "termSeason": "Fall",
+      "termYear": 2021,
+      "minTermPlanCredits": 12,
+      "maxTermPlanCredits": 15
+    },
+    {
+      "termSeason": "Winter",
+      "termYear": 2021,
+      "minTermPlanCredits": 2,
+      "maxTermPlanCredits": 3
+    },
+    {
+      "termSeason": "Spring",
+      "termYear": 2022,
+      "minTermPlanCredits": 10,
+      "maxTermPlanCredits": 15
+    },
+    {
+      "termSeason": "Summer",
+      "termYear": 2022,
+      "minTermPlanCredits": 0,
+      "maxTermPlanCredits": 3
+    },
+    {
+      "termSeason": "Fall",
+      "termYear": 2022,
+      "minTermPlanCredits": 10,
+      "maxTermPlanCredits": 12
+    },
+    {
+      "termSeason": "Winter",
+      "termYear": 2022,
+      "minTermPlanCredits": 0,
+      "maxTermPlanCredits": 0
+    },
+    {
+      "termSeason": "Spring",
+      "termYear": 2023,
+      "minTermPlanCredits": 15,
+      "maxTermPlanCredits": 19
+    }
+  ]
+}

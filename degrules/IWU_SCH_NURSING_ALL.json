@@ -1,0 +1,1124 @@
+{
+  "degreeProgramId": "IWU_SCH_NURSING",
+  "coursePrereqs": [
+    {
+      "courseId": "NUR-232",
+      "prereqs": [
+        "NUR-221"
+      ]
+    },
+    {
+      "courseId": "NUR-213",
+      "prereqs": [
+        "BIO-111",
+        "BIO-112"
+      ]
+    },
+    {
+      "courseId": "NUR-353",
+      "prereqs": [
+        "NUR-245",
+        "NUR-246"
+      ]
+    },
+    {
+      "courseId": "NUR-355",
+      "prereqs": [
+        "NUR-250"
+      ]
+    },
+    {
+      "courseId": "NUR-401",
+      "prereqs": [
+        "NUR-400"
+      ]
+    },
+    {
+      "courseId": "NUR-345",
+      "prereqs": [
+        "NUR-221",
+        "NUR-232",
+        "NUR-245",
+        "NUR-246"
+      ]
+    },
+    {
+      "courseId": "NUR-313",
+      "prereqs": [
+        "BIO-111",
+        "BIO-112"
+      ]
+    },
+    {
+      "courseId": "NUR-471",
+      "prereqs": [
+        "NUR-345",
+        "NUR-353",
+        "NUR-357"
+      ]
+    },
+    {
+      "courseId": "BIO-112",
+      "prereqs": [
+        "BIO-111"
+      ]
+    }
+  ],
+  "reusableCourses": [
+  ],
+  "planTermConstraints": [
+    {
+      "termSeason": "Summer",
+      "termYear": 2020,
+      "minTermPlanCredits": 0,
+      "maxTermPlanCredits": 17
+    },
+    {
+      "termSeason": "Fall",
+      "termYear": 2020,
+      "minTermPlanCredits": 12,
+      "maxTermPlanCredits": 20
+    },
+    {
+      "termSeason": "Winter",
+      "termYear": 2020,
+      "minTermPlanCredits": 0,
+      "maxTermPlanCredits": 0
+    },
+    {
+      "termSeason": "Spring",
+      "termYear": 2021,
+      "minTermPlanCredits": 12,
+      "maxTermPlanCredits": 20
+    },
+    {
+      "termSeason": "Summer",
+      "termYear": 2021,
+      "minTermPlanCredits": 0,
+      "maxTermPlanCredits": 17
+    },
+    {
+      "termSeason": "Fall",
+      "termYear": 2021,
+      "minTermPlanCredits": 12,
+      "maxTermPlanCredits": 20
+    },
+    {
+      "termSeason": "Winter",
+      "termYear": 2021,
+      "minTermPlanCredits": 0,
+      "maxTermPlanCredits": 0
+    },
+    {
+      "termSeason": "Spring",
+      "termYear": 2022,
+      "minTermPlanCredits": 12,
+      "maxTermPlanCredits": 20
+    },
+    {
+      "termSeason": "Summer",
+      "termYear": 2022,
+      "minTermPlanCredits": 0,
+      "maxTermPlanCredits": 17
+    },
+    {
+      "termSeason": "Fall",
+      "termYear": 2022,
+      "minTermPlanCredits": 12,
+      "maxTermPlanCredits": 20
+    },
+    {
+      "termSeason": "Winter",
+      "termYear": 2022,
+      "minTermPlanCredits": 0,
+      "maxTermPlanCredits": 0
+    },
+    {
+      "termSeason": "Spring",
+      "termYear": 2023,
+      "minTermPlanCredits": 12,
+      "maxTermPlanCredits": 20
+    },
+    {
+      "termSeason": "Summer",
+      "termYear": 2023,
+      "minTermPlanCredits": 0,
+      "maxTermPlanCredits": 17
+    },
+    {
+      "termSeason": "Fall",
+      "termYear": 2023,
+      "minTermPlanCredits": 12,
+      "maxTermPlanCredits": 20
+    },
+    {
+      "termSeason": "Winter",
+      "termYear": 2023,
+      "minTermPlanCredits": 0,
+      "maxTermPlanCredits": 0
+    },
+    {
+      "termSeason": "Spring",
+      "termYear": 2024,
+      "minTermPlanCredits": 12,
+      "maxTermPlanCredits": 20
+    },
+    {
+      "termSeason": "Summer",
+      "termYear": 2024,
+      "minTermPlanCredits": 0,
+      "maxTermPlanCredits": 17
+    }
+  ],
+  "gpaRequired": 2.0,
+  "maxClassesCounted": 0,
+  "maxCreditsCounted": 0,
+  "maxTermClassesCounted": 0,
+  "maxTermCreditsCounted": 0,
+  "minGradeRequired": 0.0,
+  "name": "IWU SCH NURSING",
+  "numAdvCreditsRequired": 0,
+  "numClassesRequired": 0,
+  "numCreditsRequired": 124,
+  "numResClassesRequired": 0,
+  "numResCreditsRequired": 0,
+  "numTermClassesRequired": 0,
+  "numTermCreditsRequired": 0,
+  "orGate": false,
+  "reqs": [
+    {
+      "generated": false,
+      "gpaRequired": 0.0,
+      "ifExpression": "",
+      "maxClassesCounted": 0,
+      "maxCreditsCounted": 0,
+      "maxDisciplines": 0,
+      "maxTermClassesCounted": 0,
+      "maxTermCreditsCounted": 0,
+      "minDisciplines": 0,
+      "minGradeRequired": 0.0,
+      "name": "REQUIRED COURSES",
+      "numAdvCreditsRequired": 0,
+      "numClassesRequired": 0,
+      "numCreditsRequired": 62,
+      "numResClassesRequired": 0,
+      "numResCreditsRequired": 0,
+      "numTermClassesRequired": 0,
+      "numTermCreditsRequired": 0,
+      "orGate": false,
+      "reqs": [
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "NUR-221"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Principles of Intervention",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 2,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "NUR-245"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Care of the Well Adult",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 4,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "NUR-232"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Advanced Principles of Intervention",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 2,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "NUR-250"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Pharmacology",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 3,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "NUR-246"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Care of the Ill Adult I",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 4,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "NUR-213"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Pathophysiology I",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 2,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "NUR-353"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Care of the Childbearing Family",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 3,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "NUR-357"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Nursing Care of Children",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 3,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "NUR-336"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Nursing Research and Evidence-Based Practice",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 3,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "NUR-355"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Pharmacology II",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 2,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "NUR-300"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Transcultural Nursing",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 2,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "NUR-401"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Transcultural Nursing-Practicum",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 1,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "NUR-345"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Adult Health II",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 5,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "NUR-313"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Pathophysiology II",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 2,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "NUR-470"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Community Health Nursing",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 5,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "NUR-473"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Nursing Leadership and Management",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 5,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "NUR-445"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Adult Nursing III",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 5,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "NUR-485"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Senior Seminar",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 1,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "NUR-471"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Mental Health Nursing",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 3,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        }
+      ],
+      "scopeTypeAndValue": ""
+    },
+    {
+      "generated": false,
+      "gpaRequired": 0.0,
+      "ifExpression": "",
+      "maxClassesCounted": 0,
+      "maxCreditsCounted": 0,
+      "maxDisciplines": 0,
+      "maxTermClassesCounted": 0,
+      "maxTermCreditsCounted": 0,
+      "minDisciplines": 0,
+      "minGradeRequired": 0.0,
+      "name": "REQUIRED GEN EDS/SUPPORTING COURSES",
+      "numAdvCreditsRequired": 0,
+      "numClassesRequired": 0,
+      "numCreditsRequired": 47,
+      "numResClassesRequired": 0,
+      "numResCreditsRequired": 0,
+      "numTermClassesRequired": 0,
+      "numTermCreditsRequired": 0,
+      "orGate": false,
+      "reqs": [
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "BIO-111"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 2.0,
+          "name": "Anatomy and Physiology I",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 4,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "BIO-112"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Anatomy and Physiology II",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 4,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "BIO-113"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Introductory Microbiology",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 4,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "CHE-120"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Introduction to Organic and Biological Chemistry",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 4,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "MAT-107:113"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "MAT-107 or higher, MAT-113 preferred",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 3,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "PSY-150"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "General Psychology",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 3,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "PSY-250"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Developmental Psychology",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 3,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "ENG-120"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Research Writing",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 3,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "COM-100"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Principles of Communication",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 3,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "THE-101"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Theology of Christian Life",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 3,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "BIL-101"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Old Testament Survey",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 3,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "BIL-102"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "New Testament Survey",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 3,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "ENG-180"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Humanities World Literature",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 3,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "description": "",
+          "generated": false,
+          "gpaRequired": 0.0,
+          "ifExpression": "",
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Humanities World Civilization",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 0,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": true,
+          "reqs": [
+            {
+              "description": "",
+              "generated": false,
+              "gpaRequired": 0.0,
+              "ifExpression": "not majorsInclude(\"History\")",
+              "inCourses": [
+                "HST-180"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "World Civilization",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 3,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false,
+              "scopeTypeAndValue": ""
+            },
+            {
+              "description": "",
+              "generated": false,
+              "gpaRequired": 0.0,
+              "ifExpression": "",
+              "inCourses": [
+                "HST-185",
+                "HST-190"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "World History",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 2,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false,
+              "scopeTypeAndValue": ""
+            }
+          ],
+          "scopeTypeAndValue": ""
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "PHE-000:999"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Activity Elective",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 1,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        }
+      ],
+      "scopeTypeAndValue": ""
+    },
+    {
+      "generated": false,
+      "gpaRequired": 0.0,
+      "ifExpression": "",
+      "maxClassesCounted": 0,
+      "maxCreditsCounted": 0,
+      "maxDisciplines": 0,
+      "maxTermClassesCounted": 0,
+      "maxTermCreditsCounted": 0,
+      "minDisciplines": 0,
+      "minGradeRequired": 0.0,
+      "name": "ELECTIVES",
+      "numAdvCreditsRequired": 0,
+      "numClassesRequired": 0,
+      "numCreditsRequired": 16,
+      "numResClassesRequired": 0,
+      "numResCreditsRequired": 0,
+      "numTermClassesRequired": 0,
+      "numTermCreditsRequired": 0,
+      "orGate": false,
+      "reqs": [
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "BIL-000:999",
+            "GEN-000:999",
+            "MUS-000:999"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 3,
+          "minGradeRequired": 0.0,
+          "name": "Courses from 3 subject codes",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 7,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        }
+      ],
+      "scopeTypeAndValue": ""
+    }
+  ]
+}
