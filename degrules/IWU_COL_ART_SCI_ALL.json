@@ -20,6 +20,12 @@
       ]
     },
     {
+      "courseId": "CIS-225",
+      "prereqs": [
+        "CIS-126"
+      ]
+    },
+    {
       "courseId": "CIS-320",
       "prereqs": [
         "CIS-221",
@@ -363,6 +369,275 @@
       "maxTermPlanCredits": 17
     }
   ],
+  "divisionsPrograms": [
+    {
+      "division": "ArtAndDesign",
+      "majors": [
+        "DesignForSocialImpact BA",
+        "DesignForSocialImpact BFA",
+        "GraphicDesign BA",
+        "Illustration BA",
+        "Photography BA",
+        "Photography BFA",
+        "StudioArts BA",
+        "VisualCommunicationDesign BFA"
+      ],
+      "minors": [
+        "ArtHistory",
+        "Ceramics",
+        "DesignForSocialImpact",
+        "FineArts",
+        "GraphicDesign",
+        "Illustration",
+        "Painting",
+        "Photography",
+        "Printmaking"
+      ],
+      "certificates": [
+        "DesignForSocialImpact"
+      ]
+    },
+    {
+      "division": "CommunicationAndTheatre",
+      "majors": [
+        "HumanCommunicationStudies BA",
+        "HumanCommunicationStudies BS",
+        "MultimediaCommunication BA",
+        "StrategicCommunication BA",
+        "StrategicCommunication BS",
+        "Theatre BA",
+        "Theatre BS"
+      ],
+      "minors": [
+        "HumanCommunicationStudies",
+        "Journalism",
+        "MediaCommunication",
+        "ShakespeareInPerformance",
+        "StrategicCommunication",
+        "Theatre"
+      ],
+      "certificates": [
+      ]
+    },
+    {
+      "division": "ModernLanguageAndLiterature",
+      "majors": [
+        "AppliedSpanishAndHispanicCulture BA",
+        "English AB",
+        "TESOL AB",
+        "Writing AB"
+      ],
+      "minors": [
+        "English",
+        "Spanish",
+        "TESOL",
+        "WorldLanguages",
+        "Writing"
+      ],
+      "certificates": [
+        "TESOL"
+      ]
+    },
+    {
+      "division": "Music",
+      "majors": [
+        "AppliedMusic AB",
+        "MusicComposition BM",
+        "MusicTherapy AB",
+        "Performance BM",
+        "Songwriting AB",
+        "WorshipStudiesAndMusicMinistry AB"
+      ],
+      "minors": [
+        "ChurchMusic",
+        "Music"
+      ],
+      "certificates": [
+      ]
+    },
+    {
+      "division": "SocialSciences",
+      "majors": [
+        "Economics BS",
+        "History AB",
+        "History BS",
+        "InternationalRelations BS",
+        "PoliticalScience BS",
+        "PoliticalSciencePreLaw BS",
+        "SocialStudies BS"
+      ],
+      "minors": [
+        "Economics",
+        "History",
+        "InternationalRelations",
+        "PoliticalScience"
+      ],
+      "certificates": [
+      ]
+    },
+    {
+      "division": "GraduateCounseling",
+      "majors": [
+      ],
+      "minors": [
+      ],
+      "certificates": [
+      ]
+    },
+    {
+      "division": "School of Teacher Education",
+      "majors": [
+      ],
+      "minors": [
+      ],
+      "certificates": [
+      ]
+    },
+    {
+      "division": "DevoeBusiness",
+      "majors": [
+        "Accounting AS",
+        "Accounting BA",
+        "BusinessAdministration AS",
+        "BusinessAdministration BA",
+        "Entrepreneurship BA",
+        "Finance BA",
+        "Management BA",
+        "Marketing BA"
+      ],
+      "minors": [
+        "Accounting",
+        "BusinessAdministration"
+      ],
+      "certificates": [
+      ]
+    },
+    {
+      "division": "BehavioralSciences",
+      "majors": [
+        "AddictionsCounseling BS",
+        "AddictionsStudies AS",
+        "CriminalJustice BS",
+        "PreArtTherapy BS",
+        "Psychology BS",
+        "SocialWork BSW",
+        "SocialWork MSW"
+      ],
+      "minors": [
+        "AddictionsStudies",
+        "CriminalJustice",
+        "Psychology",
+        "Sociology"
+      ],
+      "specializations": [
+        "ChildLife"
+      ],
+      "certificates": [
+        "ChildAdvocacyStudies"
+      ]
+    },
+    {
+      "division": "HealthAndHumanPerformance",
+      "majors": [
+        "Athletic Training BS",
+        "ExerciseScience BS",
+        "SportsManagement BS",
+        "SportsMinistries BS"
+      ],
+      "minors": [
+        "HealthPromotionAndWellness",
+        "CoachingEducation",
+        "MilitaryLeadership",
+        "RecreationAndCampAdministration"
+      ],
+      "specializations": [
+      ],
+      "certificates": [
+      ]
+    },
+    {
+      "division": "NaturalSciences",
+      "majors": [
+        "Biochemistry BS",
+        "Biology AS",
+        "Biology BS",
+        "Chemistry AB",
+        "Chemistry AS",
+        "Chemistry BS",
+        "MedicalTechnology BS",
+        "Physics BS"
+      ],
+      "minors": [
+        "Biology",
+        "Chemistry",
+        "Physics"
+      ],
+      "specializations": [
+      ],
+      "certificates": [
+      ]
+    },
+    {
+      "division": "MathematicsAndComputerInformationSciences",
+      "majors": [
+        "ComputerInformationSystems BS",
+        "ComputerScience AS",
+        "ComputerScience BS",
+        "Mathematics BS",
+        "MathematicsInterdisciplinary BS"
+      ],
+      "minors": [
+        "ComputerScience",
+        "Mathematics",
+        "Actuarial Science",
+        "Statistics Minor"
+      ],
+      "specializations": [
+      ],
+      "certificates": [
+      ]
+    },
+    {
+      "division": "PracticalTheology",
+      "majors": [
+        "ChildrensMinistries AS",
+        "ChildrensMinistries BS",
+        "ChristianEducation AS",
+        "ChristianEducation BS",
+        "ChristianMinistries BS",
+        "ChristianMinistries AB",
+        "ChristianMinistries AS",
+        "CommunityDevelopment BS",
+        "GlobalMinistries AB",
+        "MasterOfPracticalTheology MPTH",
+        "PastoralCounselingAndCare BS",
+        "SpiritualCare MA",
+        "SportsMinistries BS",
+        "WorshipArts BS",
+        "WorshipMinistries BS",
+        "WorshipStudiesAndMusicMinistry AB",
+        "Youth Ministries AS",
+        "Youth Ministries BS"
+      ],
+      "minors": [
+        "AdolescentMinistries",
+        "ChildrensMinistries",
+        "ChristianEducation",
+        "ChristianMinistries",
+        "CommunityDevelopment",
+        "GlobalMinistries",
+        "PastoralCounselingAndCare",
+        "SportsMinistries",
+        "UrbanMinistries",
+        "WorshipStudies",
+        "YouthMinistries"
+      ],
+      "specializations": [
+      ],
+      "certificates": [
+      ]
+    }
+  ],
   "gpaRequired": 2.0,
   "maxClassesCounted": 0,
   "maxCreditsCounted": 0,
@@ -373,7 +648,7 @@
   "numAdvCreditsRequired": 0,
   "numClassesRequired": 0,
   "numCreditsRequired": 0,
-  "numCreditsRequiredExpr": "major.endsWith('BS') or major.endsWith('BA') ? 124 : major.endsWith('AS') or major.endsWith('AA') ? 62 : 0",
+  "numCreditsRequiredExpr": "degLevel == BACH ? 124 : degLevel == ASSO ? 62 : 0",
   "numResClassesRequired": 0,
   "numResCreditsRequired": 0,
   "numTermClassesRequired": 0,
@@ -383,7 +658,7 @@
     {
       "generated": false,
       "gpaRequired": 0.0,
-      "ifExpression": "majorsInclude('ComputerScienceBS')",
+      "ifExpression": "majorsInclude('ComputerScience BS')",
       "maxClassesCounted": 0,
       "maxCreditsCounted": 0,
       "maxDisciplines": 0,
@@ -888,7 +1163,214 @@
     {
       "generated": false,
       "gpaRequired": 0.0,
-      "ifExpression": "majorsInclude('MathematicsBS')",
+      "ifExpression": "majorsInclude('ComputerScience AS')",
+      "maxClassesCounted": 0,
+      "maxCreditsCounted": 0,
+      "maxDisciplines": 0,
+      "maxTermClassesCounted": 0,
+      "maxTermCreditsCounted": 0,
+      "minDisciplines": 0,
+      "minGradeRequired": 0.0,
+      "name": "Computer Science A.S. Requirements",
+      "numAdvCreditsRequired": 0,
+      "numClassesRequired": 0,
+      "numCreditsRequired": 24,
+      "numResClassesRequired": 0,
+      "numResCreditsRequired": 0,
+      "numTermClassesRequired": 0,
+      "numTermCreditsRequired": 0,
+      "orGate": false,
+      "reqs": [
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Required Courses",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 15,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false,
+          "reqs": [
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "CIS-125"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Introduction to Computer Sciences I",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 4,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "CIS-126"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Introduction to Computer Sciences II",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 4,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Data Structures or OOP",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 4,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": true,
+              "reqs": [
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "CIS-221"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Data Structures",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 4,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "CIS-222"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Object Oriented Programming",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 4,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                }
+              ]
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "CIS-225"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Systems Analysis",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 3,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            }
+          ]
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "CIS-200:999",
+            "MAT-200:999"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Approved Electives numbered 200 or above",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 9,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        }
+      ],
+      "scopeTypeAndValue": ""
+    },
+    {
+      "generated": false,
+      "gpaRequired": 0.0,
+      "ifExpression": "majorsInclude('Mathematics BS')",
       "maxClassesCounted": 0,
       "maxCreditsCounted": 0,
       "maxDisciplines": 0,
@@ -1806,7 +2288,644 @@
     {
       "generated": false,
       "gpaRequired": 0.0,
-      "ifExpression": "majorsInclude('TheatreBS')",
+      "ifExpression": "majorsInclude('Psychology BS')",
+      "maxClassesCounted": 0,
+      "maxCreditsCounted": 0,
+      "maxDisciplines": 0,
+      "maxTermClassesCounted": 0,
+      "maxTermCreditsCounted": 0,
+      "minDisciplines": 0,
+      "minGradeRequired": 0.0,
+      "name": "Psychology B.S. Requirements",
+      "numAdvCreditsRequired": 0,
+      "numClassesRequired": 0,
+      "numCreditsRequired": 0,
+      "numCreditsRequiredExpr": "numMajors le 1 ? 48 : 42",
+      "numResClassesRequired": 0,
+      "numResCreditsRequired": 0,
+      "numTermClassesRequired": 0,
+      "numTermCreditsRequired": 0,
+      "orGate": false,
+      "reqs": [
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "ifExpression": "",
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Required Core Courses",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 39,
+          "numCreditsRequiredExpr": "numMajors LE 1 ? 38 : 37",
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false,
+          "reqs": [
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "PSY-150"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "General Psychology",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 3,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "PSY-152"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "General Psychology II",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 3,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Learning ...",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": true,
+              "reqs": [
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "PSY-225"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Learning and Motivation",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "PSY-327"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Learning and Cognition",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                }
+              ]
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "PSY-290"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Psychology Seminar",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 1,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "PSY-291"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Urban Encounter for the Helping Profession",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 1,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Development ...",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": true,
+              "reqs": [
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "PSY-250"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Developmental Psychology",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "PSY-251"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Child Development",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "PSY-252"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Adolescent Growth and Development",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                }
+              ]
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "PSY-322"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Physiological Psychology",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 3,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "MAT-305"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Statistics for Social Sciences",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 3,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false,
+              "applyToScopes": [
+                {
+                  "scopeTypeAndValue": "GenEds",
+                  "maxCreditsCounted": 3,
+                  "maxClassesCounted": 1
+                }
+              ]
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "PSY-355"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Research Methods for the Behavioral Sciences",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 3,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "PSY-360"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Social Psychology",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 3,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "PSY-366"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Psychology of Abnormal Behavior",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 3,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "PSY-390"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Psychology Seminar",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 1,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Theories ...",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": true,
+              "reqs": [
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "PSY-370"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Theories of Personality",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "PSY-485"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Theories of Counseling",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                }
+              ]
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "PSY-385",
+                "ADC-461:464",
+                "SWK-370:371",
+                "SWK-470:471"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 3,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Psychology Practicum",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 2,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "PSY-493"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 3,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Integration of Psychology and Christianity",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 3,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            }
+          ],
+          "scopeTypeAndValue": ""
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "ifExpression": "",
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Electives",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 0,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false,
+          "reqs": [
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "PSY-000:999"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "PSY Elective",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 3,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "ifExpression": "numMajors le 1",
+              "inCourses": [
+                "PSY-000:999",
+                "ADC-212",
+                "ADC-320",
+                "CRJ-268"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Behavioral Science Electives",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 6,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            }
+          ],
+          "scopeTypeAndValue": ""
+        }
+      ],
+      "scopeTypeAndValue": ""
+    },
+    {
+      "generated": false,
+      "gpaRequired": 0.0,
+      "ifExpression": "majorsInclude('Theatre BS')",
       "maxClassesCounted": 0,
       "maxCreditsCounted": 0,
       "maxDisciplines": 0,
@@ -2446,7 +3565,7 @@
     {
       "generated": false,
       "gpaRequired": 0.0,
-      "ifExpression": "majorsInclude('TheatreBS')",
+      "ifExpression": "majorsInclude('Theatre BS')",
       "maxClassesCounted": 0,
       "maxCreditsCounted": 0,
       "maxDisciplines": 0,
@@ -2948,7 +4067,7 @@
     {
       "generated": false,
       "gpaRequired": 0.0,
-      "ifExpression": "majorsInclude('PsychologyBS')",
+      "ifExpression": "minorsInclude('ComputerScience') and numMajors > 0",
       "maxClassesCounted": 0,
       "maxCreditsCounted": 0,
       "maxDisciplines": 0,
@@ -2956,11 +4075,10 @@
       "maxTermCreditsCounted": 0,
       "minDisciplines": 0,
       "minGradeRequired": 0.0,
-      "name": "Psychology B.S. Requirements",
+      "name": "Computer Science Minor",
       "numAdvCreditsRequired": 0,
       "numClassesRequired": 0,
-      "numCreditsRequired": 0,
-      "numCreditsRequiredExpr": "numMajors le 1 ? 48 : 42",
+      "numCreditsRequired": 24,
       "numResClassesRequired": 0,
       "numResCreditsRequired": 0,
       "numTermClassesRequired": 0,
@@ -2970,7 +4088,6 @@
         {
           "generated": false,
           "gpaRequired": 0.0,
-          "ifExpression": "",
           "maxClassesCounted": 0,
           "maxCreditsCounted": 0,
           "maxDisciplines": 0,
@@ -2978,11 +4095,10 @@
           "maxTermCreditsCounted": 0,
           "minDisciplines": 0,
           "minGradeRequired": 0.0,
-          "name": "Required Core Courses",
+          "name": "Required Courses",
           "numAdvCreditsRequired": 0,
           "numClassesRequired": 0,
-          "numCreditsRequired": 39,
-          "numCreditsRequiredExpr": "numMajors LE 1 ? 38 : 37",
+          "numCreditsRequired": 15,
           "numResClassesRequired": 0,
           "numResCreditsRequired": 0,
           "numTermClassesRequired": 0,
@@ -2993,7 +4109,7 @@
               "generated": false,
               "gpaRequired": 0.0,
               "inCourses": [
-                "PSY-150"
+                "CIS-125"
               ],
               "maxClassesCounted": 0,
               "maxCreditsCounted": 0,
@@ -3002,10 +4118,10 @@
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
               "minGradeRequired": 0.0,
-              "name": "General Psychology",
+              "name": "Introduction to Computer Sciences I",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
-              "numCreditsRequired": 3,
+              "numCreditsRequired": 4,
               "numResClassesRequired": 0,
               "numResCreditsRequired": 0,
               "numTermClassesRequired": 0,
@@ -3016,7 +4132,7 @@
               "generated": false,
               "gpaRequired": 0.0,
               "inCourses": [
-                "PSY-152"
+                "CIS-126"
               ],
               "maxClassesCounted": 0,
               "maxCreditsCounted": 0,
@@ -3025,10 +4141,10 @@
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
               "minGradeRequired": 0.0,
-              "name": "General Psychology II",
+              "name": "Introduction to Computer Sciences II",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
-              "numCreditsRequired": 3,
+              "numCreditsRequired": 4,
               "numResClassesRequired": 0,
               "numResCreditsRequired": 0,
               "numTermClassesRequired": 0,
@@ -3045,10 +4161,10 @@
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
               "minGradeRequired": 0.0,
-              "name": "Learning ...",
+              "name": "Data Structures or OOP",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
-              "numCreditsRequired": 0,
+              "numCreditsRequired": 4,
               "numResClassesRequired": 0,
               "numResCreditsRequired": 0,
               "numTermClassesRequired": 0,
@@ -3059,7 +4175,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "PSY-225"
+                    "CIS-221"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -3068,10 +4184,10 @@
                   "maxTermCreditsCounted": 0,
                   "minDisciplines": 0,
                   "minGradeRequired": 0.0,
-                  "name": "Learning and Motivation",
+                  "name": "Data Structures",
                   "numAdvCreditsRequired": 0,
                   "numClassesRequired": 0,
-                  "numCreditsRequired": 3,
+                  "numCreditsRequired": 4,
                   "numResClassesRequired": 0,
                   "numResCreditsRequired": 0,
                   "numTermClassesRequired": 0,
@@ -3082,7 +4198,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "PSY-327"
+                    "CIS-222"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -3091,10 +4207,10 @@
                   "maxTermCreditsCounted": 0,
                   "minDisciplines": 0,
                   "minGradeRequired": 0.0,
-                  "name": "Learning and Cognition",
+                  "name": "Object Oriented Programming",
                   "numAdvCreditsRequired": 0,
                   "numClassesRequired": 0,
-                  "numCreditsRequired": 3,
+                  "numCreditsRequired": 4,
                   "numResClassesRequired": 0,
                   "numResCreditsRequired": 0,
                   "numTermClassesRequired": 0,
@@ -3107,7 +4223,7 @@
               "generated": false,
               "gpaRequired": 0.0,
               "inCourses": [
-                "PSY-290"
+                "CIS-225"
               ],
               "maxClassesCounted": 0,
               "maxCreditsCounted": 0,
@@ -3116,383 +4232,7 @@
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
               "minGradeRequired": 0.0,
-              "name": "Psychology Seminar",
-              "numAdvCreditsRequired": 0,
-              "numClassesRequired": 0,
-              "numCreditsRequired": 1,
-              "numResClassesRequired": 0,
-              "numResCreditsRequired": 0,
-              "numTermClassesRequired": 0,
-              "numTermCreditsRequired": 0,
-              "orGate": false
-            },
-            {
-              "generated": false,
-              "gpaRequired": 0.0,
-              "inCourses": [
-                "PSY-291"
-              ],
-              "maxClassesCounted": 0,
-              "maxCreditsCounted": 0,
-              "maxDisciplines": 0,
-              "maxTermClassesCounted": 0,
-              "maxTermCreditsCounted": 0,
-              "minDisciplines": 0,
-              "minGradeRequired": 0.0,
-              "name": "Urban Encounter for the Helping Profession",
-              "numAdvCreditsRequired": 0,
-              "numClassesRequired": 0,
-              "numCreditsRequired": 1,
-              "numResClassesRequired": 0,
-              "numResCreditsRequired": 0,
-              "numTermClassesRequired": 0,
-              "numTermCreditsRequired": 0,
-              "orGate": false
-            },
-            {
-              "generated": false,
-              "gpaRequired": 0.0,
-              "maxClassesCounted": 0,
-              "maxCreditsCounted": 0,
-              "maxDisciplines": 0,
-              "maxTermClassesCounted": 0,
-              "maxTermCreditsCounted": 0,
-              "minDisciplines": 0,
-              "minGradeRequired": 0.0,
-              "name": "Development ...",
-              "numAdvCreditsRequired": 0,
-              "numClassesRequired": 0,
-              "numCreditsRequired": 0,
-              "numResClassesRequired": 0,
-              "numResCreditsRequired": 0,
-              "numTermClassesRequired": 0,
-              "numTermCreditsRequired": 0,
-              "orGate": true,
-              "reqs": [
-                {
-                  "generated": false,
-                  "gpaRequired": 0.0,
-                  "inCourses": [
-                    "PSY-250"
-                  ],
-                  "maxClassesCounted": 0,
-                  "maxCreditsCounted": 0,
-                  "maxDisciplines": 0,
-                  "maxTermClassesCounted": 0,
-                  "maxTermCreditsCounted": 0,
-                  "minDisciplines": 0,
-                  "minGradeRequired": 0.0,
-                  "name": "Developmental Psychology",
-                  "numAdvCreditsRequired": 0,
-                  "numClassesRequired": 0,
-                  "numCreditsRequired": 3,
-                  "numResClassesRequired": 0,
-                  "numResCreditsRequired": 0,
-                  "numTermClassesRequired": 0,
-                  "numTermCreditsRequired": 0,
-                  "orGate": false
-                },
-                {
-                  "generated": false,
-                  "gpaRequired": 0.0,
-                  "inCourses": [
-                    "PSY-251"
-                  ],
-                  "maxClassesCounted": 0,
-                  "maxCreditsCounted": 0,
-                  "maxDisciplines": 0,
-                  "maxTermClassesCounted": 0,
-                  "maxTermCreditsCounted": 0,
-                  "minDisciplines": 0,
-                  "minGradeRequired": 0.0,
-                  "name": "Child Development",
-                  "numAdvCreditsRequired": 0,
-                  "numClassesRequired": 0,
-                  "numCreditsRequired": 3,
-                  "numResClassesRequired": 0,
-                  "numResCreditsRequired": 0,
-                  "numTermClassesRequired": 0,
-                  "numTermCreditsRequired": 0,
-                  "orGate": false
-                },
-                {
-                  "generated": false,
-                  "gpaRequired": 0.0,
-                  "inCourses": [
-                    "PSY-252"
-                  ],
-                  "maxClassesCounted": 0,
-                  "maxCreditsCounted": 0,
-                  "maxDisciplines": 0,
-                  "maxTermClassesCounted": 0,
-                  "maxTermCreditsCounted": 0,
-                  "minDisciplines": 0,
-                  "minGradeRequired": 0.0,
-                  "name": "Adolescent Growth and Development",
-                  "numAdvCreditsRequired": 0,
-                  "numClassesRequired": 0,
-                  "numCreditsRequired": 3,
-                  "numResClassesRequired": 0,
-                  "numResCreditsRequired": 0,
-                  "numTermClassesRequired": 0,
-                  "numTermCreditsRequired": 0,
-                  "orGate": false
-                }
-              ]
-            },
-            {
-              "generated": false,
-              "gpaRequired": 0.0,
-              "inCourses": [
-                "PSY-322"
-              ],
-              "maxClassesCounted": 0,
-              "maxCreditsCounted": 0,
-              "maxDisciplines": 0,
-              "maxTermClassesCounted": 0,
-              "maxTermCreditsCounted": 0,
-              "minDisciplines": 0,
-              "minGradeRequired": 0.0,
-              "name": "Physiological Psychology",
-              "numAdvCreditsRequired": 0,
-              "numClassesRequired": 0,
-              "numCreditsRequired": 3,
-              "numResClassesRequired": 0,
-              "numResCreditsRequired": 0,
-              "numTermClassesRequired": 0,
-              "numTermCreditsRequired": 0,
-              "orGate": false
-            },
-            {
-              "generated": false,
-              "gpaRequired": 0.0,
-              "inCourses": [
-                "MAT-305"
-              ],
-              "maxClassesCounted": 0,
-              "maxCreditsCounted": 0,
-              "maxDisciplines": 0,
-              "maxTermClassesCounted": 0,
-              "maxTermCreditsCounted": 0,
-              "minDisciplines": 0,
-              "minGradeRequired": 0.0,
-              "name": "Statistics for Social Sciences",
-              "numAdvCreditsRequired": 0,
-              "numClassesRequired": 0,
-              "numCreditsRequired": 3,
-              "numResClassesRequired": 0,
-              "numResCreditsRequired": 0,
-              "numTermClassesRequired": 0,
-              "numTermCreditsRequired": 0,
-              "orGate": false,
-              "applyToScopes": [
-                {
-                  "scopeTypeAndValue": "GenEds",
-                  "maxCreditsCounted": 3,
-                  "maxClassesCounted": 1
-                }
-              ]
-            },
-            {
-              "generated": false,
-              "gpaRequired": 0.0,
-              "inCourses": [
-                "PSY-355"
-              ],
-              "maxClassesCounted": 0,
-              "maxCreditsCounted": 0,
-              "maxDisciplines": 0,
-              "maxTermClassesCounted": 0,
-              "maxTermCreditsCounted": 0,
-              "minDisciplines": 0,
-              "minGradeRequired": 0.0,
-              "name": "Research Methods for the Behavioral Sciences",
-              "numAdvCreditsRequired": 0,
-              "numClassesRequired": 0,
-              "numCreditsRequired": 3,
-              "numResClassesRequired": 0,
-              "numResCreditsRequired": 0,
-              "numTermClassesRequired": 0,
-              "numTermCreditsRequired": 0,
-              "orGate": false
-            },
-            {
-              "generated": false,
-              "gpaRequired": 0.0,
-              "inCourses": [
-                "PSY-360"
-              ],
-              "maxClassesCounted": 0,
-              "maxCreditsCounted": 0,
-              "maxDisciplines": 0,
-              "maxTermClassesCounted": 0,
-              "maxTermCreditsCounted": 0,
-              "minDisciplines": 0,
-              "minGradeRequired": 0.0,
-              "name": "Social Psychology",
-              "numAdvCreditsRequired": 0,
-              "numClassesRequired": 0,
-              "numCreditsRequired": 3,
-              "numResClassesRequired": 0,
-              "numResCreditsRequired": 0,
-              "numTermClassesRequired": 0,
-              "numTermCreditsRequired": 0,
-              "orGate": false
-            },
-            {
-              "generated": false,
-              "gpaRequired": 0.0,
-              "inCourses": [
-                "PSY-366"
-              ],
-              "maxClassesCounted": 0,
-              "maxCreditsCounted": 0,
-              "maxDisciplines": 0,
-              "maxTermClassesCounted": 0,
-              "maxTermCreditsCounted": 0,
-              "minDisciplines": 0,
-              "minGradeRequired": 0.0,
-              "name": "Psychology of Abnormal Behavior",
-              "numAdvCreditsRequired": 0,
-              "numClassesRequired": 0,
-              "numCreditsRequired": 3,
-              "numResClassesRequired": 0,
-              "numResCreditsRequired": 0,
-              "numTermClassesRequired": 0,
-              "numTermCreditsRequired": 0,
-              "orGate": false
-            },
-            {
-              "generated": false,
-              "gpaRequired": 0.0,
-              "inCourses": [
-                "PSY-390"
-              ],
-              "maxClassesCounted": 0,
-              "maxCreditsCounted": 0,
-              "maxDisciplines": 0,
-              "maxTermClassesCounted": 0,
-              "maxTermCreditsCounted": 0,
-              "minDisciplines": 0,
-              "minGradeRequired": 0.0,
-              "name": "Psychology Seminar",
-              "numAdvCreditsRequired": 0,
-              "numClassesRequired": 0,
-              "numCreditsRequired": 1,
-              "numResClassesRequired": 0,
-              "numResCreditsRequired": 0,
-              "numTermClassesRequired": 0,
-              "numTermCreditsRequired": 0,
-              "orGate": false
-            },
-            {
-              "generated": false,
-              "gpaRequired": 0.0,
-              "maxClassesCounted": 0,
-              "maxCreditsCounted": 0,
-              "maxDisciplines": 0,
-              "maxTermClassesCounted": 0,
-              "maxTermCreditsCounted": 0,
-              "minDisciplines": 0,
-              "minGradeRequired": 0.0,
-              "name": "Theories ...",
-              "numAdvCreditsRequired": 0,
-              "numClassesRequired": 0,
-              "numCreditsRequired": 0,
-              "numResClassesRequired": 0,
-              "numResCreditsRequired": 0,
-              "numTermClassesRequired": 0,
-              "numTermCreditsRequired": 0,
-              "orGate": true,
-              "reqs": [
-                {
-                  "generated": false,
-                  "gpaRequired": 0.0,
-                  "inCourses": [
-                    "PSY-370"
-                  ],
-                  "maxClassesCounted": 0,
-                  "maxCreditsCounted": 0,
-                  "maxDisciplines": 0,
-                  "maxTermClassesCounted": 0,
-                  "maxTermCreditsCounted": 0,
-                  "minDisciplines": 0,
-                  "minGradeRequired": 0.0,
-                  "name": "Theories of Personality",
-                  "numAdvCreditsRequired": 0,
-                  "numClassesRequired": 0,
-                  "numCreditsRequired": 3,
-                  "numResClassesRequired": 0,
-                  "numResCreditsRequired": 0,
-                  "numTermClassesRequired": 0,
-                  "numTermCreditsRequired": 0,
-                  "orGate": false
-                },
-                {
-                  "generated": false,
-                  "gpaRequired": 0.0,
-                  "inCourses": [
-                    "PSY-485"
-                  ],
-                  "maxClassesCounted": 0,
-                  "maxCreditsCounted": 0,
-                  "maxDisciplines": 0,
-                  "maxTermClassesCounted": 0,
-                  "maxTermCreditsCounted": 0,
-                  "minDisciplines": 0,
-                  "minGradeRequired": 0.0,
-                  "name": "Theories of Counseling",
-                  "numAdvCreditsRequired": 0,
-                  "numClassesRequired": 0,
-                  "numCreditsRequired": 3,
-                  "numResClassesRequired": 0,
-                  "numResCreditsRequired": 0,
-                  "numTermClassesRequired": 0,
-                  "numTermCreditsRequired": 0,
-                  "orGate": false
-                }
-              ]
-            },
-            {
-              "generated": false,
-              "gpaRequired": 0.0,
-              "inCourses": [
-                "PSY-385",
-                "ADC-461:464",
-                "SWK-370:371",
-                "SWK-470:471"
-              ],
-              "maxClassesCounted": 0,
-              "maxCreditsCounted": 3,
-              "maxDisciplines": 0,
-              "maxTermClassesCounted": 0,
-              "maxTermCreditsCounted": 0,
-              "minDisciplines": 0,
-              "minGradeRequired": 0.0,
-              "name": "Psychology Practicum",
-              "numAdvCreditsRequired": 0,
-              "numClassesRequired": 0,
-              "numCreditsRequired": 2,
-              "numResClassesRequired": 0,
-              "numResCreditsRequired": 0,
-              "numTermClassesRequired": 0,
-              "numTermCreditsRequired": 0,
-              "orGate": false
-            },
-            {
-              "generated": false,
-              "gpaRequired": 0.0,
-              "inCourses": [
-                "PSY-493"
-              ],
-              "maxClassesCounted": 0,
-              "maxCreditsCounted": 3,
-              "maxDisciplines": 0,
-              "maxTermClassesCounted": 0,
-              "maxTermCreditsCounted": 0,
-              "minDisciplines": 0,
-              "minGradeRequired": 0.0,
-              "name": "Integration of Psychology and Christianity",
+              "name": "Systems Analysis",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
               "numCreditsRequired": 3,
@@ -3502,13 +4242,15 @@
               "numTermCreditsRequired": 0,
               "orGate": false
             }
-          ],
-          "scopeTypeAndValue": ""
+          ]
         },
         {
           "generated": false,
           "gpaRequired": 0.0,
-          "ifExpression": "",
+          "inCourses": [
+            "CIS-200:999",
+            "MAT-200:999"
+          ],
           "maxClassesCounted": 0,
           "maxCreditsCounted": 0,
           "maxDisciplines": 0,
@@ -3516,68 +4258,15 @@
           "maxTermCreditsCounted": 0,
           "minDisciplines": 0,
           "minGradeRequired": 0.0,
-          "name": "Electives",
+          "name": "Approved Electives numbered 200 or above",
           "numAdvCreditsRequired": 0,
           "numClassesRequired": 0,
-          "numCreditsRequired": 0,
+          "numCreditsRequired": 9,
           "numResClassesRequired": 0,
           "numResCreditsRequired": 0,
           "numTermClassesRequired": 0,
           "numTermCreditsRequired": 0,
-          "orGate": false,
-          "reqs": [
-            {
-              "generated": false,
-              "gpaRequired": 0.0,
-              "inCourses": [
-                "PSY-000:999"
-              ],
-              "maxClassesCounted": 0,
-              "maxCreditsCounted": 0,
-              "maxDisciplines": 0,
-              "maxTermClassesCounted": 0,
-              "maxTermCreditsCounted": 0,
-              "minDisciplines": 0,
-              "minGradeRequired": 0.0,
-              "name": "PSY Elective",
-              "numAdvCreditsRequired": 0,
-              "numClassesRequired": 0,
-              "numCreditsRequired": 3,
-              "numResClassesRequired": 0,
-              "numResCreditsRequired": 0,
-              "numTermClassesRequired": 0,
-              "numTermCreditsRequired": 0,
-              "orGate": false
-            },
-            {
-              "generated": false,
-              "gpaRequired": 0.0,
-              "ifExpression": "numMajors le 1",
-              "inCourses": [
-                "PSY-000:999",
-                "ADC-212",
-                "ADC-320",
-                "CRJ-268"
-              ],
-              "maxClassesCounted": 0,
-              "maxCreditsCounted": 0,
-              "maxDisciplines": 0,
-              "maxTermClassesCounted": 0,
-              "maxTermCreditsCounted": 0,
-              "minDisciplines": 0,
-              "minGradeRequired": 0.0,
-              "name": "Behavioral Science Electives",
-              "numAdvCreditsRequired": 0,
-              "numClassesRequired": 0,
-              "numCreditsRequired": 6,
-              "numResClassesRequired": 0,
-              "numResCreditsRequired": 0,
-              "numTermClassesRequired": 0,
-              "numTermCreditsRequired": 0,
-              "orGate": false
-            }
-          ],
-          "scopeTypeAndValue": ""
+          "orGate": false
         }
       ],
       "scopeTypeAndValue": ""
@@ -4027,7 +4716,7 @@
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
               "minGradeRequired": 0.0,
-              "ifExpression": "majorsInclude('MathematicsBS')",
+              "ifExpression": "majorsInclude('Mathematics BS')",
               "name": "Mathematics Major Track:",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -4233,7 +4922,7 @@
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
               "minGradeRequired": 0.0,
-              "ifExpression": "!majorsInclude('MathematicsBS')",
+              "ifExpression": "!majorsInclude('Mathematics BS')",
               "name": "Non-mathematics Major Track:",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -4526,7 +5215,7 @@
     {
       "generated": false,
       "gpaRequired": 0.0,
-      "ifExpression": "numMajors ge 1",
+      "ifExpression": "numMajors >= 1 and degLevel == ASSO",
       "maxClassesCounted": 0,
       "maxCreditsCounted": 0,
       "maxDisciplines": 0,
@@ -4534,7 +5223,677 @@
       "maxTermCreditsCounted": 0,
       "minDisciplines": 0,
       "minGradeRequired": 0.0,
-      "name": "Gen Ed Reqs - Bach Deg",
+      "name": "Gen Ed Reqs - Associate Degree",
+      "numAdvCreditsRequired": 0,
+      "numClassesRequired": 0,
+      "numCreditsRequired": 0,
+      "numResClassesRequired": 0,
+      "numResCreditsRequired": 0,
+      "numTermClassesRequired": 0,
+      "numTermCreditsRequired": 0,
+      "orGate": false,
+      "reqs": [
+        {
+          "description": "",
+          "generated": false,
+          "gpaRequired": 0.0,
+          "ifExpression": "",
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Humanities",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 0,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numCreditsRequiredExpr": "degType == AA ? 12 : 6",
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": true,
+          "reqs": [
+            {
+              "description": "",
+              "generated": false,
+              "gpaRequired": 0.0,
+              "ifExpression": "",
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Humanities core courses",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 12,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": true,
+              "reqs": [
+                {
+                  "description": "",
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "ifExpression": "",
+                  "inCourses": [
+                    "ENG-180"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Humanities World Literature",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false,
+                  "scopeTypeAndValue": ""
+                },
+                {
+                  "description": "",
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "ifExpression": "",
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Humanities: World Civilization",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 0,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": true,
+                  "reqs": [
+                    {
+                      "description": "",
+                      "generated": false,
+                      "gpaRequired": 0.0,
+                      "ifExpression": "not (majorsInclude('History BS') or majorsInclude('History AS') or majorsInclude('SocialStudies BS') or minorsInclude('History'))",
+                      "inCourses": [
+                        "HST-180"
+                      ],
+                      "maxClassesCounted": 0,
+                      "maxCreditsCounted": 0,
+                      "maxDisciplines": 0,
+                      "maxTermClassesCounted": 0,
+                      "maxTermCreditsCounted": 0,
+                      "minDisciplines": 0,
+                      "minGradeRequired": 0.0,
+                      "name": "World Civilization",
+                      "numAdvCreditsRequired": 0,
+                      "numClassesRequired": 0,
+                      "numCreditsRequired": 3,
+                      "numResClassesRequired": 0,
+                      "numResCreditsRequired": 0,
+                      "numTermClassesRequired": 0,
+                      "numTermCreditsRequired": 0,
+                      "orGate": false,
+                      "scopeTypeAndValue": ""
+                    },
+                    {
+                      "description": "",
+                      "generated": false,
+                      "gpaRequired": 0.0,
+                      "ifExpression": "",
+                      "inCourses": [
+                        "HST-185",
+                        "HST-190"
+                      ],
+                      "maxClassesCounted": 0,
+                      "maxCreditsCounted": 0,
+                      "maxDisciplines": 0,
+                      "maxTermClassesCounted": 0,
+                      "maxTermCreditsCounted": 0,
+                      "minDisciplines": 0,
+                      "minGradeRequired": 0.0,
+                      "name": "World History",
+                      "numAdvCreditsRequired": 0,
+                      "numClassesRequired": 2,
+                      "numCreditsRequired": 0,
+                      "numResClassesRequired": 0,
+                      "numResCreditsRequired": 0,
+                      "numTermClassesRequired": 0,
+                      "numTermCreditsRequired": 0,
+                      "orGate": false,
+                      "scopeTypeAndValue": ""
+                    }
+                  ],
+                  "scopeTypeAndValue": ""
+                },
+                {
+                  "description": "",
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "ifExpression": "",
+                  "inCourses": [
+                    "MUS-180"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Humanities Fine Arts",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false,
+                  "scopeTypeAndValue": ""
+                },
+                {
+                  "description": "",
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "ifExpression": "",
+                  "inCourses": [
+                    "PHL-180"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Humanities Philosophy",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false,
+                  "scopeTypeAndValue": ""
+                }
+              ],
+              "scopeTypeAndValue": ""
+            },
+            {
+              "description": "",
+              "generated": false,
+              "gpaRequired": 0.0,
+              "ifExpression": "",
+              "inCourses": [
+                "HNR-100"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "John Wesley Honors College Forum",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 4,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false,
+              "scopeTypeAndValue": ""
+            }
+          ],
+          "scopeTypeAndValue": ""
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Biblical literature and theology",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 0,
+          "numCreditsRequiredExpr": "degType == AA ? 9 : 6",
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false,
+          "reqs": [
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "BIL-000:999"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "New Testament biblical literature",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 1,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "BIL-000:999"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Old Testament biblical literature",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 1,
+              " numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "THE-101"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Theology of Christian Life",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 1,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            }
+          ]
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "ENG-120"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 2.0,
+          "name": "English",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 3,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Language and Literature",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 0,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false,
+          "reqs": [
+            {
+              "gpaRequired": 0.0,
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 3,
+              "name": "Communication competency",
+              "ifExpression": "division == 'SocialSciences'",
+              "numClassesRequired": 0,
+              "numCreditsRequired": 3,
+              "inCourses": [
+                "COM-100"
+              ]
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "CHI-100:999",
+                "COM-100:999",
+                "ENG-100:999",
+                "FRE-100:999",
+                "GRE-100:999",
+                "HBR-100:999",
+                "SPA-100:999"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Language and Literature",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 0,
+              "numCreditsRequiredExpr": "degType == AA ? 3 : 0",
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            }
+          ]
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Physical Education",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 2,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false,
+          "reqs": [
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "PHE-101"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Concepts of Health and Wellness",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 1,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "PHE-102:139"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "One PHE Activity Course",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 1,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            }
+          ]
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Social Science",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 3,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": true,
+          "reqs": [
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "ECO-100:999"
+              ],
+              "maxClassesCounted": 1,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Economics",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "HST-100:999"
+              ],
+              "maxClassesCounted": 1,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "History",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "POL-100:999"
+              ],
+              "maxClassesCounted": 1,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Political Science",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "PSY-100:999"
+              ],
+              "maxClassesCounted": 1,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Psychology",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "SOC-100:999"
+              ],
+              "maxClassesCounted": 1,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Sociology",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            }
+          ]
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "BIO-100:999",
+            "CHE-100:999",
+            "CIS-100:999",
+            "EAR-100:999",
+            "MAT-103:999",
+            "PHY-100:999",
+            "SCI-100:999"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Science/Mathematics",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 3,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
+        }
+      ],
+      "scopeTypeAndValue": "GenEds"
+    },
+    {
+      "generated": false,
+      "gpaRequired": 0.0,
+      "ifExpression": "numMajors >= 1 and degLevel == BACH",
+      "maxClassesCounted": 0,
+      "maxCreditsCounted": 0,
+      "maxDisciplines": 0,
+      "maxTermClassesCounted": 0,
+      "maxTermCreditsCounted": 0,
+      "minDisciplines": 0,
+      "minGradeRequired": 0.0,
+      "name": "Gen Ed Reqs - Bachelor's Degree",
       "numAdvCreditsRequired": 0,
       "numClassesRequired": 0,
       "numCreditsRequired": 0,
@@ -4665,7 +6024,7 @@
                       "description": "",
                       "generated": false,
                       "gpaRequired": 0.0,
-                      "ifExpression": "not majorsInclude(\"History\")",
+                      "ifExpression": "not (majorsInclude('History BS') or majorsInclude('History AS') or majorsInclude('SocialStudies BS') or minorsInclude('History'))",
                       "inCourses": [
                         "HST-180"
                       ],
@@ -5316,7 +6675,7 @@
     {
       "generated": false,
       "gpaRequired": 0.0,
-      "ifExpression": "numMajors ge 1",
+      "ifExpression": "numMajors >= 1 and degLevel == BACH",
       "maxClassesCounted": 0,
       "maxCreditsCounted": 0,
       "maxDisciplines": 0,
@@ -5324,8 +6683,8 @@
       "maxTermCreditsCounted": 0,
       "minDisciplines": 0,
       "minGradeRequired": 0.0,
-      "name": "Comp & Prep - Bach Deg",
-      "description": "Competencies and preparatory requirements for an IWU Bachelor Degree",
+      "name": "Comp & Prep - Bachelor's Degree",
+      "description": "Competencies and preparatory requirements for an IWU Bachelor's Degree",
       "numAdvCreditsRequired": 0,
       "numClassesRequired": 0,
       "numCreditsRequired": 0,
@@ -5369,6 +6728,7 @@
           "name": "Communication competency",
           "numClassesRequired": 0,
           "numCreditsRequired": 0,
+          "numCreditsRequiredExpr": "division == 'SocialSciences' ? 3 : 0",
           "inCourses": [
             "COM-100"
           ]
