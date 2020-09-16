@@ -32,7 +32,7 @@ Note: Although classes and methods in the system handle interactions with the JS
 
 ### Course codes and ranges
 
-Some properties, such as `inCourses`, contain course codes. A course code (e.g. **ENG-101**) consists of a course prefix (e.g. **ENG**) and course number (e.g. **101**), separated by a hyphen. In some properties, course ranges (e.g. **ENG-101:299**) are permitted, which consist of a course prefix and a range of course numbers. The range of course numbers is expressed by a lowest and highest numbers in the range, separated by a colon.
+Some properties, such as `inCourses`, contain course codes. A course code (e.g. **ENG-101**) consists of a course prefix (e.g. **ENG**) and course number (e.g. **101**), separated by a hyphen. In some properties, course ranges (e.g. **ENG-101:299**) are permitted, which consist of a course prefix and a range of course numbers. The range of course numbers is expressed by a lowest and highest numbers in the range, separated by a colon. To express that a course may have any course prefix, use a single asterisk (e.g. ***-101** and ***-101:299**)
 
 ### Representing a student academic record
 
@@ -1221,21 +1221,21 @@ Here are the properties and methods that may be used in a Spring Expression Lang
 
 #### Methods available in a SpEL expression
 
-| Method                     | Parameter type  | Return type | Description                                                  | Example                                         |
-| -------------------------- | --------------- | ----------- | ------------------------------------------------------------ | ----------------------------------------------- |
-| `isAssoDeg()`              | none            | boolean     | Returns an indication of whether the student's first major is an Associate degree | `isAssoDeg()`                                   |
-| `isBachDeg()`              | none            | boolean     | Returns an indication of whether the student's first major is a Bachelor degree | `isBachDeg()`                                   |
-| `isMastDeg()`              | none            | boolean     | Returns an indication of whether the student's first major is a Master degree | `isMastDeg()`                                   |
-| `majorsInclude()`          | string          | boolean     | Checks for existence of the specified major in the student's curriculum. | `majorsInclude("History")`                      |
-| `minorsInclude()`          | string          | boolean     | Checks for existence of the specified minor in the student's curriculum. | `minorsInclude("Mathematics")`                  |
-| `concentrationsInclude()`  | string          | boolean     | Checks for existence of the specified concentration in the student's curriculum. | `concentrationsInclude("History")`              |
-| `specializationsInclude()` | string          | boolean     | Checks for existence of the specified specialization in the student's curriculum. | `specializationsInclude("Security")`            |
-| `flagsInclude()`           | string          | boolean     | Checks for existence of the specified flag in the student's curriculum object. | `flagsInclude("inFellowsProgram")`              |
-| `coursePassed()`           | string          | boolean     | Returns an indication of whether course was passed.          | `coursePassed("ENG-101")`                       |
-| `courseInProgress()`       | string          | boolean     | Returns an indication of whether course is in-progress.      | `courseInProgress("ENG-101")`                   |
-| `courseTransferred()`      | string          | boolean     | Returns an indication of whether course was transferred.     | `courseTransferred("ENG-101")`                  |
-| `met()`                    | string          | boolean     | Ascertains whether all of the requirements  are satisfied. Arguments are the scopeTypeAndValue  of the requirements. | `met('CoreReqs','LanguageI')`                   |
-| `metN()`                   | integer, string | boolean     | Ascertains whether a given number of the requirements  are satisfied. Arguments are the scopeTypeAndValue  of the requirements. | `met(2, 'CoreReqs', 'LanguageI', 'LanguageII')` |
+| Method                     | Parameter type  | Return type | Description                                                  | Example                                          |
+| -------------------------- | --------------- | ----------- | ------------------------------------------------------------ | ------------------------------------------------ |
+| `isAssoDeg()`              | none            | boolean     | Returns an indication of whether the student's first major is an Associate degree | `isAssoDeg()`                                    |
+| `isBachDeg()`              | none            | boolean     | Returns an indication of whether the student's first major is a Bachelor degree | `isBachDeg()`                                    |
+| `isMastDeg()`              | none            | boolean     | Returns an indication of whether the student's first major is a Master degree | `isMastDeg()`                                    |
+| `majorsInclude()`          | string          | boolean     | Checks for existence of the specified major in the student's curriculum. | `majorsInclude("History")`                       |
+| `minorsInclude()`          | string          | boolean     | Checks for existence of the specified minor in the student's curriculum. | `minorsInclude("Mathematics")`                   |
+| `concentrationsInclude()`  | string          | boolean     | Checks for existence of the specified concentration in the student's curriculum. | `concentrationsInclude("History")`               |
+| `specializationsInclude()` | string          | boolean     | Checks for existence of the specified specialization in the student's curriculum. | `specializationsInclude("Security")`             |
+| `flagsInclude()`           | string          | boolean     | Checks for existence of the specified flag in the student's curriculum object. | `flagsInclude("inFellowsProgram")`               |
+| `coursePassed()`           | string          | boolean     | Returns an indication of whether course was passed.          | `coursePassed("ENG-101")`                        |
+| `courseInProgress()`       | string          | boolean     | Returns an indication of whether course is in-progress.      | `courseInProgress("ENG-101")`                    |
+| `courseTransferred()`      | string          | boolean     | Returns an indication of whether course was transferred.     | `courseTransferred("ENG-101")`                   |
+| `met()`                    | string          | boolean     | Ascertains whether all of the requirements  are satisfied. Arguments are the scopeTypeAndValue  of the requirements. | `met('CoreReqs','LanguageI')`                    |
+| `metN()`                   | integer, string | boolean     | Ascertains whether a given number of the requirements  are satisfied. Arguments are the scopeTypeAndValue  of the requirements. | `metN(2, 'CoreReqs', 'LanguageI', 'LanguageII')` |
 
 ### 
 
