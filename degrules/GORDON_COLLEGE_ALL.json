@@ -582,18 +582,18 @@
     {
       "division": "Education",
       "majors": [
-        "EarlyChildhoodEducation BS",
-        "ElementaryEducation BS"
+        "#EarlyChildhoodEducation BS",
+        "#ElementaryEducation BS"
       ],
       "minors": [
-        "Education",
-        "TESOL"
+        "#Education",
+        "#TESOL"
       ],
       "specializations": [
       ],
       "certificates": [
-        "ESLPreK8",
-        "SpecialEducationPreK8"
+        "#ESLPreK8",
+        "#SpecialEducationPreK8"
       ]
     },
     {
@@ -601,16 +601,20 @@
       "majors": [
         "Art BA",
         "CommunicationArts BA",
-        "Music BA",
+        "#Music BA",
         "MusicEducation BM",
-        "MusicPerformance BM",
+        "#MusicPerformance BM",
         "TheatreArts BA"
       ],
       "minors": [
         "Art",
         "CommunicationArts",
-        "Music",
+        "#Music",
         "TheatreArts"
+      ],
+      "concentrations": [
+        "DesignStudio",
+        "FineArtStudio"
       ],
       "specializations": [
         "MusicInstrument",
@@ -629,17 +633,29 @@
       ],
       "minors": [
         "BiblicalStudies",
-        "ChineseMandarin",
-        "CombinedLanguages",
-        "English",
-        "French",
+        "#ChineseMandarin",
+        "#CombinedLanguages",
+        "#English",
+        "#French",
         "GlobalChristianity",
         "Linguistics",
         "PastoralMinistries",
-        "ProfessionalWriting",
+        "#ProfessionalWriting",
         "SocialImpactMinistries",
-        "Spanish",
+        "#Spanish",
         "Theology",
+        "YouthMinistries"
+      ],
+      "concentrations": [
+        "BiblicalLanguages",
+        "CreativeWriting",
+        "GeneralBiblicalStudies",
+        "GlobalChristianity",
+        "JewishStudies",
+        "NewTestament",
+        "OldTestament",
+        "PastoralMinistries",
+        "SocialImpactMinistries",
         "YouthMinistries"
       ],
       "specializations": [
@@ -650,25 +666,35 @@
     {
       "division": "Natural Sciences, Mathematics and Computer Science",
       "majors": [
-        "Biochemistry BS",
-        "Biology BA",
-        "Biology BS",
-        "ComputerScience BA",
-        "ComputerScience BS",
+        "#Biochemistry BS",
+        "#Biology BA",
+        "#Biology BS",
+        "#ComputerScience BA",
+        "#ComputerScience BS",
         "Kinesiology BS",
-        "Mathematics BS",
-        "PhysicalAndAppliedSciencesPhysics BA",
-        "Physics3-2Engineering BA"
+        "#Mathematics BS",
+        "#PhysicalAndAppliedSciencesPhysics BA",
+        "#Physics3-2Engineering BA"
       ],
       "minors": [
-        "Biology",
+        "#Biology",
         "ComputerScience",
-        "Chemistry",
-        "DataScience",
-        "ElementaryEducationMathematics",
-        "Kinesiology",
-        "Mathematics",
-        "Physics"
+        "#Chemistry",
+        "#DataScience",
+        "#ElementaryEducationMathematics",
+        "#Kinesiology",
+        "#Mathematics",
+        "#Physics"
+      ],
+      "concentrations": [
+        "Nursing",
+        "PremedicineDentistryVeterinary",
+        "PreNursing",
+        "PreOccupationalTherapy",
+        "PreOptometry",
+        "PrePharmacy",
+        "PrePhysicalTherapy",
+        "PrePhysicianAssistant"
       ],
       "specializations": [
       ],
@@ -678,31 +704,31 @@
     {
       "division": "Social and Behavioral Sciences",
       "majors": [
-        "Accounting BA",
-        "BusinessAdministration BA",
-        "Economics BA",
-        "Finance BA",
-        "History BA",
-        "InternationalAffairs BA",
-        "Philosophy BA",
-        "PoliticalScience BA",
-        "Psychology BA",
-        "Psychology BS",
-        "SocialWelfare BA"
+        "#Accounting BA",
+        "#BusinessAdministration BA",
+        "#Economics BA",
+        "#Finance BA",
+        "#History BA",
+        "#InternationalAffairs BA",
+        "#Philosophy BA",
+        "#PoliticalScience BA",
+        "#Psychology BA",
+        "#Psychology BS",
+        "#SocialWelfare BA"
       ],
       "minors": [
-        "Accounting",
-        "BusinessAdministration",
-        "EarlyChristianity",
-        "Economics",
-        "History",
-        "HumanServices",
-        "Neuroscience",
-        "PeaceAndConflictStudies",
-        "Philosophy",
-        "PoliticalScience",
-        "Psychology",
-        "Sociology"
+        "#Accounting",
+        "#BusinessAdministration",
+        "#EarlyChristianity",
+        "#Economics",
+        "#History",
+        "#HumanServices",
+        "#Neuroscience",
+        "#PeaceAndConflictStudies",
+        "#Philosophy",
+        "#PoliticalScience",
+        "#Psychology",
+        "#Sociology"
       ],
       "specializations": [
       ],
