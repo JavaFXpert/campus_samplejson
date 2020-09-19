@@ -580,6 +580,31 @@
   ],
   "divisionsPrograms": [
     {
+      "division": "_NoDivision",
+      "majors": [
+      ],
+      "minors": [
+      ],
+      "concentrations": [
+      ],
+      "flags": [
+        "xferStudentTwoSemestersCollegeLevelWriting",
+        "externalJewishStudiesCourse",
+        "firstYearStudentXferCreditCollegeLevelComposition",
+        "inSelectedHonorsFellowsProgram",
+        "inGlobalHonorsScholarsProgram",
+        "studyInIsrael",
+        "validateForeignLanguageI",
+        "validateForeignLanguageII",
+        "filmStudyStudent",
+        "businessCommunicationStudent",
+        "journalismStudent",
+        "writingStudent",
+        "technicalStudent",
+        "interculturalStudent"
+      ]
+    },
+    {
       "division": "Education",
       "majors": [
         "#EarlyChildhoodEducation BS",
