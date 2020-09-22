@@ -350,6 +350,7 @@ The following two tables describe the **DegreeAudit** JSON properties. The first
 | `numResClassesRequired`  | integer         | Minimum number of classes in residence needed to meet the requirement. | Number of classes required in residence             | **Optional**.                                                |
 | `scopeTypeAndValue`      | string          | Optional audit scope type of the requirement, and an optional value, separated by an equal sign, e.g. Concentration=Biochemistry. See the section entitled [Applying courses to multiple requirements](#applying-courses-to-multiple-requirements). | Scope type and value                                | **Optional**.                                                |
 | `orGate`                 | boolean         | If `true`, only one of the immediate subordinate requirements must be met before this requirement may be met. | Operator for child requirements (AND/OR)            | **Optional**. Defaults to "AND", in which all immediate subordinate requirements must be met before this requirement may be met. |
+| `orGateMinMeet`          | integer         | Minimum number of sub-requirements that must be met for the parent requirement with an `orGate` to be met. | Number of sub-requirements that must be met         | **Optional**. Defaults to 0, which indicates that an `orGate` will have default behavior. |
 | `reqs`                   | list of objects | Contains list of subordinate requirement objects.            | Subordinate requirements                            | **Required**. *Must occur in the root of the JSON document, but is optional in any  requirement.* |
 | `applyToScopes`          | list of objects | Contains list of objects, each of which contains properties `scopeTypeAndValue`, `maxCreditsCounted` and `maxClassesCounted`, that express a scope and limits for sharing courses applied. See the section entitled [Applying courses to multiple requirements](#applying-courses-to-multiple-requirements). | Scopes and credits/classes limits to apply courses. | **Optional**. *May occur in any  requirement in the JSON document.* |
 | `ifExpression`           | string          | A logical SpEL expression that determines whether the requirement will be included in a degree audit. See the section entitled [`ifExpression`](#ifexpression). | If expression                                       | **Optional**. *May occur in any  requirement in the JSON document.* |
@@ -570,6 +571,10 @@ The following contains the formal JSON schema for the DegreeAudit JSON document.
     "orGate": {
       "type": "boolean",
       "description": "If true, only one of the immediate subordinate requirements must be met before this requirement may be met."
+    },
+    "orGateMinMeet": {
+      "type": "number",
+      "description": "Minimum number of sub-requirements that must be met for the parent requirement with an orGate to be met."
     },
     "reqs": {
       "type": "array",
@@ -1061,7 +1066,7 @@ The following contains the formal JSON schema for the StudentTranscript JSON doc
 
 
 
-###StudentPlan JSON schema 
+###StudentPlan JSON schema
 
 | Name                  | Type            | Description                                                  | Human readable name           | Notes                                                        |
 | --------------------- | --------------- | ------------------------------------------------------------ | ----------------------------- | ------------------------------------------------------------ |
