@@ -2224,7 +2224,7 @@
             {
               "generated": false,
               "gpaRequired": 0.0,
-              "maxClassesCounted": 1,
+              "maxClassesCounted": 0,
               "maxCreditsCounted": 0,
               "maxDisciplines": 0,
               "maxTermClassesCounted": 0,
@@ -2234,7 +2234,7 @@
               "name": "Quantitative Analysis or Instrumental Analysis  (choose one):",
               "description": "Choose one:",
               "numAdvCreditsRequired": 0,
-              "numClassesRequired": 1,
+              "numClassesRequired": 0,
               "numCreditsRequired": 0,
               "numResClassesRequired": 0,
               "numResCreditsRequired": 0,
