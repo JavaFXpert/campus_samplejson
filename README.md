@@ -250,6 +250,24 @@ The advice in this case is: **Consider taking CIS-125 soon, as it is a prerequis
 
 Please see the section entitled [JSON properties used to express a degree program](#json-properties-used-to-express-a-degree-program) of Appendix A for details on how the course prerequisites are expressed in JSON.
 
+## Running "what-if" scenarios
+
+CDAPS leverages a student's academic program such as declared majors, as well as chosen minors, concentrations and specializations, when running a degree audit. Occasionally a student or advisor would like to see how making changes in their program would affect remaining credits required, completion dates or other factors. The "what-if scenario" functionality exists in CDAPS for these occasions, as shown in the following reference implementation screenshots.
+
+<img src="images/what_if_dialog_ab.png" width=80%>
+
+In this dialog box, users may choose a first, second and third major, minors, concentrations and specializations. They may also choose flags that a degree audit uses when evaluating requirements and associated rules. When clicking the **Run What-if** button, CDAPS uses these choices rather than ones found in the student's academic program. These choices are supplied to the CDAPS microservices as arguments appended to the URL. For example, the choices in the previous dialog box would result in the following to be appended to the `rundegaud` URL discussed in [Microservices Overview](#microservices-overview).
+
+`&majors=Theatre BS,DesignForSocialImpact BA`
+
+`&minors=Mathematics`
+
+`&concentrations=TheatreTechnicalConcentration`
+
+`&flags=exemptSixHoursForeignLanguage`
+
+These are then marshaled into a `WhatIfScenario` instance which is supplied as an argument to the overloaded `runDegreeAudit` method of `DegreeAuditService` shown in the Microservices Overview.
+
 ## Degree Planning subsystem
 
 CDAPS includes a Degree Planning subsystem that provides academic planning tools for students and their advisors. One such tool is located in the **Degree Plan** tab of the reference UI, and contains academic terms relevant to the student's degree program. Within these academic term containers are entries for courses the student has taken, is taking, or is planning to take. When a degree audit is run, courses in the student's academic record appear in the corresponding academic term container (whose academic term year and season match). 
@@ -285,13 +303,13 @@ The business logic of CDAPS is implemented in *microservices* comprised of the c
 
 
 
-<img src="images/campus_services_arch.png" width=90%>
+<img src="images/campus_services_arch.png" width=80%>
 
 
 
 A given user interface, such as the reference UI shown in this document, accesses these CDAPS microservices via HTTP GET and POST requests. For example, the majority of CDAPS functionality is implemented in the `runDegreeAudit` microservice, accessible by calling the `rundegaud` endpoint as shown in the following code example:
 
-`http://127.0.0.1:8080/rundegaud?degree_program_id=FOO_COMP_SCI_BS&student_id=BAR007`
+`http://127.0.0.1:8080/rundegaud?degree_program_id=COL_ARTS_SCI&student_id=ID007`
 
 As a result of this call, the specified degree program and student's academic records are retrieved, and a degree audit is performed. A JSON document is returned that expresses the student's degree audit as specified in the [DegreeAudit JSON schema](#degreeaudit-json-schema) section in Appendix A.
 
@@ -332,6 +350,7 @@ The following two tables describe the **DegreeAudit** JSON properties. The first
 | `numResClassesRequired`  | integer         | Minimum number of classes in residence needed to meet the requirement. | Number of classes required in residence             | **Optional**.                                                |
 | `scopeTypeAndValue`      | string          | Optional audit scope type of the requirement, and an optional value, separated by an equal sign, e.g. Concentration=Biochemistry. See the section entitled [Applying courses to multiple requirements](#applying-courses-to-multiple-requirements). | Scope type and value                                | **Optional**.                                                |
 | `orGate`                 | boolean         | If `true`, only one of the immediate subordinate requirements must be met before this requirement may be met. | Operator for child requirements (AND/OR)            | **Optional**. Defaults to "AND", in which all immediate subordinate requirements must be met before this requirement may be met. |
+| `orGateMinMeet`          | integer         | Minimum number of sub-requirements that must be met for the parent requirement with an `orGate` to be met. | Number of sub-requirements that must be met         | **Optional**. Defaults to 0, which indicates that an `orGate` will have default behavior. |
 | `reqs`                   | list of objects | Contains list of subordinate requirement objects.            | Subordinate requirements                            | **Required**. *Must occur in the root of the JSON document, but is optional in any  requirement.* |
 | `applyToScopes`          | list of objects | Contains list of objects, each of which contains properties `scopeTypeAndValue`, `maxCreditsCounted` and `maxClassesCounted`, that express a scope and limits for sharing courses applied. See the section entitled [Applying courses to multiple requirements](#applying-courses-to-multiple-requirements). | Scopes and credits/classes limits to apply courses. | **Optional**. *May occur in any  requirement in the JSON document.* |
 | `ifExpression`           | string          | A logical SpEL expression that determines whether the requirement will be included in a degree audit. See the section entitled [`ifExpression`](#ifexpression). | If expression                                       | **Optional**. *May occur in any  requirement in the JSON document.* |
@@ -363,6 +382,7 @@ The following two tables describe the **DegreeAudit** JSON properties. The first
 | `degreePlan`                   | object           | Contains a `termPlans` objects.                              | Degree plan                            | **Required**. |
 | `termPlans`                    | list of objects  | Contains list of objects, each of which contains properties `termSeason`, `termYear` and `planCourses`, that express the student's degree plan. This list of object is ordered chronologically by academic term, with no terms skipped even when the `planCourses` for that term is empty. | Planned academic terms                 | **Required**. |
 | `planCourses`                  | list of objects  | Contains list of courses pertaining to an academic term on the student's degree plan, each of which contains properties `courseId`, `courseName`, `numCredits`, `numClasses`, and `grade`. | Plan courses                           | **Required**. |
+| `whatIfScenarioOptions`        | object           | What-if scenario options. Object  that contains properties `majors`, `minors`, `concentrations`,  `specializations` and `flags`. | What-if scenario options               | **Required**. |
 
 #### DegreeAudit formal JSON schema
 
@@ -551,6 +571,10 @@ The following contains the formal JSON schema for the DegreeAudit JSON document.
     "orGate": {
       "type": "boolean",
       "description": "If true, only one of the immediate subordinate requirements must be met before this requirement may be met."
+    },
+    "orGateMinMeet": {
+      "type": "number",
+      "description": "Minimum number of sub-requirements that must be met for the parent requirement with an orGate to be met."
     },
     "reqs": {
       "type": "array",
@@ -794,6 +818,48 @@ The following contains the formal JSON schema for the DegreeAudit JSON document.
           }
         }
       }
+    },
+    "whatIfScenarioOptions": {
+      "type": "object",
+      "description": "What-if scenario options to explore.",
+      "required": [],
+      "properties": {
+        "majors": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "A list of majors to model in a what-if scenario."
+          }
+        },
+        "minors": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "A list of minors to model in a what-if scenario."
+          }
+        },
+        "concentrations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "A list of concentrations to model in a what-if scenario."
+          }
+        },
+        "specializations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "A list of specializations to model in a what-if scenario."
+          }
+        },
+        "flags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "A list of flags relevant to the degree audit to model in a what-if scenario."
+          }
+        }
+      }
     }
   }
 }
@@ -1000,7 +1066,7 @@ The following contains the formal JSON schema for the StudentTranscript JSON doc
 
 
 
-###StudentPlan JSON schema 
+###StudentPlan JSON schema
 
 | Name                  | Type            | Description                                                  | Human readable name           | Notes                                                        |
 | --------------------- | --------------- | ------------------------------------------------------------ | ----------------------------- | ------------------------------------------------------------ |
