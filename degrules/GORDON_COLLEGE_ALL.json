@@ -588,21 +588,21 @@
       "concentrations": [
       ],
       "flags": [
-        "xferStudentTwoSemestersCollegeLevelWriting",
+        "businessCommunicationStudent",
         "externalJewishStudiesCourse",
+        "filmStudyStudent",
         "firstYearStudentXferCreditCollegeLevelComposition",
-        "inSelectedHonorsFellowsProgram",
         "inGlobalHonorsScholarsProgram",
+        "inSelectedHonorsFellowsProgram",
+        "interculturalStudent",
+        "journalismStudent",
         "studyInIsrael",
+        "technicalStudent",
+        "tookFieldCoursesOrApprovedFieldBasedProgram",
         "validateForeignLanguageI",
         "validateForeignLanguageII",
-        "filmStudyStudent",
-        "businessCommunicationStudent",
-        "journalismStudent",
         "writingStudent",
-        "tookFieldCoursesOrApprovedFieldBasedProgram",
-        "technicalStudent",
-        "interculturalStudent"
+        "xferStudentTwoSemestersCollegeLevelWriting"
       ]
     },
     {
