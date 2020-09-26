@@ -724,7 +724,7 @@
         "PrePharmacy",
         "PrePhysicalTherapy",
         "PrePhysicianAssistant",
-        "Professional"
+        "ProfessionalBA"
       ],
       "specializations": [
       ],
@@ -3597,7 +3597,7 @@
             {
               "generated": false,
               "gpaRequired": 0.0,
-              "metIfExpr": "metN(1, 'ProfessionalConc','PremedicineDentistryVeterinaryConc','PrenursingConc','PreoptometryConc','PrepharmacyConc','PrephysicalTherapyConc','PrephysicianAssistantConc','BiotechnologyConc','EnvironmentalConc','MarineBiologyConc')",
+              "metIfExpr": "metN(1, 'ProfessionalBAConc','PremedicineDentistryVeterinaryConc','PrenursingConc','PreoptometryConc','PrepharmacyConc','PrephysicalTherapyConc','PrephysicianAssistantConc','BiotechnologyConc','EnvironmentalConc','MarineBiologyConc')",
               "maxClassesCounted": 0,
               "maxCreditsCounted": 0,
               "maxDisciplines": 0,
@@ -3606,7 +3606,7 @@
               "minDisciplines": 0,
               "minGradeRequired": 0.0,
               "name": "Complete one concentration",
-              "description": "complete one concentration in Professional, Health Professions (Premedicine/Dentistry/Veterinary, Prenursing, Preoptometry, Prepharmacy, Prephysical Therapy or Prephysician Assistant), Biotechnology, Environmental or Marine Biology.",
+              "description": "A concentration is required from the following: Professional (B.A.), Health Professions (B.A.) (Premedicine/Dentistry/Veterinary, Prenursing, Preoptometry, Prepharmacy, Prephysical Therapy or Prephysician Assistant), Biotechnology (B.A.), Environmental (B.A.) or Marine Biology (B.A.).",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
               "numCreditsRequired": 0,
@@ -18172,7 +18172,7 @@
     {
       "generated": false,
       "gpaRequired": 0.0,
-      "ifExpression": "concentrationsInclude('PremedicineDentistryVeterinary') and majorsInclude('Kinesiology BS') or majorsInclude('Biology BA')",
+      "ifExpression": "concentrationsInclude('PremedicineDentistryVeterinary') and (majorsInclude('Kinesiology BS') or majorsInclude('Biology BA'))",
       "maxClassesCounted": 0,
       "maxCreditsCounted": 0,
       "maxDisciplines": 0,
@@ -18817,7 +18817,7 @@
     {
       "generated": false,
       "gpaRequired": 0.0,
-      "ifExpression": "concentrationsInclude('PreNursing') and majorsInclude('Kinesiology BS') or majorsInclude('Biology BA')",
+      "ifExpression": "concentrationsInclude('PreNursing') and (majorsInclude('Kinesiology BS') or majorsInclude('Biology BA'))",
       "maxClassesCounted": 0,
       "maxCreditsCounted": 0,
       "maxDisciplines": 0,
@@ -19292,7 +19292,7 @@
     {
       "generated": false,
       "gpaRequired": 0.0,
-      "ifExpression": "concentrationsInclude('PreOptometry') and majorsInclude('Kinesiology BS') or majorsInclude('Biology BA')",
+      "ifExpression": "concentrationsInclude('PreOptometry') and (majorsInclude('Kinesiology BS') or majorsInclude('Biology BA'))",
       "maxClassesCounted": 0,
       "maxCreditsCounted": 0,
       "maxDisciplines": 0,
@@ -19661,7 +19661,7 @@
     {
       "generated": false,
       "gpaRequired": 0.0,
-      "ifExpression": "concentrationsInclude('PrePharmacy') and majorsInclude('Kinesiology BS') or majorsInclude('Biology BA')",
+      "ifExpression": "concentrationsInclude('PrePharmacy') and (majorsInclude('Kinesiology BS') or majorsInclude('Biology BA'))",
       "maxClassesCounted": 0,
       "maxCreditsCounted": 0,
       "maxDisciplines": 0,
@@ -20014,7 +20014,7 @@
     {
       "generated": false,
       "gpaRequired": 0.0,
-      "ifExpression": "concentrationsInclude('PrePhysicalTherapy') and majorsInclude('Kinesiology BS') or majorsInclude('Biology BA')",
+      "ifExpression": "concentrationsInclude('PrePhysicalTherapy') and (majorsInclude('Kinesiology BS') or majorsInclude('Biology BA'))",
       "maxClassesCounted": 0,
       "maxCreditsCounted": 0,
       "maxDisciplines": 0,
@@ -20426,7 +20426,7 @@
     {
       "generated": false,
       "gpaRequired": 0.0,
-      "ifExpression": "concentrationsInclude('PrePhysicianAssistant') and majorsInclude('Kinesiology BS') or majorsInclude('Biology BA')",
+      "ifExpression": "concentrationsInclude('PrePhysicianAssistant') and (majorsInclude('Kinesiology BS') or majorsInclude('Biology BA'))",
       "maxClassesCounted": 0,
       "maxCreditsCounted": 0,
       "maxDisciplines": 0,
@@ -20657,7 +20657,7 @@
     {
       "generated": false,
       "gpaRequired": 0.0,
-      "ifExpression": "concentrationsInclude('Professional') and majorsInclude('Biology BA')",
+      "ifExpression": "concentrationsInclude('ProfessionalBA') and majorsInclude('Biology BA')",
       "maxClassesCounted": 0,
       "maxCreditsCounted": 0,
       "maxDisciplines": 0,
@@ -20665,7 +20665,7 @@
       "maxTermCreditsCounted": 0,
       "minDisciplines": 0,
       "minGradeRequired": 0.0,
-      "name": "Professional Concentration",
+      "name": "Professional Concentration (B.A.)",
       "description": "The Professional Concentration provides flexibility in course selection for students with a holistic interest in biology. The B.S. in biology is particularly appropriate for students wishing to enter graduate school, whereas the B.A. in biology is best for students with a double major outside of the natural sciences. A total of 24 credits of biology electives required, including at least three upper-level (300- or above) biology courses.",
       "numAdvCreditsRequired": 0,
       "numClassesRequired": 0,
