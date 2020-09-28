@@ -50,7 +50,8 @@ There are countless ways that courses taken are presented on student transcripts
   - **NC** for not achieving credit in a *credit/no credit* course.
   - **IP** for a course in-progress
   - **W** for a withdrawn course
-  - **TR** for a course transferred from another instutition
+  - **TR** for a course transferred from another institution
+  - **PL** for a course that a student plans to take
 - Term is represented by a fully spelled season name (**Fall**, **Winter**, **Spring**, **Summer**), and a four digit year (e.g. **2020**).
 
 #### Expressing curriculum pursued
@@ -85,7 +86,7 @@ The  `applyToScopes` property is used to indicate that courses in the requiremen
 
 ### Leveraging Spring Expression Language (SpEL)
 
-The requirement and rules of a degree program are often subject to a student's academic record. For example, the number of hours required for a given major may be different if the student is pursuing two majors rather than a single one. For this reason, CDAPS contains a mechanism with which requirements and rules may be adjusted using a student's academic record as input. This is accomplished with the use of the *Spring Expression Language (SpEL)* in conjunction with the `ifExpression`, `metIfExpr` and `numCreditsRequiredExpr` JSON properties.
+The requirement and rules of a degree program are often subject to a student's academic record. For example, the number of hours required for a given major may be different if the student is pursuing two majors rather than a single one. For this reason, CDAPS contains a mechanism with which requirements and rules may be adjusted using a student's academic record as input. This is accomplished with the use of the *Spring Expression Language (SpEL)* in conjunction with the `ifExpression`, `metIfExpr`, `numCreditsRequiredExpr` and `numClassesRequiredExpr` JSON properties.
 
 #### `ifExpression`
 
@@ -113,6 +114,14 @@ The `numCreditsRequiredExpr` property in the JSON schema contains a numeric expr
 
 ```
 majorsInclude('Music') ? 6 : 8
+```
+
+#### `numClassesRequiredExpr`
+
+The `numClassesRequiredExpr` property in the JSON schema contains a numeric expression that results in the desired number of classes to require. A common usage is a ternary expression that evaluates to one of two values. For example, the following expression could be used to require a different number of classes in a requirement for a Music major:
+
+```
+majorsInclude('Music') ? 2 : 1
 ```
 
 The syntax for expressions in all of the properties mentioned previously is fully described in the [Spring Expression Language Reference](https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#expressions-language-ref). The CDAPS-specific properties and methods that may be used are listed in [Appendix B: Properties and methods available in a SpEL expression](#appendix-b-properties-and-methods-available-in-a-spel-expression).
@@ -356,6 +365,7 @@ The following two tables describe the **DegreeAudit** JSON properties. The first
 | `ifExpression`           | string          | A logical SpEL expression that determines whether the requirement will be included in a degree audit. See the section entitled [`ifExpression`](#ifexpression). | If expression                                       | **Optional**. *May occur in any  requirement in the JSON document.* |
 | `metIfExpr`              | string          | A logical SpEL expression that forces a requirement to be met if the expression is true. Has no effect if the expression is false. See the section entitled [`metIfExpr`](#metIfExpr). | Met if expression                                   | **Optional**. *May occur in any  requirement in the JSON document.* |
 | `numCreditsRequiredExpr` | string          | A SpEL expression that determines the minimum number of credits required for a requirement in a degree audit. See the section entitled [`numCreditsRequiredExpr`](#numCreditsRequiredExpr). | Number of credits required expression               | **Optional**. *May occur in any  requirement in the JSON document.* |
+| `numClassesRequiredExpr` | string          | A SpEL expression that determines the minimum number of classes required for a requirement in a degree audit. See the section entitled [`numClassesRequiredExpr`](#numClassesRequiredExpr). | Number of classes required expression               | **Optional**. *May occur in any  requirement in the JSON document.* |
 | `minDisciplines`         | integer         | Minimum number of unique disciplines (course prefixes) that must be present in the applied courses to meet the requirement. | Minimum number of disciplines                       | **Optional**. *May occur in any leaf-node requirement in the JSON document.* |
 | `maxDisciplines`         | integer         | Maximum number of unique disciplines (course prefixes) that may be present in the applied courses to meet the requirement. | Maximum number of disciplines                       | **Optional**. *May occur in any leaf-node requirement in the JSON document.* |
 | `inCourses`              | list of strings | A list of course codes (and ranges) applicable to the requirement. See the section entitled [Course codes and ranges](#course-codes-and-ranges). | List of applicable courses                          | **Optional**. *May occur in any leaf-node requirement in the JSON document.* |
@@ -513,6 +523,10 @@ The following contains the formal JSON schema for the DegreeAudit JSON document.
       "type": "number",
       "description": "Minimum number of classes needed to meet the requirement.",
       "minimum": 0
+    },
+    "numClassesRequiredExpr": {
+      "type": "string",
+      "description": "A SpEL expression that determines the minimum number of classes required for a requirement in a degree audit."
     },
     "maxClassesCounted": {
       "type": "number",
