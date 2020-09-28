@@ -18148,7 +18148,7 @@
     {
       "generated": false,
       "gpaRequired": 0.0,
-      "ifExpression": "concentrationsInclude('Nursing') and majorsInclude('Kinesiology BS')",
+      "ifExpression": "concentrationsInclude('Nursing') and (majorsInclude('Kinesiology BS') or majorsInclude('Biology BS'))",
       "maxClassesCounted": 0,
       "maxCreditsCounted": 0,
       "maxDisciplines": 0,
