@@ -81,12 +81,15 @@
     ],
     "concentrations": [
       "#BiblicalLanguages",
+      "Biotechnology",
       "#CreativeWriting",
       "#DesignStudio",
+      "Environmental",
       "#FineArtStudio",
       "#GeneralBiblicalStudies",
       "#GlobalChristianity",
       "#JewishStudies",
+      "MarineBiology",
       "#NewTestament",
       "#Nursing",
       "#OldTestament",
@@ -98,6 +101,7 @@
       "#PrePharmacy",
       "#PrePhysicalTherapy",
       "#PrePhysicianAssistant",
+      "Professional",
       "#SocialImpactMinistries",
       "#YouthMinistries"
     ],
