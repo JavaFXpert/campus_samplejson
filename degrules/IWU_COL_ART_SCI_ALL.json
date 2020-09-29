@@ -499,6 +499,21 @@
   ],
   "divisionsPrograms": [
     {
+      "division": "_NoDivision",
+      "majors": [
+        "GeneralStudies BS",
+        "GeneralStudies AS"
+      ],
+      "minors": [
+      ],
+      "concentrations": [
+      ],
+      "flags": [
+        "exemptSixHoursForeignLang",
+        "exemptThreeOfSixHoursForeignLang"
+      ]
+    },
+    {
       "division": "ArtAndDesign",
       "majors": [
         "DesignForSocialImpact BA",
@@ -544,16 +559,9 @@
         "#StrategicCommunication",
         "#Theatre"
       ],
-      "certificates": [
-      ]
-    },
-    {
-      "division": "GeneralStudies",
-      "majors": [
-        "GeneralStudies BS",
-        "GeneralStudies AS"
-      ],
-      "minors": [
+      "concentrations": [
+        "TheatrePerformanceConcentration",
+        "TheatreTechnicalConcentration"
       ],
       "certificates": [
       ]
@@ -597,7 +605,7 @@
     {
       "division": "SocialSciences",
       "majors": [
-        "#Economics BS",
+        "Economics BS",
         "#History AB",
         "#History BS",
         "#InternationalRelations BS",
