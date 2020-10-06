@@ -14615,6 +14615,7 @@
     {
       "generated": false,
       "gpaRequired": 0.0,
+      "gpaRequiredExpr": "flagsInclude('honorsKinesiology') ? 3.5 : 2.0",
       "maxClassesCounted": 0,
       "maxCreditsCounted": 0,
       "maxDisciplines": 0,
