@@ -67,6 +67,7 @@ A subset of the rules in any requirement may be overridden for a given student. 
 - Minimum grade required
 - Minimum GPA required
 - Number of advanced credits required
+- Number of advanced classes required
 - Applicable course codes and ranges
 - Excluded course codes and ranges
 
@@ -86,7 +87,7 @@ The  `applyToScopes` property is used to indicate that courses in the requiremen
 
 ### Leveraging Spring Expression Language (SpEL)
 
-The requirement and rules of a degree program are often subject to a student's academic record. For example, the number of hours required for a given major may be different if the student is pursuing two majors rather than a single one. For this reason, CDAPS contains a mechanism with which requirements and rules may be adjusted using a student's academic record as input. This is accomplished with the use of the *Spring Expression Language (SpEL)* in conjunction with the `ifExpression`, `metIfExpr`, `numCreditsRequiredExpr` and `numClassesRequiredExpr` JSON properties.
+The requirement and rules of a degree program are often subject to a student's academic record. For example, the number of hours required for a given major may be different if the student is pursuing two majors rather than a single one. For this reason, CDAPS contains a mechanism with which requirements and rules may be adjusted using a student's academic record as input. This is accomplished with the use of the *Spring Expression Language (SpEL)* in conjunction with the `ifExpression`, `metIfExpr`, `numCreditsRequiredExpr`, `numClassesRequiredExpr` and `gpaRequiredExpr`  JSON properties.
 
 #### `ifExpression`
 
@@ -124,7 +125,15 @@ The `numClassesRequiredExpr` property in the JSON schema contains a numeric expr
 majorsInclude('Music') ? 2 : 1
 ```
 
-The syntax for expressions in all of the properties mentioned previously is fully described in the [Spring Expression Language Reference](https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#expressions-language-ref). The CDAPS-specific properties and methods that may be used are listed in [Appendix B: Properties and methods available in a SpEL expression](#appendix-b-properties-and-methods-available-in-a-spel-expression).
+#### `gpaRequiredExpr`
+
+The `gpaRequiredExpr` property in the JSON schema contains a numeric expression that results in the desired GPA to require. A common usage is a ternary expression that evaluates to one of two values. For example, the following expression could be used to require a different GPA in a requirement for a Music major:
+
+```
+majorsInclude('Music') ? 3.5 : 2.5
+```
+
+#### The syntax for expressions in all of the properties mentioned previously is fully described in the [Spring Expression Language Reference](https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#expressions-language-ref). The CDAPS-specific properties and methods that may be used are listed in [Appendix B: Properties and methods available in a SpEL expression](#appendix-b-properties-and-methods-available-in-a-spel-expression).
 
 ## Degree audit algorithm overview
 
@@ -143,7 +152,7 @@ The following sections describe each of these steps.
 
 #### Step #1: Retrieve the degree program and student's academic record
 
-In this step, JSON documents that express the degree program and student's academic record are retrieved. During this process, any requirements that contain an `ifExpression` rule are omitted from the audit if that expression evaluates false. See the section entitled [If expressions](#if-expressions) for more information. 
+In this step, JSON documents that express the degree program and student's academic record are retrieved. During this process, any requirements that contain an `ifExpression` rule are omitted from the audit if that expression evaluates false. See the section entitled [If expressions](#if-expressions) for more information. Also during this step, any leaf node requirements whose numeric rules are all zero are marked as having been `met`.
 
 #### Step #2: Apply courses from the academic record to leaf nodes of the requirements tree
 
@@ -169,10 +178,10 @@ In this step, the number of earned credits and classes in each applied course ar
 - The requirement's `numCreditsEarned` is incremented by the number of credits in the course, unless the requirement has a `maxCreditsCounted` or `maxDisciplines` rule that would be exceeded (in which case the course is removed from the requirement). Please see the section entitled [JSON properties used to express a degree program](#json-properties-used-to-express-a-degree-program) of Appendix A for details on this and other rules mentioned.
 - The requirement's `numClassesEarned` is incremented by 1, unless the requirement has a `maxClassesCounted` rule that would be exceeded (in which case the course is removed from the requirement).
 - If the requirement has the `maxTermCreditsCounted` rule, then remove the course from the requirement if it would be exceeded in any term when adding the credits for the course. If the requirement has the `maxTermClassesCounted` rule, then remove the course from the requirement if it would be exceeded in any term when adding 1 for the course.
-- If the course is advanced, the requirement's `numAdvCreditsEarned` is incremented by the number of credits in the course.
+- If the course is advanced, the requirement's `numAdvCreditsEarned` is incremented by the number of credits in the course, and its `numAdvClassesEarned` is incremented by 1.
 - If the course was taken in-residence, the requirement's `numResCreditsEarned` is incremented by the number of credits in the course, and the requirement's `numResClassesEarned` is incremented by 1.
 - Calculate the grade point average of courses that remain on the requirement, excluding courses that are transferred, and courses that are graded pass/fail.
-- Mark the requirement as having been `met` if criteria for `numCreditsRequired`, `numAdvCreditsRequired`, `numClassesRequired`, `minDisciplines`, `numResCreditsRequired`, `numResClassesRequired`, `gpaRequired` , `numTermCreditsRequired`  and `numTermClassesRequired` are satisfied.
+- Mark the requirement as having been `met` if criteria for `numCreditsRequired`, `numAdvCreditsRequired`, `numAdvClassesRequired`, `numClassesRequired`, `minDisciplines`, `numResCreditsRequired`, `numResClassesRequired`, `gpaRequired` , `numTermCreditsRequired`  and `numTermClassesRequired` are satisfied.
 
 Now that the leaf node requirements have been populated, earning will be rolled up in the next step.
 
@@ -184,7 +193,7 @@ In this step, every non-leaf node requirement is visited, rolling up applied cou
 - The parent node requirement's `numCreditsEarned` is incremented by the number of credits in the course, unless the requirement has a `maxCreditsCounted` rule that would be exceeded (in which case the course is not applied to the parent node requirement). Please see the section entitled [JSON properties used to express a degree program](#json-properties-used-to-express-a-degree-program) of Appendix A for details on this and other rules mentioned.
 - The parent node requirement's `numClassesEarned` is incremented by 1, unless the requirement has a `maxClassesCounted` rule that would be exceeded (in which case the course is not applied to the  parent node requirement).
 - If the parent node requirement has the `maxTermCreditsCounted` rule, then don't apply the course to the parent node requirement if it would be exceeded in any term when adding the credits for the course. If the requirement has the `maxTermClassesCounted` rule, then don't apply the course to the parent node requirement if it would be exceeded in any term when adding 1 for the course.
-- If the course is advanced, the parent node requirement's `numAdvCreditsEarned` is incremented by the number of credits in the course.
+- If the course is advanced, the parent node requirement's `numAdvCreditsEarned` is incremented by the number of credits in the course, and the parent node requirement's `numAdvClassesEarned` is incremented by 1.
 - If the course is in-residence, the parent node requirement's `numResCreditsEarned` is incremented by the number of credits in the course, and the parent node requirement's `numResClassesEarned` is incremented by 1.
 - Calculate the grade point average of courses that remain on the parent node requirement, excluding courses that are transferred, and courses that are graded pass/fail.
 
@@ -195,7 +204,7 @@ Now that the rest of the requirements tree has been populated, the `met` status 
 In this step, every non-leaf node (referred to as parent node in the following bullets) requirement is visited, rolling up the `met` status from its subordinate requirements. Specifically:
 
 - Mark the parent node requirement as `met` if all of its subordinate requirements are `met`, or the if the parent node `orGate` rule is true. Please see the section entitled [JSON properties used to express a degree program](#json-properties-used-to-express-a-degree-program) of Appendix A for details on this and other rules mentioned.
-- Change the requirement to not `met` if any of the criteria for `numCreditsRequired`, `numAdvCreditsRequired`, `numClassesRequired`, `numResCreditsRequired`, `numResClassesRequired`, `gpaRequired` , `numTermCreditsRequired`  and `numTermClassesRequired` are not satisfied.
+- Change the requirement to not `met` if any of the criteria for `numCreditsRequired`, `numAdvCreditsRequired`, `numAdvClassesRequired`, `numClassesRequired`, `numResCreditsRequired`, `numResClassesRequired`, `gpaRequired` , `numTermCreditsRequired`  and `numTermClassesRequired` are not satisfied.
 
 Also in this step, the completion percent for each requirement is calculated. This enables progress bars, as shown in the following screenshot, to display the student's progress toward high-level requirements such as majors, minors and general education.
 
@@ -207,9 +216,9 @@ Now that the rules have been processed at every level of the requirements tree, 
 
 In this step, three top-level requirements are created to hold courses that couldn't be applied to any other requirements. These top-level requirements are: **In-progress**, **Insufficient** and **Additional Courses**.
 
-- The **In-progress** requirement is populated with courses that are denoted as such in the academic record. Their numbers of credits, advanced credits, and classes are incremented.
-- The **Insufficient** requirement is populated with courses that were failed, withdrawn, no credit received, or the `minGradeRequired` wasn't achieved. Their numbers of credits, advanced credits, and classes are incremented.
-- The **Additional Courses** requirement is populated with any remaining courses that weren't applied to any other requirement. Their numbers of credits, advanced credits, and classes are incremented. If appropriate, their GPA is calculated.
+- The **In-progress** requirement is populated with courses that are denoted as such in the academic record. Their numbers of credits, advanced credits, classes and advanced classes are incremented.
+- The **Insufficient** requirement is populated with courses that were failed, withdrawn, no credit received, or the `minGradeRequired` wasn't achieved. Their numbers of credits, advanced credits, classes and advanced classes are incremented.
+- The **Additional Courses** requirement is populated with any remaining courses that weren't applied to any other requirement. Their numbers of credits, advanced credits, classes and advanced classes are incremented. If appropriate, their GPA is calculated.
 
 Now that all of the courses have been applied to at least one requirement, academic advice will be generated.
 
@@ -235,6 +244,7 @@ Advice may be generated for requirements that contain one or more of the followi
 - Number of advanced credits required
 - Number of classes required
 - Number of classes in residence required
+- Number of advanced classes required
 - Minimum GPA required
 
 Advice is not generated for any `met` requirement (signified by a checkmark in the screenshot), nor is advice generated for any requirement that has a `met` ancestor requirement. 
@@ -351,6 +361,7 @@ The following two tables describe the **DegreeAudit** JSON properties. The first
 | `minGradeRequired`       | decimal         | Minimum numeric grade required for a course to be applied to the requirement. | Minimum grade required                              | **Optional**. *May occur in any  requirement in the JSON document.* |
 | `gpaRequired`            | decimal         | Minimum grade point average (GPA) needed in the courses applied to the requirement. | Minimum GPA required                                | **Optional**.                                                |
 | `numAdvCreditsRequired`  | integer         | Minimum number of credits in advanced (e.g. 300+) level course needed to meet the requirement. | Number of advanced credits required                 | **Optional**.                                                |
+| `numAdvClassesRequired`  | integer         | Minimum number of classes in advanced (e.g. 300+) level course needed to meet the requirement. | Number of advanced classes required                 | **Optional**.                                                |
 | `numTermCreditsRequired` | integer         | Minimum number of credits per term needed to meet the requirement. | Number of credits required per term                 | **Optional**.                                                |
 | `maxTermCreditsCounted`  | integer         | Maximum number of credits that may be applied per term toward meeting the requirement. | Max number of credits counted per term              | **Optional**.                                                |
 | `numTermClassesRequired` | integer         | Minimum number of classes per term needed to meet the requirement. | Number of classes required per term                 | **Optional**.                                                |
@@ -366,6 +377,7 @@ The following two tables describe the **DegreeAudit** JSON properties. The first
 | `metIfExpr`              | string          | A logical SpEL expression that forces a requirement to be met if the expression is true. Has no effect if the expression is false. See the section entitled [`metIfExpr`](#metIfExpr). | Met if expression                                   | **Optional**. *May occur in any  requirement in the JSON document.* |
 | `numCreditsRequiredExpr` | string          | A SpEL expression that determines the minimum number of credits required for a requirement in a degree audit. See the section entitled [`numCreditsRequiredExpr`](#numCreditsRequiredExpr). | Number of credits required expression               | **Optional**. *May occur in any  requirement in the JSON document.* |
 | `numClassesRequiredExpr` | string          | A SpEL expression that determines the minimum number of classes required for a requirement in a degree audit. See the section entitled [`numClassesRequiredExpr`](#numClassesRequiredExpr). | Number of classes required expression               | **Optional**. *May occur in any  requirement in the JSON document.* |
+| `gpaRequiredExpr`        | string          | A SpEL expression that determines the minimum GPA required for a requirement in a degree audit. See the section entitled [`gpaRequiredExpr`](#gpaRequiredExpr). | GPA required expression                             | **Optional**. *May occur in any  requirement in the JSON document.* |
 | `minDisciplines`         | integer         | Minimum number of unique disciplines (course prefixes) that must be present in the applied courses to meet the requirement. | Minimum number of disciplines                       | **Optional**. *May occur in any leaf-node requirement in the JSON document.* |
 | `maxDisciplines`         | integer         | Maximum number of unique disciplines (course prefixes) that may be present in the applied courses to meet the requirement. | Maximum number of disciplines                       | **Optional**. *May occur in any leaf-node requirement in the JSON document.* |
 | `inCourses`              | list of strings | A list of course codes (and ranges) applicable to the requirement. See the section entitled [Course codes and ranges](#course-codes-and-ranges). | List of applicable courses                          | **Optional**. *May occur in any leaf-node requirement in the JSON document.* |
@@ -379,6 +391,7 @@ The following two tables describe the **DegreeAudit** JSON properties. The first
 | `numCreditsEarned`             | integer          | Number of credits earned for the requirement.                | Number of credits earned               | **Computed**. |
 | `numAdvCreditsEarned`          | integer          | Number of advanced credits earned for the requirement.       | Number of advanced credits earned      | **Computed**. |
 | `numClassesEarned`             | integer          | Number of classes earned for the requirement.                | Number of classes earned               | **Computed**  |
+| `numAdvClassesEarned`          | integer          | Number of advanced classes earned for the requirement.       | Number of advanced classes earned      | **Computed**. |
 | `gpaEarned`                    | decimal          | Grade point average (GPA) earned for the requirement.        | GPA earned                             | **Computed**  |
 | `gradePointsEarned`            | integer          | Number of grade points earned for the requirement. Used for calculating GPA. | N/A                                    | **Computed**  |
 | `gpaCreditsEarned`             | decimal          | Number of GPA credits earned for the requirement. Used for calculating GPA. | N/A                                    | **Computed**  |
@@ -543,9 +556,18 @@ The following contains the formal JSON schema for the DegreeAudit JSON document.
       "description": "Minimum grade point average (GPA) needed in the courses applied to the requirement.",
       "minimum": 0
     },
+    "gpaRequiredExpr": {
+      "type": "string",
+      "description": "A SpEL expression that determines the minimum GPA required for a requirement in a degree audit."
+    },
     "numAdvCreditsRequired": {
       "type": "number",
       "description": "Minimum number of credits in advanced (e.g. 300+) level course needed to meet the requirement.",
+      "minimum": 0
+    },
+    "numAdvClassessRequired": {
+      "type": "number",
+      "description": "Minimum number of classes in advanced (e.g. 300+) level course needed to meet the requirement.",
       "minimum": 0
     },
     "numTermCreditsRequired": {
@@ -609,6 +631,7 @@ The following contains the formal JSON schema for the DegreeAudit JSON document.
           "minGradeRequired": {},
           "gpaRequired": {},
           "numAdvCreditsRequired": {},
+          "numAdvClassesRequired": {},
           "numTermCreditsRequired": {},
           "maxTermCreditsCounted": {},
           "numTermClassesRequired": {},
@@ -680,6 +703,7 @@ The following contains the formal JSON schema for the DegreeAudit JSON document.
           "numCreditsEarned": {},
           "numAdvCreditsEarned": {},
           "numClassesEarned": {},
+          "numAdvClassesEarned": {},
           "gpaEarned": {},
           "gradePointsEarned": {},
           "gpaCreditsEarned": {},
@@ -712,6 +736,11 @@ The following contains the formal JSON schema for the DegreeAudit JSON document.
     "numClassesEarned": {
       "type": "number",
       "description": "Number of classes earned for the requirement.",
+      "minimum": 0
+    },
+    "numAdvClassesEarned": {
+      "type": "number",
+      "description": "Number of advanced classes earned for the requirement.",
       "minimum": 0
     },
     "gpaEarned": {
@@ -796,6 +825,7 @@ The following contains the formal JSON schema for the DegreeAudit JSON document.
         "minGradeRequired": {},
         "gpaRequired": {},
         "numAdvCreditsRequired": {},
+        "numAdvClassesRequired": {},
         "inCourses": {},
         "exceptCourses": {}
       }
@@ -895,7 +925,7 @@ The following contains the formal JSON schema for the DegreeAudit JSON document.
 | `concentrations`       | list of strings | Contain a list of concentrations that the student is pursuing. | Concentrations               | **Optional**. *Occurs only in the curriculum property.*      |
 | `specializations`      | list of strings | Contain a list of specializations that the student is pursuing. | Specializations              | **Optional**. *Occurs only in the curriculum property.*      |
 | `flags`                | list of strings | Contain a list of flags relevant to student's degree audit.  | Flags                        | **Optional**. *Occurs only in the curriculum property.*      |
-| `requirementOverrides` | list of objects | List of objects that express requirement overrides, each of which contains properties `name`, `numCreditsRequired`, `numClassesRequired`, `minGradeRequired`, `gpaRequired`, `numAdvCreditsRequired`, `inCourses` and `exceptCourses`. See section entitled [Overriding requirements for a student](#overriding-requirements-for-a-student) | Requirement overrides        | **Optional**.                                                |
+| `requirementOverrides` | list of objects | List of objects that express requirement overrides, each of which contains properties `name`, `numCreditsRequired`, `numClassesRequired`, `minGradeRequired`, `gpaRequired`, `numAdvCreditsRequired`,`numAdvClassesRequired`, `inCourses` and `exceptCourses`. See section entitled [Overriding requirements for a student](#overriding-requirements-for-a-student) | Requirement overrides        | **Optional**.                                                |
 | `inCourses`            | list of strings | A list of course codes (and ranges) applicable to the requirement override. See the section entitled [Course codes and ranges](#course-codes-and-ranges). | List of applicable courses   | **Optional**. *Occurs only in the requirementOverrides property.* |
 | ``exceptCourses``      | list of strings | A list of course codes (and ranges) not applicable to the requirement override. See the section entitled [Course codes and ranges](#course-codes-and-ranges). | List of excluded courses     | **Optional**. *Occurs only in the requirementOverrides property.* |
 | `currentTermSeason`    | string          | Season of the student's current term (e.g. 'Fall' and 'Spring') | Current academic term season | **Required**.                                                |
@@ -1047,6 +1077,11 @@ The following contains the formal JSON schema for the StudentTranscript JSON doc
           "numAdvCreditsRequired": {
             "type": "number",
             "description": "Override for minimum number of credits in advanced (e.g. 300+) level course needed to meet the requirement.",
+            "minimum": 0
+          },
+          "numAdvClassesRequired": {
+            "type": "number",
+            "description": "Override for minimum number of classes in advanced (e.g. 300+) level course needed to meet the requirement.",
             "minimum": 0
           },
           "inCourses": {
