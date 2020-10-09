@@ -706,7 +706,7 @@
       "minors": [
         "#Biology",
         "ComputerScience",
-        "#Chemistry",
+        "Chemistry",
         "#DataScience",
         "#ElementaryEducationMathematics",
         "#Kinesiology",
@@ -19792,6 +19792,78 @@
                   "orGate": false
                 }
               ]
+            }
+          ]
+        }
+      ],
+      "scopeTypeAndValue": ""
+    },
+    {
+      "generated": false,
+      "gpaRequired": 0.0,
+      "ifExpression": "minorsInclude('Chemistry') and numMajors > 0",
+      "maxClassesCounted": 0,
+      "maxCreditsCounted": 0,
+      "maxDisciplines": 0,
+      "maxTermClassesCounted": 0,
+      "maxTermCreditsCounted": 0,
+      "minDisciplines": 0,
+      "minGradeRequired": 0.0,
+      "name": "Chemistry Minor",
+      "description": "",
+      "numAdvCreditsRequired": 0,
+      "numClassesRequired": 0,
+      "numCreditsRequired": 0,
+      "numResClassesRequired": 0,
+      "numResCreditsRequired": 0,
+      "numTermClassesRequired": 0,
+      "numTermCreditsRequired": 0,
+      "orGate": false,
+      "reqs": [
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Requirements",
+          "description": "To minor in chemistry a student must complete a minimum of 24 credits of chemistry courses of which 8 credits must be at the 300-level or above.",
+          "numAdvCreditsRequired": 8,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 24,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false,
+          "reqs": [
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "CHE-100:499"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Chemistry courses",
+              "description": "",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 1,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
             }
           ]
         }
