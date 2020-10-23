@@ -596,6 +596,8 @@
         "inGlobalHonorsScholarsProgram",
         "inSelectedHonorsFellowsProgram",
         "interculturalStudent",
+        "interestedInMasters",
+        "interestedInPhd",
         "journalismStudent",
         "studyInIsrael",
         "technicalStudent",
@@ -14519,7 +14521,7 @@
       "minDisciplines": 0,
       "minGradeRequired": 0.0,
       "name": "Economics B.A.",
-      "description": "Note: Students must continuously maintain a 2.0 GPA within the major.\nTODO Do we need to include this? If so, how?\nGraduate Studies\nStudents interested in graduate work at the masters level should take as electives:\n\nMAT 122 - Calculus II \nMAT 232 - Linear Algebra \nFor students interested in graduate work at the PhD level, the following courses are also recommended:\n\nMAT 222 - Calculus III \nMAT 225 - Differential Equations  \nMAT 231 - Transition to Higher Mathematics  \nMAT 318 - Probability\nMAT 319 - Statistics\nMAT 353 - Real Analysis",
+      "description": "Note: Students must continuously maintain a 2.0 GPA within the major.",
       "ifExpression": "majorsInclude('Economics BA')",
       "numAdvCreditsRequired": 0,
       "numClassesRequired": 0,
@@ -14600,6 +14602,10 @@
             {
               "generated": false,
               "gpaRequired": 0.0,
+              "ifExpression": "!(coursePassed('MAT-318') and coursePassed('MAT-319')) and !coursePassed('MAT-220') and !(coursePassed('PSY-256') and coursePassed('PSY-257'))",
+              "inCourses": [
+                "ECB-211"
+              ],
               "maxClassesCounted": 0,
               "maxCreditsCounted": 0,
               "maxDisciplines": 0,
@@ -14611,110 +14617,12 @@
               "description": "The ECB 211 requirement can alternatively be satisfied through completion of MAT 220 - Biostatistics; or MAT 318 - Probability and MAT 319 - Statistics; or PSY 256 - Research Methods I and PSY 257 - Research Methods II; or AP Statistics ( TODO ) by permission.",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
-              "numCreditsRequired": 0,
+              "numCreditsRequired": 4,
               "numResClassesRequired": 0,
               "numResCreditsRequired": 0,
               "numTermClassesRequired": 0,
               "numTermCreditsRequired": 0,
-              "orGate": true,
-              "reqs": [
-                {
-                  "generated": false,
-                  "gpaRequired": 0.0,
-                  "inCourses": [
-                    "ECB-211"
-                  ],
-                  "maxClassesCounted": 0,
-                  "maxCreditsCounted": 0,
-                  "maxDisciplines": 0,
-                  "maxTermClassesCounted": 0,
-                  "maxTermCreditsCounted": 0,
-                  "minDisciplines": 0,
-                  "minGradeRequired": 0.0,
-                  "name": "Statistics in Business and Economics",
-                  "numAdvCreditsRequired": 0,
-                  "numClassesRequired": 0,
-                  "numCreditsRequired": 4,
-                  "numResClassesRequired": 0,
-                  "numResCreditsRequired": 0,
-                  "numTermClassesRequired": 0,
-                  "numTermCreditsRequired": 0,
-                  "orGate": false
-                },
-                {
-                  "generated": false,
-                  "gpaRequired": 0.0,
-                  "inCourses": [
-                    "MAT-220"
-                  ],
-                  "maxClassesCounted": 0,
-                  "maxCreditsCounted": 0,
-                  "maxDisciplines": 0,
-                  "maxTermClassesCounted": 0,
-                  "maxTermCreditsCounted": 0,
-                  "minDisciplines": 0,
-                  "minGradeRequired": 0.0,
-                  "name": "Biostatistics",
-                  "numAdvCreditsRequired": 0,
-                  "numClassesRequired": 0,
-                  "numCreditsRequired": 4,
-                  "numResClassesRequired": 0,
-                  "numResCreditsRequired": 0,
-                  "numTermClassesRequired": 0,
-                  "numTermCreditsRequired": 0,
-                  "orGate": false
-                },
-                {
-                  "generated": false,
-                  "gpaRequired": 0.0,
-                  "inCourses": [
-                    "MAT-318",
-                    "MAT-319"
-                  ],
-                  "maxClassesCounted": 0,
-                  "maxCreditsCounted": 0,
-                  "maxDisciplines": 0,
-                  "maxTermClassesCounted": 0,
-                  "maxTermCreditsCounted": 0,
-                  "minDisciplines": 0,
-                  "minGradeRequired": 0.0,
-                  "name": "Probability & Statistics",
-                  "description": "",
-                  "numAdvCreditsRequired": 0,
-                  "numClassesRequired": 0,
-                  "numCreditsRequired": 8,
-                  "numResClassesRequired": 0,
-                  "numResCreditsRequired": 0,
-                  "numTermClassesRequired": 0,
-                  "numTermCreditsRequired": 0,
-                  "orGate": false
-                },
-                {
-                  "generated": false,
-                  "gpaRequired": 0.0,
-                  "inCourses": [
-                    "PSY-256",
-                    "PSY-257"
-                  ],
-                  "maxClassesCounted": 0,
-                  "maxCreditsCounted": 0,
-                  "maxDisciplines": 0,
-                  "maxTermClassesCounted": 0,
-                  "maxTermCreditsCounted": 0,
-                  "minDisciplines": 0,
-                  "minGradeRequired": 0.0,
-                  "name": "Research Methods I & II",
-                  "description": "",
-                  "numAdvCreditsRequired": 0,
-                  "numClassesRequired": 0,
-                  "numCreditsRequired": 8,
-                  "numResClassesRequired": 0,
-                  "numResCreditsRequired": 0,
-                  "numTermClassesRequired": 0,
-                  "numTermCreditsRequired": 0,
-                  "orGate": false
-                }
-              ]
+              "orGate": false
             },
             {
               "generated": false,
@@ -15106,6 +15014,263 @@
                   "orGate": false
                 }
               ]
+            }
+          ]
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Graduate Studies",
+          "description": "",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 0,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false,
+          "reqs": [
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "ifExpression": "flagsInclude('interestedInMasters')",
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Students interested in graduate work at the masters level should take as electives:",
+              "description": "",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false,
+              "reqs": [
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "MAT-122"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Calculus II",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 0,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "MAT-232"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Linear Algebra",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 0,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                }
+              ],
+              "scopeTypeAndValue": ""
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "ifExpression": "flagsInclude('interestedInPhd')",
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "For students interested in graduate work at the PhD level, the following courses are also recommended:",
+              "description": "",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": true,
+              "reqs": [
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "MAT-222"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Calculus III",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 0,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "MAT-225"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Differential Equations",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 0,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "MAT-231"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Transition to Higher Mathematics",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 0,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "MAT-318"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Probability",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 0,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "MAT-319"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Statistics",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 0,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "MAT-353"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Real Analysis",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 0,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                }
+              ],
+              "scopeTypeAndValue": ""
             }
           ]
         }
@@ -16355,7 +16520,7 @@
       "minDisciplines": 0,
       "minGradeRequired": 0.0,
       "name": "Finance B.A.",
-      "description": "Note: Students must continuously maintain a 2.0 GPA within the major.  TODO  How do we handle this Graduate Studies Note?\nGraduate Studies\nStudents interested in graduate work in finance should elect:\nMAT 121 - Calculus I Credits: 4\nECB 313 - Econometrics Credits: 4 or\nMAT 318 - Probability Credits: 4 and\nMAT 319 - Statistics Credits: 4\nTaking MAT 318 and MAT 319 also waives ECB 211. ",
+      "description": "Note: Students must continuously maintain a 2.0 GPA within the major.",
       "ifExpression": "majorsInclude('Finance BA')",
       "numAdvCreditsRequired": 0,
       "numClassesRequired": 0,
@@ -16436,6 +16601,10 @@
             {
               "generated": false,
               "gpaRequired": 0.0,
+              "ifExpression": "!(coursePassed('MAT-318') and coursePassed('MAT-319'))",
+              "inCourses": [
+                "ECB-211"
+              ],
               "maxClassesCounted": 0,
               "maxCreditsCounted": 0,
               "maxDisciplines": 0,
@@ -16444,65 +16613,14 @@
               "minDisciplines": 0,
               "minGradeRequired": 0.0,
               "name": "Statistics in Business and Economics",
-              "description": "Taking MAT-318 and MAT-319 waives ECB-211. ",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
-              "numCreditsRequired": 0,
+              "numCreditsRequired": 4,
               "numResClassesRequired": 0,
               "numResCreditsRequired": 0,
               "numTermClassesRequired": 0,
               "numTermCreditsRequired": 0,
-              "orGate": true,
-              "reqs": [
-                {
-                  "generated": false,
-                  "gpaRequired": 0.0,
-                  "inCourses": [
-                    "ECB-211"
-                  ],
-                  "maxClassesCounted": 0,
-                  "maxCreditsCounted": 0,
-                  "maxDisciplines": 0,
-                  "maxTermClassesCounted": 0,
-                  "maxTermCreditsCounted": 0,
-                  "minDisciplines": 0,
-                  "minGradeRequired": 0.0,
-                  "name": "Statistics in Business and Economics",
-                  "numAdvCreditsRequired": 0,
-                  "numClassesRequired": 0,
-                  "numCreditsRequired": 4,
-                  "numResClassesRequired": 0,
-                  "numResCreditsRequired": 0,
-                  "numTermClassesRequired": 0,
-                  "numTermCreditsRequired": 0,
-                  "orGate": false
-                },
-                {
-                  "generated": false,
-                  "gpaRequired": 0.0,
-                  "inCourses": [
-                    "MAT-318",
-                    "MAT-319"
-                  ],
-                  "maxClassesCounted": 0,
-                  "maxCreditsCounted": 0,
-                  "maxDisciplines": 0,
-                  "maxTermClassesCounted": 0,
-                  "maxTermCreditsCounted": 0,
-                  "minDisciplines": 0,
-                  "minGradeRequired": 0.0,
-                  "name": "Probability & Statistics",
-                  "description": "",
-                  "numAdvCreditsRequired": 0,
-                  "numClassesRequired": 0,
-                  "numCreditsRequired": 8,
-                  "numResClassesRequired": 0,
-                  "numResCreditsRequired": 0,
-                  "numTermClassesRequired": 0,
-                  "numTermCreditsRequired": 0,
-                  "orGate": false
-                }
-              ]
+              "orGate": false
             },
             {
               "generated": false,
@@ -16653,7 +16771,7 @@
           "maxTermCreditsCounted": 0,
           "minDisciplines": 0,
           "minGradeRequired": 0.0,
-          "name": "Requirements for the major",
+          "name": "Requirements",
           "description": "The finance major utilizes foundational and elective courses from both accounting and economics to develop the tools and understandings essential to competent financial theory and practice. This knowledge base is extended and specialized to the finance discipline through the study of international capital markets and financial institutions, financial planning and control, capital budgeting and development of capital resources. The two elective courses allow students to emphasize either corporate finance or financial markets/institutions.\nCompleting the finance major requires at most 64 credits in total. Required courses in addition to the Foundations are:",
           "numAdvCreditsRequired": 0,
           "numClassesRequired": 0,
@@ -17146,6 +17264,148 @@
                   "orGate": false
                 }
               ]
+            }
+          ]
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Graduate Studies",
+          "description": "",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 0,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false,
+          "reqs": [
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "ifExpression": "flagsInclude('interestedInMasters')",
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Students interested in graduate work in finance should elect:",
+              "description": "",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false,
+              "reqs": [
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "MAT-121"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Calculus I",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 0,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Econometrics or Probability & Statistics",
+                  "description": "",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 0,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": true,
+                  "reqs": [
+                    {
+                      "generated": false,
+                      "gpaRequired": 0.0,
+                      "inCourses": [
+                        "ECB-313"
+                      ],
+                      "maxClassesCounted": 0,
+                      "maxCreditsCounted": 0,
+                      "maxDisciplines": 0,
+                      "maxTermClassesCounted": 0,
+                      "maxTermCreditsCounted": 0,
+                      "minDisciplines": 0,
+                      "minGradeRequired": 0.0,
+                      "name": "Econometrics",
+                      "numAdvCreditsRequired": 0,
+                      "numClassesRequired": 0,
+                      "numCreditsRequired": 0,
+                      "numResClassesRequired": 0,
+                      "numResCreditsRequired": 0,
+                      "numTermClassesRequired": 0,
+                      "numTermCreditsRequired": 0,
+                      "orGate": false
+                    },
+                    {
+                      "generated": false,
+                      "gpaRequired": 0.0,
+                      "inCourses": [
+                        "MAT-318",
+                        "MAT-319"
+                      ],
+                      "maxClassesCounted": 0,
+                      "maxCreditsCounted": 0,
+                      "maxDisciplines": 0,
+                      "maxTermClassesCounted": 0,
+                      "maxTermCreditsCounted": 0,
+                      "minDisciplines": 0,
+                      "minGradeRequired": 0.0,
+                      "name": "Probability & Statistics",
+                      "description": "",
+                      "numAdvCreditsRequired": 0,
+                      "numClassesRequired": 0,
+                      "numCreditsRequired": 0,
+                      "numResClassesRequired": 0,
+                      "numResCreditsRequired": 0,
+                      "numTermClassesRequired": 0,
+                      "numTermCreditsRequired": 0,
+                      "orGate": false
+                    }
+                  ]
+                }
+              ],
+              "scopeTypeAndValue": ""
             }
           ]
         }
@@ -17974,7 +18234,6 @@
                   "numTermCreditsRequired": 0,
                   "orGate": false
                 },
-
                 {
                   "generated": false,
                   "gpaRequired": 0.0,
@@ -21440,7 +21699,6 @@
       "orGate": false,
       "scopeTypeAndValue": ""
     },
-
     {
       "generated": false,
       "gpaRequired": 0.0,
@@ -23406,7 +23664,7 @@
       "minDisciplines": 0,
       "minGradeRequired": 0.0,
       "name": "Economics Minor",
-      "description": "TODO (Handle this note once International Affairs Major is completed)\nNote: International affairs majors who wish to minor in economics must take ECB 311 and at least 4 credits of economics beyond what is required for the international affairs major.",
+      "description": "TODO (Ask Gordon for clarification)\nNote: International affairs majors who wish to minor in economics must take ECB 311 and at least 4 credits of economics beyond what is required for the international affairs major.",
       "numAdvCreditsRequired": 0,
       "numClassesRequired": 0,
       "numCreditsRequired": 0,
@@ -26964,7 +27222,6 @@
       ],
       "scopeTypeAndValue": ""
     },
-
     {
       "generated": false,
       "gpaRequired": 0.0,
@@ -32737,7 +32994,6 @@
       ],
       "scopeTypeAndValue": "YouthMinistriesConc"
     },
-
     {
       "generated": false,
       "gpaRequired": 0.0,
