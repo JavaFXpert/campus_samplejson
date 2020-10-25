@@ -712,7 +712,7 @@
         "DataScience",
         "ElementaryEducationMathematics",
         "Kinesiology",
-        "#Mathematics",
+        "Mathematics",
         "Physics"
       ],
       "concentrations": [
@@ -25658,6 +25658,78 @@
                   "orGate": false
                 }
               ]
+            }
+          ]
+        }
+      ],
+      "scopeTypeAndValue": ""
+    },
+    {
+      "generated": false,
+      "gpaRequired": 0.0,
+      "ifExpression": "minorsInclude('Mathematics') and numMajors > 0",
+      "maxClassesCounted": 0,
+      "maxCreditsCounted": 0,
+      "maxDisciplines": 0,
+      "maxTermClassesCounted": 0,
+      "maxTermCreditsCounted": 0,
+      "minDisciplines": 0,
+      "minGradeRequired": 0.0,
+      "name": "Mathematics Minor",
+      "description": "",
+      "numAdvCreditsRequired": 0,
+      "numClassesRequired": 0,
+      "numCreditsRequired": 0,
+      "numResClassesRequired": 0,
+      "numResCreditsRequired": 0,
+      "numTermClassesRequired": 0,
+      "numTermCreditsRequired": 0,
+      "orGate": false,
+      "reqs": [
+        {
+          "generated": false,
+          "gpaRequired": 2.0,
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Requirements",
+          "description": "To minor in mathematics a student must complete a minimum of 20 credits of mathematics courses, with no grade below a C-minus, chosen from the list of courses suitable for the major and selected in consultation with the department chair.",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 20,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false,
+          "reqs": [
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "MAT-100:499"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Mathematics courses",
+              "description": "",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 20,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
             }
           ]
         }
