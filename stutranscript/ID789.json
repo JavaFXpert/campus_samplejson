@@ -5,7 +5,7 @@
   "curriculum": {
     "majors": [
       "#Accounting BA",
-      "Art BA",
+      "#Art BA",
       "#BiblicalStudies BA",
       "#Biochemistry BS",
       "#Biology BA",
@@ -60,7 +60,7 @@
       "#HumanServices",
       "#Kinesiology",
       "#Linguistics",
-      "Mathematics",
+      "#Mathematics",
       "#Music",
       "#Neuroscience",
       "#PastoralMinistries",
@@ -124,21 +124,26 @@
       "#MusicVoice"
     ],
     "flags": [
-      "#xferStudentTwoSemestersCollegeLevelWriting",
+      "#businessCommunicationStudent",
       "#externalJewishStudiesCourse",
+      "#filmStudyStudent",
       "#firstYearStudentXferCreditCollegeLevelComposition",
-      "#inSelectedHonorsFellowsProgram",
+      "#honorsKinesiology",
       "#inGlobalHonorsScholarsProgram",
+      "#inSelectedHonorsFellowsProgram",
+      "#interculturalStudent",
+      "#interestedInMasters",
+      "#interestedInPhd",
+      "#interestedInTeachingComputerScience",
+      "#internationalBusinessStudent",
+      "#journalismStudent",
       "#studyInIsrael",
+      "#technicalStudent",
+      "#tookFieldCoursesOrApprovedFieldBasedProgram",
       "#validateForeignLanguageI",
       "#validateForeignLanguageII",
-      "#filmStudyStudent",
-      "#businessCommunicationStudent",
-      "#journalismStudent",
       "#writingStudent",
-      "#technicalStudent",
-      "#interculturalStudent",
-      "#internationalBusinessStudent"
+      "#xferStudentTwoSemestersCollegeLevelWriting"
     ]
   },
   "coursesTaken": [
