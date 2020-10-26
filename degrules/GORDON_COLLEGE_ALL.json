@@ -15464,6 +15464,7 @@
         {
           "generated": false,
           "gpaRequired": 0.0,
+          "ifExpression": "flagsInclude('interestedInMasters')",
           "maxClassesCounted": 0,
           "maxCreditsCounted": 0,
           "maxDisciplines": 0,
@@ -15472,7 +15473,7 @@
           "minDisciplines": 0,
           "minGradeRequired": 0.0,
           "name": "Graduate Studies",
-          "description": "",
+          "description": "Students interested in graduate work at the masters level should take as electives:",
           "numAdvCreditsRequired": 0,
           "numClassesRequired": 0,
           "numCreditsRequired": 0,
@@ -15485,7 +15486,9 @@
             {
               "generated": false,
               "gpaRequired": 0.0,
-              "ifExpression": "flagsInclude('interestedInMasters')",
+              "inCourses": [
+                "MAT-122"
+              ],
               "maxClassesCounted": 0,
               "maxCreditsCounted": 0,
               "maxDisciplines": 0,
@@ -15493,8 +15496,7 @@
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
               "minGradeRequired": 0.0,
-              "name": "Students interested in graduate work at the masters level should take as electives:",
-              "description": "",
+              "name": "Calculus II",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
               "numCreditsRequired": 0,
@@ -15502,61 +15504,14 @@
               "numResCreditsRequired": 0,
               "numTermClassesRequired": 0,
               "numTermCreditsRequired": 0,
-              "orGate": false,
-              "reqs": [
-                {
-                  "generated": false,
-                  "gpaRequired": 0.0,
-                  "inCourses": [
-                    "MAT-122"
-                  ],
-                  "maxClassesCounted": 0,
-                  "maxCreditsCounted": 0,
-                  "maxDisciplines": 0,
-                  "maxTermClassesCounted": 0,
-                  "maxTermCreditsCounted": 0,
-                  "minDisciplines": 0,
-                  "minGradeRequired": 0.0,
-                  "name": "Calculus II",
-                  "numAdvCreditsRequired": 0,
-                  "numClassesRequired": 0,
-                  "numCreditsRequired": 0,
-                  "numResClassesRequired": 0,
-                  "numResCreditsRequired": 0,
-                  "numTermClassesRequired": 0,
-                  "numTermCreditsRequired": 0,
-                  "orGate": false
-                },
-                {
-                  "generated": false,
-                  "gpaRequired": 0.0,
-                  "inCourses": [
-                    "MAT-232"
-                  ],
-                  "maxClassesCounted": 0,
-                  "maxCreditsCounted": 0,
-                  "maxDisciplines": 0,
-                  "maxTermClassesCounted": 0,
-                  "maxTermCreditsCounted": 0,
-                  "minDisciplines": 0,
-                  "minGradeRequired": 0.0,
-                  "name": "Linear Algebra",
-                  "numAdvCreditsRequired": 0,
-                  "numClassesRequired": 0,
-                  "numCreditsRequired": 0,
-                  "numResClassesRequired": 0,
-                  "numResCreditsRequired": 0,
-                  "numTermClassesRequired": 0,
-                  "numTermCreditsRequired": 0,
-                  "orGate": false
-                }
-              ],
-              "scopeTypeAndValue": ""
+              "orGate": false
             },
             {
               "generated": false,
               "gpaRequired": 0.0,
-              "ifExpression": "flagsInclude('interestedInPhd')",
+              "inCourses": [
+                "MAT-232"
+              ],
               "maxClassesCounted": 0,
               "maxCreditsCounted": 0,
               "maxDisciplines": 0,
@@ -15564,8 +15519,7 @@
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
               "minGradeRequired": 0.0,
-              "name": "For students interested in graduate work at the PhD level, the following courses are also recommended:",
-              "description": "",
+              "name": "Linear Algebra",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
               "numCreditsRequired": 0,
@@ -15573,148 +15527,169 @@
               "numResCreditsRequired": 0,
               "numTermClassesRequired": 0,
               "numTermCreditsRequired": 0,
-              "orGate": true,
-              "reqs": [
-                {
-                  "generated": false,
-                  "gpaRequired": 0.0,
-                  "inCourses": [
-                    "MAT-222"
-                  ],
-                  "maxClassesCounted": 0,
-                  "maxCreditsCounted": 0,
-                  "maxDisciplines": 0,
-                  "maxTermClassesCounted": 0,
-                  "maxTermCreditsCounted": 0,
-                  "minDisciplines": 0,
-                  "minGradeRequired": 0.0,
-                  "name": "Calculus III",
-                  "numAdvCreditsRequired": 0,
-                  "numClassesRequired": 0,
-                  "numCreditsRequired": 0,
-                  "numResClassesRequired": 0,
-                  "numResCreditsRequired": 0,
-                  "numTermClassesRequired": 0,
-                  "numTermCreditsRequired": 0,
-                  "orGate": false
-                },
-                {
-                  "generated": false,
-                  "gpaRequired": 0.0,
-                  "inCourses": [
-                    "MAT-225"
-                  ],
-                  "maxClassesCounted": 0,
-                  "maxCreditsCounted": 0,
-                  "maxDisciplines": 0,
-                  "maxTermClassesCounted": 0,
-                  "maxTermCreditsCounted": 0,
-                  "minDisciplines": 0,
-                  "minGradeRequired": 0.0,
-                  "name": "Differential Equations",
-                  "numAdvCreditsRequired": 0,
-                  "numClassesRequired": 0,
-                  "numCreditsRequired": 0,
-                  "numResClassesRequired": 0,
-                  "numResCreditsRequired": 0,
-                  "numTermClassesRequired": 0,
-                  "numTermCreditsRequired": 0,
-                  "orGate": false
-                },
-                {
-                  "generated": false,
-                  "gpaRequired": 0.0,
-                  "inCourses": [
-                    "MAT-231"
-                  ],
-                  "maxClassesCounted": 0,
-                  "maxCreditsCounted": 0,
-                  "maxDisciplines": 0,
-                  "maxTermClassesCounted": 0,
-                  "maxTermCreditsCounted": 0,
-                  "minDisciplines": 0,
-                  "minGradeRequired": 0.0,
-                  "name": "Transition to Higher Mathematics",
-                  "numAdvCreditsRequired": 0,
-                  "numClassesRequired": 0,
-                  "numCreditsRequired": 0,
-                  "numResClassesRequired": 0,
-                  "numResCreditsRequired": 0,
-                  "numTermClassesRequired": 0,
-                  "numTermCreditsRequired": 0,
-                  "orGate": false
-                },
-                {
-                  "generated": false,
-                  "gpaRequired": 0.0,
-                  "inCourses": [
-                    "MAT-318"
-                  ],
-                  "maxClassesCounted": 0,
-                  "maxCreditsCounted": 0,
-                  "maxDisciplines": 0,
-                  "maxTermClassesCounted": 0,
-                  "maxTermCreditsCounted": 0,
-                  "minDisciplines": 0,
-                  "minGradeRequired": 0.0,
-                  "name": "Probability",
-                  "numAdvCreditsRequired": 0,
-                  "numClassesRequired": 0,
-                  "numCreditsRequired": 0,
-                  "numResClassesRequired": 0,
-                  "numResCreditsRequired": 0,
-                  "numTermClassesRequired": 0,
-                  "numTermCreditsRequired": 0,
-                  "orGate": false
-                },
-                {
-                  "generated": false,
-                  "gpaRequired": 0.0,
-                  "inCourses": [
-                    "MAT-319"
-                  ],
-                  "maxClassesCounted": 0,
-                  "maxCreditsCounted": 0,
-                  "maxDisciplines": 0,
-                  "maxTermClassesCounted": 0,
-                  "maxTermCreditsCounted": 0,
-                  "minDisciplines": 0,
-                  "minGradeRequired": 0.0,
-                  "name": "Statistics",
-                  "numAdvCreditsRequired": 0,
-                  "numClassesRequired": 0,
-                  "numCreditsRequired": 0,
-                  "numResClassesRequired": 0,
-                  "numResCreditsRequired": 0,
-                  "numTermClassesRequired": 0,
-                  "numTermCreditsRequired": 0,
-                  "orGate": false
-                },
-                {
-                  "generated": false,
-                  "gpaRequired": 0.0,
-                  "inCourses": [
-                    "MAT-353"
-                  ],
-                  "maxClassesCounted": 0,
-                  "maxCreditsCounted": 0,
-                  "maxDisciplines": 0,
-                  "maxTermClassesCounted": 0,
-                  "maxTermCreditsCounted": 0,
-                  "minDisciplines": 0,
-                  "minGradeRequired": 0.0,
-                  "name": "Real Analysis",
-                  "numAdvCreditsRequired": 0,
-                  "numClassesRequired": 0,
-                  "numCreditsRequired": 0,
-                  "numResClassesRequired": 0,
-                  "numResCreditsRequired": 0,
-                  "numTermClassesRequired": 0,
-                  "numTermCreditsRequired": 0,
-                  "orGate": false
-                }
+              "orGate": false
+            }
+          ]
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "ifExpression": "flagsInclude('interestedInPhd')",
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Graduate Studies",
+          "description": "For students interested in graduate work at the PhD level, the following courses are also recommended:",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 0,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false,
+          "reqs": [
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "MAT-222"
               ],
-              "scopeTypeAndValue": ""
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Calculus III",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "MAT-225"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Differential Equations",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "MAT-231"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Transition to Higher Mathematics",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "MAT-318"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Probability",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "MAT-319"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Statistics",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "MAT-353"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Real Analysis",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
             }
           ]
         }
