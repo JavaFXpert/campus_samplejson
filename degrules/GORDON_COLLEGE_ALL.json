@@ -14536,14 +14536,14 @@
       "reqs": [
         {
           "generated": false,
-          "gpaRequired": 2.0,
+          "gpaRequired": 0.0,
           "maxClassesCounted": 0,
           "maxCreditsCounted": 0,
           "maxDisciplines": 0,
           "maxTermClassesCounted": 0,
           "maxTermCreditsCounted": 0,
           "minDisciplines": 0,
-          "minGradeRequired": 0.0,
+          "minGradeRequired": 2.0,
           "name": "Requirements",
           "description": "Students majoring in computer science must complete the following courses. Only courses with a grade of C- (C minus) or above can be used to fulfill a major requirement.",
           "numAdvCreditsRequired": 0,
@@ -14557,7 +14557,7 @@
           "reqs": [
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "CPS-121"
               ],
@@ -14580,7 +14580,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "CPS-122"
               ],
@@ -14603,7 +14603,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "CPS-221"
               ],
@@ -14626,7 +14626,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "CPS-222"
               ],
@@ -14649,7 +14649,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "CPS-391"
               ],
@@ -14672,7 +14672,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "CPS-392"
               ],
@@ -14695,7 +14695,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "CPS-403"
               ],
@@ -14718,7 +14718,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "MAT-230"
               ],
@@ -14761,7 +14761,7 @@
               "reqs": [
                 {
                   "generated": false,
-                  "gpaRequired": 2.0,
+                  "gpaRequired": 0.0,
                   "inCourses": [
                     "CPS-311"
                   ],
@@ -14784,7 +14784,7 @@
                 },
                 {
                   "generated": false,
-                  "gpaRequired": 2.0,
+                  "gpaRequired": 0.0,
                   "inCourses": [
                     "CPS-320"
                   ],
@@ -14809,7 +14809,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "CPS-300:499"
               ],
@@ -14833,7 +14833,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "CPS-200:499"
               ],
@@ -14978,14 +14978,14 @@
       "reqs": [
         {
           "generated": false,
-          "gpaRequired": 2.0,
+          "gpaRequired": 0.0,
           "maxClassesCounted": 0,
           "maxCreditsCounted": 0,
           "maxDisciplines": 0,
           "maxTermClassesCounted": 0,
           "maxTermCreditsCounted": 0,
           "minDisciplines": 0,
-          "minGradeRequired": 0.0,
+          "minGradeRequired": 2.0,
           "name": "Requirements",
           "description": "Students majoring in computer science must complete the following courses. Only courses with a grade of C- (C minus) or above can be used to fulfill a major requirement.",
           "numAdvCreditsRequired": 0,
@@ -14999,7 +14999,7 @@
           "reqs": [
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "CPS-121"
               ],
@@ -15022,7 +15022,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "CPS-122"
               ],
@@ -15045,7 +15045,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "CPS-221"
               ],
@@ -15068,7 +15068,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "CPS-222"
               ],
@@ -15091,7 +15091,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "CPS-311"
               ],
@@ -15114,7 +15114,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "CPS-320"
               ],
@@ -15137,7 +15137,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "CPS-391"
               ],
@@ -15160,7 +15160,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "CPS-392"
               ],
@@ -15183,7 +15183,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "CPS-403"
               ],
@@ -15206,7 +15206,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "CPS-491"
               ],
@@ -15229,7 +15229,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "CPS-392"
               ],
@@ -15252,7 +15252,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "MAT-230"
               ],
@@ -15275,7 +15275,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "maxClassesCounted": 0,
               "maxCreditsCounted": 0,
               "maxDisciplines": 0,
@@ -15295,7 +15295,7 @@
               "reqs": [
                 {
                   "generated": false,
-                  "gpaRequired": 2.0,
+                  "gpaRequired": 0.0,
                   "inCourses": [
                     "MAT-134"
                   ],
@@ -15318,7 +15318,7 @@
                 },
                 {
                   "generated": false,
-                  "gpaRequired": 2.0,
+                  "gpaRequired": 0.0,
                   "inCourses": [
                     "MAT-121"
                   ],
@@ -15343,7 +15343,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "maxClassesCounted": 0,
               "maxCreditsCounted": 0,
               "maxDisciplines": 0,
@@ -15363,7 +15363,7 @@
               "reqs": [
                 {
                   "generated": false,
-                  "gpaRequired": 2.0,
+                  "gpaRequired": 0.0,
                   "inCourses": [
                     "MAT-232"
                   ],
@@ -15386,7 +15386,7 @@
                 },
                 {
                   "generated": false,
-                  "gpaRequired": 2.0,
+                  "gpaRequired": 0.0,
                   "inCourses": [
                     "MAT-318"
                   ],
@@ -15409,7 +15409,7 @@
                 },
                 {
                   "generated": false,
-                  "gpaRequired": 2.0,
+                  "gpaRequired": 0.0,
                   "inCourses": [
                     "MAT-338"
                   ],
@@ -15434,7 +15434,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "CPS-300:499"
               ],
