@@ -797,6 +797,7 @@
   "numAdvCreditsRequired": 0,
   "numClassesRequired": 0,
   "numCreditsRequired": 0,
+  "numCreditsRequiredExpr": "degLevel == BACH ? 120 : 0",
   "numResClassesRequired": 0,
   "numResCreditsRequired": 0,
   "numTermClassesRequired": 0,
