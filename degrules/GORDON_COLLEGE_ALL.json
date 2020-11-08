@@ -777,7 +777,7 @@
         "#Neuroscience",
         "PeaceAndConflictStudies",
         "Philosophy",
-        "#PoliticalScience",
+        "PoliticalScience",
         "#Psychology",
         "#Sociology"
       ],
@@ -29085,6 +29085,55 @@
               "orGate": false
             }
           ]
+        }
+      ],
+      "scopeTypeAndValue": ""
+    },
+    {
+      "generated": false,
+      "gpaRequired": 0.0,
+      "ifExpression": "minorsInclude('PoliticalScience') and numMajors > 0",
+      "maxClassesCounted": 0,
+      "maxCreditsCounted": 0,
+      "maxDisciplines": 0,
+      "maxTermClassesCounted": 0,
+      "maxTermCreditsCounted": 0,
+      "minDisciplines": 0,
+      "minGradeRequired": 0.0,
+      "name": "Political Science Minor",
+      "description": "Students wishing to minor in political science will complete a minimum of 20 hours of coursework in consultation with the department chair.",
+      "numAdvCreditsRequired": 0,
+      "numClassesRequired": 0,
+      "numCreditsRequired": 20,
+      "numResClassesRequired": 0,
+      "numResCreditsRequired": 0,
+      "numTermClassesRequired": 0,
+      "numTermCreditsRequired": 0,
+      "orGate": false,
+      "reqs": [
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "inCourses": [
+            "POL-100:499"
+          ],
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Political Science courses",
+          "description": "Students wishing to minor in political science will complete a minimum of 20 hours of coursework in consultation with the department chair.",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 1,
+          "numCreditsRequired": 0,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false
         }
       ],
       "scopeTypeAndValue": ""
