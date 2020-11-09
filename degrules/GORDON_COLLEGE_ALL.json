@@ -779,7 +779,7 @@
         "Philosophy",
         "PoliticalScience",
         "#Psychology",
-        "#Sociology"
+        "Sociology"
       ],
       "concentrations": [
         "JusticePeaceAndConflict",
@@ -31183,6 +31183,269 @@
                   "orGate": false
                 }
               ]
+            }
+          ]
+        }
+      ],
+      "scopeTypeAndValue": ""
+    },
+    {
+      "generated": false,
+      "gpaRequired": 0.0,
+      "ifExpression": "minorsInclude('Sociology') and numMajors > 0",
+      "maxClassesCounted": 0,
+      "maxCreditsCounted": 0,
+      "maxDisciplines": 0,
+      "maxTermClassesCounted": 0,
+      "maxTermCreditsCounted": 0,
+      "minDisciplines": 0,
+      "minGradeRequired": 0.0,
+      "name": "Sociology Minor",
+      "description": "The sociology minor will provide students with an understanding of how societies and human behavior are influenced by cultural, structural and institutional forces. Students will consider how people are more than the sum total of their individualistic and voluntaristic dispositions. The minor will prepare students for graduate studies in sociology and allied fields such as education, law, health policy, media, religion, cultural studies and globalization.",
+      "numAdvCreditsRequired": 0,
+      "numClassesRequired": 0,
+      "numCreditsRequired": 0,
+      "numResClassesRequired": 0,
+      "numResCreditsRequired": 0,
+      "numTermClassesRequired": 0,
+      "numTermCreditsRequired": 0,
+      "orGate": false,
+      "reqs": [
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Required courses",
+          "description": "",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 0,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false,
+          "reqs": [
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "SOC-101"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Introduction to Sociology",
+              "description": "",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 4,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "SOC-385"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Social Theory",
+              "description": "",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 4,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "PSY-256"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Research Methods I",
+              "description": "",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 4,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            }
+          ]
+        },
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Electives",
+          "description": "12 credits of electives chosen from the following courses:",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 12,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": true,
+          "reqs": [
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "SOC-221"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Power, Prestige and Poverty",
+              "description": "",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 4,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "SOC-232"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Diversity in U.S. Populations",
+              "description": "",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 4,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "SOC-333"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Sociology of Gender",
+              "description": "",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 4,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "SOC-335"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Globalisation and Social Change",
+              "description": "",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 4,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "SOC-340"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Women and Globalisation",
+              "description": "",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 4,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
             }
           ]
         }
