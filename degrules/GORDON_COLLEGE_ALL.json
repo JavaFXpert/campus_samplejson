@@ -778,7 +778,7 @@
         "PeaceAndConflictStudies",
         "Philosophy",
         "PoliticalScience",
-        "#Psychology",
+        "Psychology",
         "Sociology"
       ],
       "concentrations": [
@@ -34197,6 +34197,100 @@
                   "orGate": false
                 }
               ]
+            }
+          ]
+        }
+      ],
+      "scopeTypeAndValue": ""
+    },
+    {
+      "generated": false,
+      "gpaRequired": 0.0,
+      "ifExpression": "minorsInclude('Psychology') and numMajors > 0",
+      "maxClassesCounted": 0,
+      "maxCreditsCounted": 0,
+      "maxDisciplines": 0,
+      "maxTermClassesCounted": 0,
+      "maxTermCreditsCounted": 0,
+      "minDisciplines": 0,
+      "minGradeRequired": 0.0,
+      "name": "Psychology Minor",
+      "description": "",
+      "numAdvCreditsRequired": 0,
+      "numClassesRequired": 0,
+      "numCreditsRequired": 0,
+      "numResClassesRequired": 0,
+      "numResCreditsRequired": 0,
+      "numTermClassesRequired": 0,
+      "numTermCreditsRequired": 0,
+      "orGate": false,
+      "reqs": [
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Requirements",
+          "description": "Minoring in psychology can serve a few different purposes. First, it formally demonstrates your interest in the subject on your transcript. Second, it can make graduate school or job applications more competitive after you graduate. \nDepending on your plans, you may want to focus your minor in one of two ways. If you're interested in pursuing a doctoral degree some day, in medical school, or a Ph.D. or Psy.D., then a minor in psychology should include Research Methods I and II, because it demonstrates to these highly selective programs that you've had rigorous scientific training. If you're thinking of a master's degree like an MSW or a master's in psychology or mental health counseling, you should be sure to take some courses that are key to clinical understanding, like PSY-246 and PSY-311. If you have no plans for graduate school, you can simply focus on psychology courses that deepen your understanding of human nature in whatever ways you are interested.\nYou must take a total of 20 psychology credits to have a minor in psychology, including PSY-180 - Person in Psychological Context, our introductory psychology course. The department chair will serve as advisor to all minors, and needs to pre-approve the courses you select for your minor and any changes.",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 20,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false,
+          "reqs": [
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "PSY-180"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Person in Psychological Context",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 4,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "PSY-100:499"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Psychology courses",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 16,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
             }
           ]
         }
