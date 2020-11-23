@@ -7330,7 +7330,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major"
     },
     {
       "generated": false,
@@ -21540,7 +21540,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major"
     },
     {
       "generated": false,
@@ -32113,6 +32113,13 @@
       "numResCreditsRequired": 0,
       "numTermClassesRequired": 0,
       "numTermCreditsRequired": 0,
+      "applyToScopes": [
+        {
+          "scopeTypeAndValue": "Major",
+          "maxCreditsCounted": 8,
+          "maxClassesCounted": -1
+        }
+      ],
       "orGate": false,
       "reqs": [
         {
