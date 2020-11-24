@@ -1007,7 +1007,7 @@
           "orGate": false
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=ComputerScience AS"
     },
     {
       "generated": false,
@@ -1512,7 +1512,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=ComputerScience BS"
     },
     {
       "generated": false,
@@ -2116,7 +2116,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=DesignForSocialImpact BA"
     },
     {
       "generated": false,
@@ -3052,7 +3052,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=DesignForSocialImpact BFA"
     },
     {
       "generated": false,
@@ -3792,7 +3792,7 @@
           "orGate": false
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=Economics BS"
     },
     {
       "generated": false,
@@ -3862,7 +3862,7 @@
           "orGate": false
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=GeneralStudies AS"
     },
     {
       "generated": false,
@@ -3955,7 +3955,7 @@
           "orGate": false
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=GeneralStudies BS"
     },
     {
       "generated": false,
@@ -4873,7 +4873,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=Mathematics BS"
     },
     {
       "generated": false,
@@ -5730,7 +5730,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=Photography BFA"
     },
     {
       "generated": false,
@@ -6367,7 +6367,7 @@
           "scopeTypeAndValue": ""
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=Psychology BS"
     },
     {
       "generated": false,
@@ -7007,7 +7007,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=Theatre BS"
     },
 
     {
@@ -7215,7 +7215,7 @@
           "orGate": false
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=ComputerScience"
     },
     {
       "generated": false,
@@ -7400,7 +7400,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=Mathematics"
     },
     {
       "generated": false,
@@ -8156,7 +8156,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=Statistics"
     },
 
     {
@@ -8659,7 +8659,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Concentration"
     },
 
     {

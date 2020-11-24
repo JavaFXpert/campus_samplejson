@@ -1431,7 +1431,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=Accounting BA"
     },
     {
       "generated": false,
@@ -1866,7 +1866,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=Art BA"
     },
     {
       "generated": false,
@@ -2190,7 +2190,7 @@
         {
           "generated": false,
           "gpaRequired": 0.0,
-          "metIfExpr": "metN(1, 'GeneralBiblicalStudiesConc','OldTestamentConc','NewTestamentConc','JewishStudiesConc','BiblicalLanguagesConc')",
+          "metIfExpr": "metN(1, 'Concentration=GeneralBiblicalStudies','Concentration=OldTestament','Concentration=NewTestament','Concentration=JewishStudies','Concentration=BiblicalLanguages')",
           "maxClassesCounted": 0,
           "maxCreditsCounted": 0,
           "maxDisciplines": 0,
@@ -2210,7 +2210,7 @@
           "orGate": false
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=BiblicalStudies BA"
     },
     {
       "generated": false,
@@ -2398,7 +2398,7 @@
         {
           "generated": false,
           "gpaRequired": 0.0,
-          "metIfExpr": "metN(1, 'YouthMinistriesConc','GlobalChristianityConc','PastoralMinistriesConc','SocialImpactMinistriesConc')",
+          "metIfExpr": "metN(1, 'Concentration=YouthMinistries','Concentration=GlobalChristianity','Concentration=PastoralMinistries','Concentration=SocialImpactMinistries')",
           "maxClassesCounted": 0,
           "maxCreditsCounted": 0,
           "maxDisciplines": 0,
@@ -2418,7 +2418,7 @@
           "orGate": false
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=BiblicalStudies BA"
     },
     {
       "generated": false,
@@ -3715,7 +3715,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=Biochemistry BS"
     },
     {
       "generated": false,
@@ -7330,7 +7330,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": "Major"
+      "scopeTypeAndValue": "Major=Biology BA"
     },
     {
       "generated": false,
@@ -11622,7 +11622,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=Biology BS"
     },
     {
       "generated": false,
@@ -12129,7 +12129,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=BusinessAdministration BA"
     },
     {
       "generated": false,
@@ -12498,7 +12498,7 @@
         {
           "generated": false,
           "gpaRequired": 0.0,
-          "metIfExpr": "metN(1, 'YouthMinistriesConc','GlobalChristianityConc','PastoralMinistriesConc','SocialImpactMinistriesConc')",
+          "metIfExpr": "metN(1, 'Concentration=YouthMinistries','Concentration=GlobalChristianity','Concentration=PastoralMinistries','Concentration=SocialImpactMinistries')",
           "maxClassesCounted": 0,
           "maxCreditsCounted": 0,
           "maxDisciplines": 0,
@@ -12518,7 +12518,7 @@
           "orGate": false
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=ChristianMinistries BA"
     },
     {
       "generated": false,
@@ -12864,7 +12864,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=ChristianMinistries BA"
     },
     {
       "generated": false,
@@ -14521,7 +14521,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=CommunicationArts BA"
     },
     {
       "generated": false,
@@ -14963,7 +14963,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=ComputerScience BA"
     },
     {
       "generated": false,
@@ -15470,7 +15470,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=ComputerScience BS"
     },
     {
       "generated": false,
@@ -16212,7 +16212,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=Economics BA"
     },
     {
       "generated": false,
@@ -17444,7 +17444,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=English BA"
     },
     {
       "generated": false,
@@ -18347,7 +18347,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=Finance BA"
     },
     {
       "generated": false,
@@ -20098,7 +20098,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=History BA"
     },
     {
       "generated": false,
@@ -21104,7 +21104,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=InternationalAffairs BA"
     },
     {
       "generated": false,
@@ -21540,7 +21540,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": "Major"
+      "scopeTypeAndValue": "Major=Kinesiology BS"
     },
     {
       "generated": false,
@@ -22374,7 +22374,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=Linguistics BA"
     },
     {
       "generated": false,
@@ -22837,7 +22837,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=Mathematics BS"
     },
     {
       "generated": false,
@@ -23961,7 +23961,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=MusicEducation BM"
     },
     {
       "generated": false,
@@ -25049,7 +25049,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=Philosophy BA"
     },
     {
       "generated": false,
@@ -25810,7 +25810,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=PhysicalAndAppliedSciencesPhysics BA"
     },
     {
       "generated": false,
@@ -26481,7 +26481,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=Physics3-2Engineering BA"
     },
     {
       "generated": false,
@@ -26782,7 +26782,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=SocialWelfare BA"
     },
     {
       "generated": false,
@@ -27220,7 +27220,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=TheatreArts BA"
     },
     {
       "generated": false,
@@ -27243,7 +27243,7 @@
       "numTermClassesRequired": 0,
       "numTermCreditsRequired": 0,
       "orGate": false,
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Major=TheatreArts BA"
     },
 
     {
@@ -27522,7 +27522,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=Accounting"
     },
     {
       "generated": false,
@@ -27821,7 +27821,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=Art"
     },
     {
       "generated": false,
@@ -28418,7 +28418,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=BiblicalStudies"
     },
     {
       "generated": false,
@@ -28490,7 +28490,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=Biology"
     },
     {
       "generated": false,
@@ -28630,7 +28630,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=BusinessAdministration"
     },
     {
       "generated": false,
@@ -28702,7 +28702,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=Chemistry"
     },
     {
       "generated": false,
@@ -28895,7 +28895,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=CombinedLanguages"
     },
     {
       "generated": false,
@@ -29035,7 +29035,7 @@
           "orGate": false
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=CommunicationArts"
     },
     {
       "generated": false,
@@ -29197,7 +29197,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=ComputerScience"
     },
     {
       "generated": false,
@@ -29596,7 +29596,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=DataScience"
     },
     {
       "generated": false,
@@ -29976,7 +29976,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=EarlyChristianity"
     },
     {
       "generated": false,
@@ -30118,7 +30118,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=Economics"
     },
     {
       "generated": false,
@@ -30488,7 +30488,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=ElementaryEducationMathematics"
     },
     {
       "generated": false,
@@ -30606,7 +30606,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=English"
     },
     {
       "generated": false,
@@ -30939,7 +30939,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=French"
     },
     {
       "generated": false,
@@ -31214,7 +31214,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=GlobalChristianity"
     },
     {
       "generated": false,
@@ -31453,7 +31453,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=History"
     },
     {
       "generated": false,
@@ -31645,7 +31645,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=HumanServices"
     },
     {
       "generated": false,
@@ -31810,7 +31810,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=Kinesiology"
     },
     {
       "generated": false,
@@ -32019,7 +32019,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=Linguistics"
     },
     {
       "generated": false,
@@ -32091,7 +32091,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=Mathematics"
     },
     {
       "generated": false,
@@ -32720,7 +32720,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=Neuroscience"
     },
     {
       "generated": false,
@@ -32927,7 +32927,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=PastoralMinistries"
     },
     {
       "generated": false,
@@ -33544,7 +33544,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=PeaceAndConflictStudies"
     },
     {
       "generated": false,
@@ -33828,7 +33828,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=Philosophy"
     },
     {
       "generated": false,
@@ -34063,7 +34063,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=Physics"
     },
     {
       "generated": false,
@@ -34112,7 +34112,7 @@
           "orGate": false
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=PoliticalScience"
     },
     {
       "generated": false,
@@ -34509,7 +34509,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=ProfessionalWriting"
     },
     {
       "generated": false,
@@ -34603,7 +34603,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=Psychology"
     },
     {
       "generated": false,
@@ -34971,7 +34971,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=SocialImpactMinistries"
     },
     {
       "generated": false,
@@ -35234,7 +35234,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=Sociology"
     },
     {
       "generated": false,
@@ -35567,7 +35567,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=Spanish"
     },
     {
       "generated": false,
@@ -35756,7 +35756,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=TheatreArts"
     },
     {
       "generated": false,
@@ -36055,7 +36055,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=Theology"
     },
     {
       "generated": false,
@@ -36355,7 +36355,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Minor=YouthMinistries"
     },
 
     {
@@ -36860,7 +36860,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": "BiblicalLanguagesConc"
+      "scopeTypeAndValue": "Concentration=BiblicalLanguages"
     },
     {
       "generated": false,
@@ -37158,7 +37158,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Concentration=CreativeWriting"
     },
     {
       "generated": false,
@@ -37274,7 +37274,7 @@
           "orGate": false
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Concentration=DesignStudio"
     },
     {
       "generated": false,
@@ -37322,7 +37322,7 @@
           "orGate": false
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Concentration=FineArtStudio"
     },
     {
       "generated": false,
@@ -37690,7 +37690,7 @@
           "orGate": false
         }
       ],
-      "scopeTypeAndValue": "GeneralBiblicalStudiesConc"
+      "scopeTypeAndValue": "Concentration=GeneralBiblicalStudies"
     },
     {
       "generated": false,
@@ -37874,7 +37874,7 @@
           "orGate": false
         }
       ],
-      "scopeTypeAndValue": "GlobalChristianityConc"
+      "scopeTypeAndValue": "Concentration=GlobalChristianity"
     },
     {
       "generated": false,
@@ -38379,7 +38379,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": "JewishStudiesConc"
+      "scopeTypeAndValue": "Concentration=JewishStudies"
     },
     {
       "generated": false,
@@ -38791,7 +38791,7 @@
           "orGate": false
         }
       ],
-      "scopeTypeAndValue": "NewTestamentConc"
+      "scopeTypeAndValue": "Concentration=NewTestament"
     },
     {
       "generated": false,
@@ -39166,7 +39166,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Concentration=Nursing"
     },
     {
       "generated": false,
@@ -39512,7 +39512,7 @@
           "orGate": false
         }
       ],
-      "scopeTypeAndValue": "OldTestamentConc"
+      "scopeTypeAndValue": "Concentration=OldTestament"
     },
     {
       "generated": false,
@@ -39651,7 +39651,7 @@
           "orGate": false
         }
       ],
-      "scopeTypeAndValue": "PastoralMinistriesConc"
+      "scopeTypeAndValue": "Concentration=PastoralMinistries"
     },
     {
       "generated": false,
@@ -40296,7 +40296,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Concentration=PremedicineDentistryVeterinary"
     },
     {
       "generated": false,
@@ -40556,7 +40556,7 @@
           "orGate": false
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Concentration=PreNursing"
     },
     {
       "generated": false,
@@ -40771,7 +40771,7 @@
           "orGate": false
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Concentration=PreOccupationalTherapy"
     },
     {
       "generated": false,
@@ -41183,7 +41183,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Concentration=PrePhysicalTherapy"
     },
     {
       "generated": false,
@@ -41414,7 +41414,7 @@
           "orGate": false
         }
       ],
-      "scopeTypeAndValue": ""
+      "scopeTypeAndValue": "Concentration=PrePhysicianAssistant"
     },
     {
       "generated": false,
@@ -41759,7 +41759,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": "SocialImpactMinistriesConc"
+      "scopeTypeAndValue": "Concentration=SocialImpactMinistries"
     },
     {
       "generated": false,
@@ -42128,7 +42128,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": "YouthMinistriesConc"
+      "scopeTypeAndValue": "Concentration=YouthMinistries"
     },
 
     {
