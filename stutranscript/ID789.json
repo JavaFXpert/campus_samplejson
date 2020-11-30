@@ -150,6 +150,7 @@
       "#tookFieldCoursesOrApprovedFieldBasedProgram",
       "#validateForeignLanguageI",
       "#validateForeignLanguageII",
+      "#validateIntermediateForeignLanguage",
       "#writingStudent",
       "#xferStudentTwoSemestersCollegeLevelWriting"
     ]
