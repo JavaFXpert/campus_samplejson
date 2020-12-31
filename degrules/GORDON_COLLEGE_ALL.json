@@ -15518,7 +15518,7 @@
           "reqs": [
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-112"
               ],
@@ -15528,7 +15528,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Introduction to Early Childhood Education",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -15541,7 +15541,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-221"
               ],
@@ -15551,7 +15551,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Foundations of Early Childhood Education",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -15564,7 +15564,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-225"
               ],
@@ -15574,7 +15574,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Human Development and Learning",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -15587,7 +15587,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-331"
               ],
@@ -15597,7 +15597,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Effective Vocabulary and Comprehension Instruction Through Children's Literature",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -15610,7 +15610,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-238"
               ],
@@ -15620,7 +15620,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "The Exceptional Child",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -15633,7 +15633,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-270"
               ],
@@ -15643,7 +15643,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Math Methods",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -15656,7 +15656,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-302"
               ],
@@ -15666,7 +15666,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Disabilities and the Young Child",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -15679,7 +15679,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-345"
               ],
@@ -15689,7 +15689,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Introduction to the Science of Reading",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -15702,7 +15702,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-346"
               ],
@@ -15712,7 +15712,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Science of Foundational Reading Instruction",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -15725,7 +15725,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-348"
               ],
@@ -15735,7 +15735,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Assessment for the Classroom Teacher",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -15748,7 +15748,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-438"
               ],
@@ -15758,7 +15758,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Classroom Management: Early Childhood",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -15771,7 +15771,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-440"
               ],
@@ -15781,7 +15781,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Education Methods: Science and Health Early Childhood",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -15794,7 +15794,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-442"
               ],
@@ -15804,7 +15804,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Education Methods: Social Studies Early Childhood",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -15817,7 +15817,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-479"
               ],
@@ -15827,7 +15827,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Early Childhood Practicum I",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -15840,7 +15840,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-480"
               ],
@@ -15850,7 +15850,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Early Childhood Practicum II",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -16746,7 +16746,7 @@
           "reqs": [
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-113"
               ],
@@ -16756,7 +16756,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Introduction to Elementary Education",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -16769,7 +16769,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-225"
               ],
@@ -16779,7 +16779,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Human Development and Learning",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -16792,7 +16792,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-331"
               ],
@@ -16802,7 +16802,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Effective Vocabulary and Comprehension Instruction Through Children's Literature",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -16815,7 +16815,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-238"
               ],
@@ -16825,7 +16825,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "The Exceptional Child",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -16838,7 +16838,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-270"
               ],
@@ -16848,7 +16848,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Math Methods",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -16861,7 +16861,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-345"
               ],
@@ -16871,7 +16871,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Introduction to the Science of Reading",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -16884,7 +16884,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-347"
               ],
@@ -16894,7 +16894,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Science of Elementary Reading Instruction",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -16907,7 +16907,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-348"
               ],
@@ -16917,7 +16917,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Assessment for the Classroom Teacher",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -16930,7 +16930,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-448"
               ],
@@ -16940,7 +16940,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Classroom Management: Elementary",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -16953,7 +16953,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-450"
               ],
@@ -16963,7 +16963,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Education Methods: Science and Health Elementary Education",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -16976,7 +16976,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-452"
               ],
@@ -16986,7 +16986,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Education Methods: Social Studies Elementary",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
@@ -16999,7 +16999,7 @@
             },
             {
               "generated": false,
-              "gpaRequired": 2.0,
+              "gpaRequired": 0.0,
               "inCourses": [
                 "EDU-481"
               ],
@@ -17009,7 +17009,7 @@
               "maxTermClassesCounted": 0,
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
-              "minGradeRequired": 0.0,
+              "minGradeRequired": 2.0,
               "name": "Elementary School Practicum",
               "description": "Credits: 12-16; 8 if seeking dual licensure TODO - How do we handle if seeking dual licensure?",
               "numAdvCreditsRequired": 0,
