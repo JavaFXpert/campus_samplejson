@@ -133,6 +133,7 @@
       "#MusicVoice"
     ],
     "flags": [
+      "#academicExperienceOutsideUS",
       "#businessCommunicationStudent",
       "#externalJewishStudiesCourse",
       "#filmStudyStudent",
@@ -147,7 +148,9 @@
       "#interestedInTeachingMathematics",
       "#internationalBusinessStudent",
       "#journalismStudent",
+      "offCampusAcademicProgramInsideUS",
       "#studyInIsrael",
+      "substituteInternshipFromFirstMajor",
       "#technicalStudent",
       "#tookFieldCoursesOrApprovedFieldBasedProgram",
       "#validateForeignLanguageI",
