@@ -669,7 +669,7 @@
       ],
       "minors": [
         "BiblicalStudies",
-        "#ChineseMandarin",
+        "ChineseMandarin",
         "CombinedLanguages",
         "English",
         "French",
@@ -30442,6 +30442,102 @@
         }
       ],
       "scopeTypeAndValue": "Minor=Chemistry"
+    },
+    {
+      "generated": false,
+      "gpaRequired": 0.0,
+      "maxClassesCounted": 0,
+      "maxCreditsCounted": 0,
+      "maxDisciplines": 0,
+      "maxTermClassesCounted": 0,
+      "maxTermCreditsCounted": 0,
+      "minDisciplines": 0,
+      "minGradeRequired": 0.0,
+      "name": "Chinese (Mandarin) Minor",
+      "description": "",
+      "ifExpression": "minorsInclude('ChineseMandarin') and numMajors > 0",
+      "numAdvCreditsRequired": 0,
+      "numClassesRequired": 0,
+      "numCreditsRequired": 0,
+      "numResClassesRequired": 0,
+      "numResCreditsRequired": 0,
+      "numTermClassesRequired": 0,
+      "numTermCreditsRequired": 0,
+      "orGate": false,
+      "reqs": [
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Requirements",
+          "description": "The minor consists of 8 credits in intermediate courses at Gordon and 12 credits in intermediate- and upper-level courses through the Beijing Asian Program at Beijing University or through another approved program in China. Contact the department chair for more information.",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 20,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false,
+          "reqs": [
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "MAN-200:499"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Mandarin intermediate courses at Gordon",
+              "description": "The minor consists of 8 credits in intermediate courses at Gordon",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 8,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "*-200:499"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Intermediate and upper-level courses through a program in China TODO - We need course codes for China program?",
+              "description": "12 credits in intermediate and upper-level courses through the Beijing Asian Program at Beijing University or through another approved program in China. Contact the department chair for more information.",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 12,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            }
+          ]
+        }
+      ],
+      "scopeTypeAndValue": "Minor=ChineseMandarin"
     },
     {
       "generated": false,
