@@ -1,10 +1,26 @@
 {
   "coursesTaken": [
     {
+      "courseId": "BIL-101",
+      "examType": "",
+      "grade": "A",
+      "numCredits": 3,
+      "termSeason": "Fall",
+      "termYear": 2017
+    },
+    {
+      "courseId": "CIS-121",
+      "examType": "",
+      "grade": "A",
+      "numCredits": 3,
+      "termSeason": "Fall",
+      "termYear": 2017
+    },
+    {
       "courseId": "CIS-125",
       "examType": "",
       "grade": "A",
-      "numCredits": 2,
+      "numCredits": 4,
       "termSeason": "Fall",
       "termYear": 2017
     },
@@ -12,7 +28,7 @@
       "courseId": "CIS-126",
       "examType": "",
       "grade": "C",
-      "numCredits": 2,
+      "numCredits": 4,
       "termSeason": "Fall",
       "termYear": 2017
     },
@@ -29,6 +45,14 @@
       "examType": "",
       "grade": "B+",
       "numCredits": 4,
+      "termSeason": "Fall",
+      "termYear": 2018
+    },
+    {
+      "courseId": "CIS-225",
+      "examType": "",
+      "grade": "B+",
+      "numCredits": 3,
       "termSeason": "Fall",
       "termYear": 2018
     },
@@ -113,6 +137,38 @@
       "termYear": 2019
     },
     {
+      "courseId": "MAT-204",
+      "examType": "",
+      "grade": "B",
+      "numCredits": 3,
+      "termSeason": "Fall",
+      "termYear": 2019
+    },
+    {
+      "courseId": "MAT-305",
+      "examType": "",
+      "grade": "B",
+      "numCredits": 3,
+      "termSeason": "Fall",
+      "termYear": 2019
+    },
+    {
+      "courseId": "MAT-363",
+      "examType": "",
+      "grade": "B",
+      "numCredits": 4,
+      "termSeason": "Fall",
+      "termYear": 2019
+    },
+    {
+      "courseId": "MUS-180",
+      "examType": "",
+      "grade": "C+",
+      "numCredits": 3,
+      "termSeason": "Fall",
+      "termYear": 2019
+    },
+    {
       "courseId": "MUS-185",
       "examType": "",
       "grade": "C+",
@@ -169,10 +225,34 @@
       "termYear": 2019
     },
     {
+      "courseId": "ENG-120",
+      "examType": "",
+      "grade": "B+",
+      "numCredits": 3,
+      "termSeason": "Summer",
+      "termYear": 2017
+    },
+    {
       "courseId": "ENG-180",
       "examType": "AP",
       "grade": "CR",
       "numCredits": 3
+    },
+    {
+      "courseId": "PHE-101",
+      "examType": "",
+      "grade": "B-",
+      "numCredits": 1,
+      "termSeason": "Summer",
+      "termYear": 2017
+    },
+    {
+      "courseId": "PHE-102",
+      "examType": "",
+      "grade": "A",
+      "numCredits": 1,
+      "termSeason": "Spring",
+      "termYear": 2018
     },
     {
       "courseId": "PHL-180",
@@ -253,6 +333,14 @@
       "numCredits": 3,
       "termSeason": "Fall",
       "termYear": 2019
+    },
+    {
+      "courseId": "HST-180",
+      "examType": "",
+      "grade": "A",
+      "numCredits": 4,
+      "termSeason": "Winter",
+      "termYear": 2018
     },
     {
       "courseId": "HST-185",
