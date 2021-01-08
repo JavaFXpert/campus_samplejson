@@ -279,6 +279,12 @@
       ]
     },
     {
+      "courseId": "COM-224",
+      "prereqs": [
+        "ENG-120"
+      ]
+    },
+    {
       "courseId": "COM-227",
       "prereqs": [
         "COM-105",
@@ -286,9 +292,35 @@
       ]
     },
     {
+      "courseId": "COM-314",
+      "prereqs": [
+        "COM-113"
+      ]
+    },
+    {
       "courseId": "COM-321",
       "prereqs": [
         "COM-105"
+      ]
+    },
+    {
+      "courseId": "COM-373",
+      "prereqs": [
+        "COM-112",
+        "COM-224"
+      ]
+    },
+    {
+      "courseId": "COM-422",
+      "prereqs": [
+        "COM-113",
+        "COM-224"
+      ]
+    },
+    {
+      "courseId": "COM-464",
+      "prereqs": [
+        "COM-211"
       ]
     },
     {
@@ -306,6 +338,12 @@
       "courseId": "COM-480",
       "prereqs": [
         "COM-479"
+      ]
+    },
+    {
+      "courseId": "COM-483",
+      "prereqs": [
+        "COM-224"
       ]
     },
     {
