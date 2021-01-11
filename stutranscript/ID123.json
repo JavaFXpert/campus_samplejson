@@ -363,6 +363,8 @@
     "concentrations": [
       "#StrategicCommunicationBAOrganizationalCommunicationConc",
       "#StrategicCommunicationBAPublicRelationsConc",
+      "StrategicCommunicationBSOrganizationalCommunicationConc",
+      "StrategicCommunicationBSPublicRelationsConc",
       "#TheatrePerformanceConcentration",
       "#TheatreTechnicalConcentration"
     ],
