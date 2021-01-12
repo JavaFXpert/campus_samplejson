@@ -363,10 +363,12 @@
     "concentrations": [
       "#StrategicCommunicationBAOrganizationalCommunicationConc",
       "#StrategicCommunicationBAPublicRelationsConc",
-      "StrategicCommunicationBSOrganizationalCommunicationConc",
-      "StrategicCommunicationBSPublicRelationsConc",
-      "#TheatrePerformanceConcentration",
-      "#TheatreTechnicalConcentration"
+      "#StrategicCommunicationBSOrganizationalCommunicationConc",
+      "#StrategicCommunicationBSPublicRelationsConc",
+      "#TheatreBAPerformanceConcentration",
+      "#TheatreBATechnicalConcentration",
+      "#TheatreBSPerformanceConcentration",
+      "#TheatreBSTechnicalConcentration"
     ],
     "majors": [
       "#Accounting AS",
