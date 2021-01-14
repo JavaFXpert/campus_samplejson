@@ -427,6 +427,20 @@
       ]
     },
     {
+      "courseId": "HST-312",
+      "prereqs": [
+        "HST-180",
+        "HST-185"
+      ]
+    },
+    {
+      "courseId": "HST-341",
+      "prereqs": [
+        "HST-180",
+        "HST-185"
+      ]
+    },
+    {
       "courseId": "HST-395",
       "prereqs": [
         "HST-180",
@@ -933,7 +947,7 @@
         "HumanCommunicationStudies",
         "Journalism",
         "MediaCommunication",
-        "#ShakespeareInPerformance",
+        "ShakespeareInPerformance",
         "StrategicCommunication",
         "Theatre"
       ],
@@ -23278,6 +23292,259 @@
         }
       ],
       "scopeTypeAndValue": "Minor=Printmaking"
+    },
+    {
+      "generated": false,
+      "gpaRequired": 0.0,
+      "ifExpression": "minorsInclude('ShakespeareInPerformance') and numMajors >= 1",
+      "maxClassesCounted": 0,
+      "maxCreditsCounted": 0,
+      "maxDisciplines": 0,
+      "maxTermClassesCounted": 0,
+      "maxTermCreditsCounted": 0,
+      "minDisciplines": 0,
+      "minGradeRequired": 0.0,
+      "name": "Shakespeare In Performance Minor",
+      "numAdvCreditsRequired": 0,
+      "numClassesRequired": 0,
+      "numCreditsRequired": 0,
+      "numResClassesRequired": 0,
+      "numResCreditsRequired": 0,
+      "numTermClassesRequired": 0,
+      "numTermCreditsRequired": 0,
+      "orGate": false,
+      "reqs": [
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Requirements (19 credits)",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 19,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false,
+          "reqs": [
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Required Courses",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false,
+              "reqs": [
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "THR-355"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Advanced Acting",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "ENG-361"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Shakespeare",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Medieval Civilization or History of England to 1688",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 0,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": true,
+                  "reqs": [
+                    {
+                      "generated": false,
+                      "gpaRequired": 0.0,
+                      "inCourses": [
+                        "HST-312"
+                      ],
+                      "maxClassesCounted": 0,
+                      "maxCreditsCounted": 0,
+                      "maxDisciplines": 0,
+                      "maxTermClassesCounted": 0,
+                      "maxTermCreditsCounted": 0,
+                      "minDisciplines": 0,
+                      "minGradeRequired": 0.0,
+                      "name": "Medieval Civilization",
+                      "numAdvCreditsRequired": 0,
+                      "numClassesRequired": 0,
+                      "numCreditsRequired": 3,
+                      "numResClassesRequired": 0,
+                      "numResCreditsRequired": 0,
+                      "numTermClassesRequired": 0,
+                      "numTermCreditsRequired": 0,
+                      "orGate": false
+                    },
+                    {
+                      "generated": false,
+                      "gpaRequired": 0.0,
+                      "inCourses": [
+                        "HST-341"
+                      ],
+                      "maxClassesCounted": 0,
+                      "maxCreditsCounted": 0,
+                      "maxDisciplines": 0,
+                      "maxTermClassesCounted": 0,
+                      "maxTermCreditsCounted": 0,
+                      "minDisciplines": 0,
+                      "minGradeRequired": 0.0,
+                      "name": "History of England to 1688",
+                      "numAdvCreditsRequired": 0,
+                      "numClassesRequired": 0,
+                      "numCreditsRequired": 3,
+                      "numResClassesRequired": 0,
+                      "numResCreditsRequired": 0,
+                      "numTermClassesRequired": 0,
+                      "numTermCreditsRequired": 0,
+                      "orGate": false
+                    }
+                  ]
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "THR-367"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Stage Design for Theatre II",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "COM-379"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 2,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Shakespeare in Performance",
+                  "description": "COM-379: Requires course fee at American Shakespeare Center Academia",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 1,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "THR-301"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 6,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Theatre Practicum",
+                  "description": "THR-301: Two consecutive classes taken in May term for 3 credits each TODO - What does two consecutive May term classes mean?",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 1,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "scopeTypeAndValue": "Minor=ShakespeareInPerformance"
     },
     {
       "generated": false,
