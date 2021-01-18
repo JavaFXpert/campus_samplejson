@@ -981,7 +981,7 @@
         "#Writing AB"
       ],
       "minors": [
-        "#English",
+        "English",
         "#Spanish",
         "#TESOL",
         "#WorldLanguages",
@@ -22201,6 +22201,145 @@
         }
       ],
       "scopeTypeAndValue": "Minor=DesignForSocialImpact"
+    },
+    {
+      "generated": false,
+      "gpaRequired": 0.0,
+      "ifExpression": "minorsInclude('English') and numMajors >= 1",
+      "maxClassesCounted": 0,
+      "maxCreditsCounted": 0,
+      "maxDisciplines": 0,
+      "maxTermClassesCounted": 0,
+      "maxTermCreditsCounted": 0,
+      "minDisciplines": 0,
+      "minGradeRequired": 0.0,
+      "name": "English Minor",
+      "numAdvCreditsRequired": 0,
+      "numClassesRequired": 0,
+      "numCreditsRequired": 0,
+      "numResClassesRequired": 0,
+      "numResCreditsRequired": 0,
+      "numTermClassesRequired": 0,
+      "numTermCreditsRequired": 0,
+      "orGate": false,
+      "reqs": [
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Requirements (24 credits)",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 24,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false,
+          "reqs": [
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Required Courses (24 credits)",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 24,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false,
+              "reqs": [
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "ENG-220"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Approaches to Literary Analysis",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "ENG-300:499"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Four ENG courses at 300/400 level",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 4,
+                  "numCreditsRequired": 12,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "ENG-121:179",
+                    "ENG-181:499",
+                    "WRI-121:499"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Electives (ENG and/or WRI courses above ENG 120, except ENG 180)",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 9,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "scopeTypeAndValue": "Minor=English"
     },
     {
       "generated": false,
