@@ -5216,7 +5216,7 @@
                   "minDisciplines": 0,
                   "minGradeRequired": 0.0,
                   "name": "English Capstone",
-                  "description": "NOTE: ENG/WRI double majors will choose either ENG-481 or WRI-481.",
+                  "description": "NOTE: ENG/WRI double majors will choose either ENG-481 or WRI-481. TODO - How do we handle giving WRI/ENG double majors an option?",
                   "numAdvCreditsRequired": 0,
                   "numClassesRequired": 0,
                   "numCreditsRequired": 3,
