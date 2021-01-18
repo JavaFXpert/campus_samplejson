@@ -513,9 +513,15 @@
       "#YouthMinistries"
     ],
     "specializations": [
-      "#ChildLife"
+      "#ChildLife",
+      "#MediaCommunicationBABroadcast",
+      "#MediaCommunicationBAFilm",
+      "#MediaCommunicationBAJournalism",
+      "#MediaCommunicationBAMediaProduction",
+      "#MediaCommunicationBASportsMedia"
     ],
     "flags": [
+      "#completeLAFInternship",
       "#exemptSixHoursForeignLang",
       "#exemptThreeOfSixHoursForeignLang"
     ]
