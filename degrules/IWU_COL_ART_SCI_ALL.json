@@ -689,6 +689,117 @@
       ]
     },
     {
+      "courseId": "SPA-118",
+      "prereqs": [
+        "SPA-117"
+      ]
+    },
+    {
+      "courseId": "SPA-237",
+      "prereqs": [
+        "SPA-118"
+      ]
+    },
+    {
+      "courseId": "SPA-238",
+      "prereqs": [
+        "SPA-117",
+        "SPA-118",
+        "SPA-237"
+      ]
+    },
+    {
+      "courseId": "SPA-347",
+      "prereqs": [
+        "SPA-238"
+      ]
+    },
+    {
+      "courseId": "SPA-348",
+      "prereqs": [
+        "SPA-347"
+      ]
+    },
+    {
+      "courseId": "SPA-349",
+      "prereqs": [
+        "SPA-347"
+      ]
+    },
+    {
+      "courseId": "SPA-354",
+      "prereqs": [
+        "SPA-347"
+      ]
+    },
+    {
+      "courseId": "SPA-357",
+      "prereqs": [
+        "SPA-347"
+      ]
+    },
+    {
+      "courseId": "SPA-365",
+      "prereqs": [
+        "SPA-347"
+      ]
+    },
+    {
+      "courseId": "SPA-370",
+      "prereqs": [
+        "SPA-347"
+      ]
+    },
+    {
+      "courseId": "SPA-371",
+      "prereqs": [
+        "SPA-347"
+      ]
+    },
+    {
+      "courseId": "SPA-372",
+      "prereqs": [
+        "SPA-347"
+      ]
+    },
+    {
+      "courseId": "SPA-420",
+      "prereqs": [
+        "SPA-238",
+        "SPA-347"
+      ]
+    },
+    {
+      "courseId": "SPA-457",
+      "prereqs": [
+        "SPA-347"
+      ]
+    },
+    {
+      "courseId": "SPA-458",
+      "prereqs": [
+        "SPA-347"
+      ]
+    },
+    {
+      "courseId": "SPA-461",
+      "prereqs": [
+        "SPA-347"
+      ]
+    },
+    {
+      "courseId": "SPA-462",
+      "prereqs": [
+        "SPA-347"
+      ]
+    },
+    {
+      "courseId": "SPA-465",
+      "prereqs": [
+        "SPA-347"
+      ]
+    },
+    {
       "courseId": "WRI-234",
       "prereqs": [
         "ENG-120"
@@ -951,7 +1062,9 @@
       "flags": [
         "completeLAFInternship",
         "exemptSixHoursForeignLang",
-        "exemptThreeOfSixHoursForeignLang"
+        "exemptThreeOfSixHoursForeignLang",
+        "foreignLanguageExperience",
+        "foreignStudyExperience"
       ]
     },
     {
@@ -1029,7 +1142,7 @@
     {
       "division": "ModernLanguageAndLiterature",
       "majors": [
-        "#AppliedSpanishAndHispanicCulture BA",
+        "AppliedSpanishAndHispanicCulture BA",
         "English AB",
         "#TESOL AB",
         "#Writing AB"
@@ -1262,6 +1375,675 @@
   "numTermCreditsRequired": 0,
   "orGate": false,
   "reqs": [
+    {
+      "generated": false,
+      "gpaRequired": 0.0,
+      "ifExpression": "majorsInclude('AppliedSpanishAndHispanicCulture BA')",
+      "maxClassesCounted": 0,
+      "maxCreditsCounted": 0,
+      "maxDisciplines": 0,
+      "maxTermClassesCounted": 0,
+      "maxTermCreditsCounted": 0,
+      "minDisciplines": 0,
+      "minGradeRequired": 0.0,
+      "name": "Applied Spanish and Hispanic Culture B.A.",
+      "description": "The Spanish major is designed to help students develop proficiency in the communication, cultures, connections and communities important to the language. Because of the large Spanish-speaking population in the United States, opportunities for multilingual professionals are increasing. The IWU Spanish major equips students to be world changers through the power of the Spanish language. The education major in Spanish is further designed to add training and specific professional experience to the liberal arts major (see education section of the catalog).",
+      "numAdvCreditsRequired": 0,
+      "numClassesRequired": 0,
+      "numCreditsRequired": 0,
+      "numResClassesRequired": 0,
+      "numResCreditsRequired": 0,
+      "numTermClassesRequired": 0,
+      "numTermCreditsRequired": 0,
+      "orGate": false,
+      "reqs": [
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 48,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Requirements (42-48 Credit) TODO - Did we handle the second major correctly?",
+          "description": "(30-36 CREDITS) Can Be Taken Only As A Second Major.",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 0,
+          "numCreditsRequiredExpr": "major2 == 'AppliedSpanishAndHispanicCulture BA' ? 30 : 42",
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false,
+          "reqs": [
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 18,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Spanish Language (12 -18 credits) TODO - How do we handle the scenario when only 12 credit are needed",
+              "description": "Students are required to pass SPA-349 with a minimum grade of 'C' before advancing to other 300 or 400 level upper-division classes.\nThe foreign language coordinator or the division chair may, however, grant some students permission to take another upper-division class at the same time that they are taking SPA-349.\nStudents may not elect to take SPA-117, SPA-118, SPA-237, or SPA-238 after successfully completing SPA-347, SPA-349, or any other upper-level course, but may pursue CLEP credit prior to completing SPA-349.\nCLEP Policy\nStudents may CLEP SPA-117, SPA-118, or SPA-237 for credit. However, students must CLEP these courses prior to completing SPA-349 or with approval of the foreign language coordinator to receive credit for their major or minor.\nAP Policy\nIncoming freshmen who, prior to their enrollment at Indiana Wesleyan University, pass the AP Spanish Language Exam with a minimum score of 3 will receive credit for SPA-117. Students who pass the AP Spanish Language Exam with a minimum score of 4 will be awarded credit for SPA-117 and SPA-118. Students who pass the AP Spanish Language Exam with a score of 5 will be awarded credit for SPA-117, SPA-118, and SPA-237. AP credit for these courses will not meet intercultural competency.",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 12,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false,
+              "reqs": [
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SPA-117"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Beginning Spanish I",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SPA-118"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Beginning Spanish II",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SPA-237"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Intermediate Spanish I",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SPA-238"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Intermediate Spanish II",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SPA-347"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Advanced Spanish I Conversation I",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SPA-349"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 2.0,
+                  "name": "Advanced Spanish II",
+                  "description": "Students are required to pass SPA-349 with a minimum grade of 'C' before advancing to other 300 or 400 level upper-division classes.",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                }
+              ]
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 15,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Language and Culture Electives (12 -15 credits)",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 12,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": true,
+              "reqs": [
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SPA-348"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Culture and Civilization of Latin America",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SPA-354"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Latin American History",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SPA-357"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Spanish Linguistics and Phonology",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SPA-365"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 9,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Special Topics in Hispanic Studies",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SPA-370"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Hispanic Culture and Language Studies",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SPA-371"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Hispanic Culture in the U.S.",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SPA-372"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Culture and Civilization of Spain",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SPA-420"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Advanced Spanish Grammar",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SPA-457"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Survey of Spanish Literature",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SPA-458"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Survey of Spanish American Literature",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SPA-461"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Contemporary Spanish Literature",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SPA-462"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Spanish Short Stories",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SPA-465"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 9,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Special Topics in Spanish Literature",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 3,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "metIfExpr": "flagsInclude('foreignLanguageExperience')",
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Foreign Language Experience (1-3 Credit Hours) TODO - Did we handle this correctly?",
+                  "description": "Students may fulfill this component via practicum or internship in conjunction with their other major, or by study abroad courses. The Foreign Language Experience must be approved by the Division of Modern Languages and Literature.",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 1,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                }
+              ]
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "metIfExpr": "flagsInclude('foreignStudyExperience')",
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Foreign Study Experience TODO - Did we handle this correctly?",
+              "description": "Students may transfer a 300 or 400 level course taken abroad that focuses on the history, culture or literature of a Spanish-speaking country or the theory or practical use of the Spanish language. Courses must be taught in Spanish and be from an approved, accredited program.\nIf students decide not to pursue CLEP credit prior to completing SPA-349, they may need to study abroad in Seville, Spain, for one semester in order to earn the remaining credits and graduate in 4 years.\nAll Spanish Majors and Minors are strongly encouraged to study abroad through IWU-sponsored or IWU-approved programs during their junior year.\nStudents should consult with the Foreign Language Coordinator, the Global Engagement Office, as well as their faculty advisor before taking courses abroad to ensure that they are appropriate.\nPrerequisite: SPA-349, junior standing, and approval from the Foreign Language Coordinator.",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 3,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Senior Seminar (3 credits)",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 3,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false,
+              "reqs": [
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SPA-470"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Spanish Capstone",
+                  "description": "Prerequisite: SPA-349, junior standing and approval from the Foreign Language Coordinator.",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                }
+              ]
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "metIfExpr": "major2 == 'AppliedSpanishAndHispanicCulture BA'",
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Cognate (12 credits) TODO - If Applied Spanish and Hispanic Culture BA as a second major Cognate is omitted. Did we handle it correctly?",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 12,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false,
+              "reqs": [
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "*-100:499"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Choose 12 credits from one field of interest",
+                  "description": "Choose from one field of interest such as Business, Chinese, English, French, History, Intercultural Studies, Political Science, Psychology, Religion, Social Work, TESOL, etc.",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 12,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "scopeTypeAndValue": "Major=AppliedSpanishAndHispanicCulture BA"
+    },
     {
       "generated": false,
       "gpaRequired": 0.0,

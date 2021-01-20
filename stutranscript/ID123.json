@@ -523,7 +523,9 @@
     "flags": [
       "#completeLAFInternship",
       "#exemptSixHoursForeignLang",
-      "#exemptThreeOfSixHoursForeignLang"
+      "#exemptThreeOfSixHoursForeignLang",
+      "#foreignLanguageExperience",
+      "#foreignStudyExperience"
     ]
   },
   "firstName": "Lorem",
