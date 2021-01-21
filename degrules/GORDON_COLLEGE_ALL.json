@@ -606,7 +606,6 @@
         "#internationalBusinessStudent",
         "journalismStudent",
         "nonMusicLiberalArtsCourses",
-        "offCampusAcademicProgramInsideUS",
         "passPianoAndVoiceProficiencyExams",
         "studyInIsrael",
         "substituteInternshipFromFirstMajor",
@@ -29844,9 +29843,6 @@
                 {
                   "generated": false,
                   "gpaRequired": 0.0,
-                  "inCourses": [
-                    "*-100:499"
-                  ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 8,
                   "maxDisciplines": 0,
@@ -29854,7 +29850,6 @@
                   "maxTermCreditsCounted": 0,
                   "minDisciplines": 0,
                   "minGradeRequired": 0.0,
-                  "metIfExpr": "flagsInclude('offCampusAcademicProgramInsideUS')",
                   "name": "American Studies Program, or other C.C.C.U. program, or other approved off-campus academic program inside the U.S. (8 credits maximum applied to major)",
                   "description": "",
                   "numAdvCreditsRequired": 0,
