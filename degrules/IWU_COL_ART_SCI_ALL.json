@@ -416,6 +416,12 @@
       ]
     },
     {
+      "courseId": "EDU-382TE",
+      "prereqs": [
+        "EDU-382C"
+      ]
+    },
+    {
       "courseId": "ECO-322",
       "prereqs": [
         "MAT-112",
@@ -488,6 +494,14 @@
         "HST-180",
         "HST-185",
         "HST-190"
+      ]
+    },
+    {
+      "courseId": "INT-390",
+      "prereqs": [
+        "INT-340",
+        "GLM-360",
+        "CDV-360"
       ]
     },
     {
@@ -662,6 +676,12 @@
       ]
     },
     {
+      "courseId": "PHL-248",
+      "prereqs": [
+        "THE-101"
+      ]
+    },
+    {
       "courseId": "PHY-221",
       "prereqs": [
         "MAT-253"
@@ -797,6 +817,54 @@
       "courseId": "SPA-465",
       "prereqs": [
         "SPA-347"
+      ]
+    },
+    {
+      "courseId": "TSL-260",
+      "prereqs": [
+        "ENG-170",
+        "TSL-203",
+        "INT-220"
+      ]
+    },
+    {
+      "courseId": "TSL-385",
+      "prereqs": [
+        "ENG-170",
+        "TSL-203",
+        "TSL-305",
+        "EDU-382TE"
+      ]
+    },
+    {
+      "courseId": "TSL-386",
+      "prereqs": [
+        "ENG-170",
+        "TSL-203"
+      ]
+    },
+    {
+      "courseId": "TSL-450",
+      "prereqs": [
+        "ENG-241"
+      ]
+    },
+    {
+      "courseId": "TSL-481",
+      "prereqs": [
+        "TSL-471"
+      ]
+    },
+    {
+      "courseId": "WRI-165",
+      "prereqs": [
+        "ENG-120"
+      ]
+    },
+    {
+      "courseId": "WRI-210",
+      "prereqs": [
+        "ENG-120"
       ]
     },
     {
@@ -1142,9 +1210,9 @@
       "division": "ModernLanguageAndLiterature",
       "majors": [
         "AppliedSpanishAndHispanicCulture BA",
-        "AppliedSpanishAndHispanicCultureSecondMajor",
+        "AppliedSpanishAndHispanicCultureSecondMajor BA",
         "English AB",
-        "#TESOL AB",
+        "TESOL AB",
         "#Writing AB"
       ],
       "minors": [
@@ -2087,7 +2155,7 @@
     {
       "generated": false,
       "gpaRequired": 0.0,
-      "ifExpression": "major2 == 'AppliedSpanishAndHispanicCulturesSecondMajor",
+      "ifExpression": "major2 == 'AppliedSpanishAndHispanicCultureSecondMajor BA'",
       "maxClassesCounted": 0,
       "maxCreditsCounted": 0,
       "maxDisciplines": 0,
@@ -2726,7 +2794,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": "Major=AppliedSpanishAndHispanicCultureSecondMajor"
+      "scopeTypeAndValue": "Major=AppliedSpanishAndHispanicCultureSecondMajor BA"
     },
     {
       "generated": false,
@@ -18746,6 +18814,875 @@
         }
       ],
       "scopeTypeAndValue": "Major=StudioArts BA"
+    },
+    {
+      "generated": false,
+      "gpaRequired": 0.0,
+      "ifExpression": "majorsInclude('TESOL AB')",
+      "maxClassesCounted": 0,
+      "maxCreditsCounted": 0,
+      "maxDisciplines": 0,
+      "maxTermClassesCounted": 0,
+      "maxTermCreditsCounted": 0,
+      "minDisciplines": 0,
+      "minGradeRequired": 0.0,
+      "name": "TESOL A.B.",
+      "description": "TESOL: Teaching English to Speakers of Other Languages\nThe TESOL major provides specialized instruction in the theory and skills of teaching second language acquisition, equipping students to change the world in a tangible way. The TESOL curriculum includes a rigorous core that covers language/linguistics, language acquisition, TESL/TEFL theory, assessment practices, and cultural awareness and experience. Graduates with a TESOL major should be prepared to teach English to adult speakers of other languages around the world. The education major in TESOL is further designed to add training and specific experience in elementary and secondary schools (see TESOL Education of the catalog).",
+      "numAdvCreditsRequired": 0,
+      "numClassesRequired": 0,
+      "numCreditsRequired": 0,
+      "numResClassesRequired": 0,
+      "numResCreditsRequired": 0,
+      "numTermClassesRequired": 0,
+      "numTermCreditsRequired": 0,
+      "orGate": false,
+      "reqs": [
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 57,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Requirements (48-57 Credit)",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 48,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false,
+          "reqs": [
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Required Courses",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false,
+              "reqs": [
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "INT-220"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Intercultural Relationships",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "ENG-170"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Introduction to Linguistics",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "GEO-202"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Political and Cultural Geography",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "PHL-248"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Religions of the World",
+                  "description": "",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "INT-390"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Intercultural Engagement Seminar",
+                  "description": "",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 1,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "ENG-241"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Studies in English Grammar",
+                  "description": "",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "TSL-203"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "TESOL Theoretical Foundations",
+                  "description": "",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "TSL-260"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 3,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "TESOL Internship",
+                  "description": "",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 1,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "TSL-305"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Second Language Acquisition",
+                  "description": "",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "TSL-350"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "TESOL Assessment and Testing",
+                  "description": "",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "TSL-385"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Practicum in TESOL",
+                  "description": "",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "TSL-450"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "English Grammar Pedagogy",
+                  "description": "",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 2,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "TSL-481"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "TESOL Capstone",
+                  "description": "",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 1,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "EDU-3821"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 4,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Methods of Teaching Sr High/Jr High/ Middle School Teaching English to Speakers of Other Languages  TODO - How do we handle course codes with letters (EDU-382TE)",
+                  "description": "",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Teaching Writing: Composition Theory, Pedagogy, and Practice or Foundations of Literacy or Literacy Methods",
+                  "description": "Choose one: WRI-390, EDU-245 or EDU-354",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 1,
+                  "numCreditsRequired": 0,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": true,
+                  "reqs": [
+                    {
+                      "generated": false,
+                      "gpaRequired": 0.0,
+                      "inCourses": [
+                        "WRI-390"
+                      ],
+                      "maxClassesCounted": 0,
+                      "maxCreditsCounted": 0,
+                      "maxDisciplines": 0,
+                      "maxTermClassesCounted": 0,
+                      "maxTermCreditsCounted": 0,
+                      "minDisciplines": 0,
+                      "minGradeRequired": 0.0,
+                      "name": "Teaching Writing: Composition Theory, Pedagogy, and Practice",
+                      "numAdvCreditsRequired": 0,
+                      "numClassesRequired": 0,
+                      "numCreditsRequired": 3,
+                      "numResClassesRequired": 0,
+                      "numResCreditsRequired": 0,
+                      "numTermClassesRequired": 0,
+                      "numTermCreditsRequired": 0,
+                      "orGate": false
+                    },
+                    {
+                      "generated": false,
+                      "gpaRequired": 0.0,
+                      "inCourses": [
+                        "EDU-245"
+                      ],
+                      "maxClassesCounted": 0,
+                      "maxCreditsCounted": 0,
+                      "maxDisciplines": 0,
+                      "maxTermClassesCounted": 0,
+                      "maxTermCreditsCounted": 0,
+                      "minDisciplines": 0,
+                      "minGradeRequired": 0.0,
+                      "name": "Foundations of Literacy",
+                      "numAdvCreditsRequired": 0,
+                      "numClassesRequired": 0,
+                      "numCreditsRequired": 3,
+                      "numResClassesRequired": 0,
+                      "numResCreditsRequired": 0,
+                      "numTermClassesRequired": 0,
+                      "numTermCreditsRequired": 0,
+                      "orGate": false
+                    },
+                    {
+                      "generated": false,
+                      "gpaRequired": 0.0,
+                      "inCourses": [
+                        "EDU-354"
+                      ],
+                      "maxClassesCounted": 0,
+                      "maxCreditsCounted": 0,
+                      "maxDisciplines": 0,
+                      "maxTermClassesCounted": 0,
+                      "maxTermCreditsCounted": 0,
+                      "minDisciplines": 0,
+                      "minGradeRequired": 0.0,
+                      "name": "Literacy Methods",
+                      "numAdvCreditsRequired": 0,
+                      "numClassesRequired": 0,
+                      "numCreditsRequired": 3,
+                      "numResClassesRequired": 0,
+                      "numResCreditsRequired": 0,
+                      "numTermClassesRequired": 0,
+                      "numTermCreditsRequired": 0,
+                      "orGate": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "CHI-165:499",
+                "FRE-165:499",
+                "SPA-165:499"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 12,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Foreign Language (3-12 credits) TODO - How do we handle this?",
+              "description": "All majors will achieve language competency in a modern foreign language in one of the following ways:\n1. Earn a score of 3, 4, or 5 on the College Board Advanced Placement examination: a) students who score a 3 will earn 3 credits for Beginning I, and will need to take Beginning II,  Intermediate I, and Intermediate II; b) students who score a 4 will earn 6 credits for Beginning I and Beginning II, and will need to take Intermediate I and Intermediate II;  c) students who score of 5 will earn 9 credits for Beginning I, Beginning II, and Intermediate I, and will need to take Intermediate II.\n2. Earn a score of 5, 6, or 7 on an International Baccalaureate Higher Level foreign language exam (equivalent to 12 credit hours).\n3. Take the placement test in a language previously studied (Chinese, French, or Spanish) in order to place into the highest-level language course at IWU for which the student is qualified. Students should take the placement test at registration or within the first semester2, and continue language study,- subsequent courses will vary, depending on the level of language placement. The basic requirement is four courses in a given language through the FL 238 level or a single advanced (300-) level course (please see specific details as listed below).\n4. Pass the CLEP exam in French, German, or Spanish through the Intermediate I level and take an Intermediate II (238) prior to the first semester of junior year or, if completing a Spanish minor, prior to the completion of SPA 349. Students should take the placement exam prior to registering for the CLEP exam.\n5. Pass the ACTFL (American Council on the Teaching of Foreign Languages) Oral Proficiency Interview (OPI), Writing Proficiency (WPT), Reading Proficiency (RPT) and Listening Proficiency (LTP) exams or other proficiency exam approved by the Division of Modern Language and Literature at the intermediate-mid level for languages not taught in the Foreign Language Department at Indiana Wesleyan University. Students who desire such testing must make this request via the Foreign Language Department during their first academic year at Indiana Wesleyan and take the exams on the dates listed on the exam schedule. Students may not take the exam in a language once they have begun to study the language at the university level (including transfer credit or study abroad). Proficiency exams may only be taken twice in a particular language. Students will be responsible for paying all fees associated with their exams.\n6. Pass the DELE Spanish proficiency exam at the B1 level (http://chicago.cervantes.es/en/diplomas_spanish/diplomas_dele_register_spanish.htm), pass the DELF French proficiency exam at the B1 level (https://www.afchicago.org/delf-dalf), or pass the HSK Mandarin proficiency exam Level 3 or higher (http://www.iupui.edu/~china/courses/chinese-proficency-test/). Students who desire such testing must make this request via the Foreign Language Department during their first academic year at Indiana Wesleyan and take the exams on the dates listed on the official exam schedule. Students may not take the exam in a language once they have begun to study the language at the university level (including transfer credit or study abroad). Proficiency exams may only be taken twice in a particular language. Students will be responsible for paying all fees associated with their exams.\n7. Earn 12 credits in a foreign language not previously studied. Students may choose between languages currently taught at Indiana Wesleyan University Marion Campus (Chinese, French, or Spanish).\n8. Native speakers of a language other than English may fulfill the requirement by providing proof of proficiency in that language by successful completion of a proficiency exam approved by Foreign Language faculty at the B1 level (see application form). If a student is a native speaker of a language other than English, he/she will likely profit most from either beginning or continuing study of an additional language.;\n9. Students with a documented learning disability which affects their ability to process language may petition the Center for Student Success for alternative arrangements for preapproved Foreign Language Substitution courses which meet the Indiana Wesleyan University language requirement. Petitions must include recent documentation from a qualified learning disabilities specialist showing evidence of this language-specific disability and be submitted prior to or during the spring semester of their sophomore year.\nPlease visit the Division of Modern Language and Literature for the Requirement Pathways for Language Courses at IWU.",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 3,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Tesol Electives (6 credits)",
+              "description": "The 6 elective credits may be shared with another IWU major, minor or certificate according to the guidelines stated in the catalog.",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 6,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": true,
+              "reqs": [
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "ENG-352"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "History of English Language",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "WRI-165"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "English Language and Composition",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "WRI-210"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 1,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Theories and Methods of Writing Consultancy",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 1,
+                  "numCreditsRequired": 0,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "CHI-100:499",
+                    "FRE-100:499",
+                    "SPA-100:499"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 6,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Any foreign language course (in addition to competency requirement) TODO - How do we handle 'in addition to competency requirement'?",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "COM-280"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Intercultural Communication",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "COM-370"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Symbols and Imaging",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "TSL-260"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 3,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "TESOL Internship",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 1,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "TSL-368"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Special Topics in TESOL",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "TSL-471"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Research Seminar",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 2,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "EDU-130"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "American Education",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "EDU-245"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Foundations of Literacy",
+                  "description": "(if took EDU-354 instead)",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "EDU-265"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Young Adult Literature",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "EDU-301"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Management in the 21st Century Classroom",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 1,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "EDU-354"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Literacy Methods",
+                  "description": "(if took EDU-245 instead)",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "scopeTypeAndValue": "Major=TESOL AB"
     },
     {
       "generated": false,
