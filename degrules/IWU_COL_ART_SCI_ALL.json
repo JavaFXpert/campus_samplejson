@@ -820,6 +820,13 @@
       ]
     },
     {
+      "courseId": "THR-362",
+      "prereqs": [
+        "ENG-120",
+        "COM-251"
+      ]
+    },
+    {
       "courseId": "TSL-260",
       "prereqs": [
         "ENG-170",
@@ -868,9 +875,23 @@
       ]
     },
     {
+      "courseId": "WRI-230",
+      "prereqs": [
+        "WRI-234"
+      ]
+    },
+    {
       "courseId": "WRI-234",
       "prereqs": [
         "ENG-120"
+      ]
+    },
+    {
+      "courseId": "WRI-235",
+      "prereqs": [
+        "ENG-120",
+        "ENG-140",
+        "WRI-140"
       ]
     }
   ],
@@ -1213,7 +1234,7 @@
         "AppliedSpanishAndHispanicCultureSecondMajor BA",
         "English AB",
         "TESOL AB",
-        "#Writing AB"
+        "Writing AB"
       ],
       "minors": [
         "English",
@@ -23102,6 +23123,378 @@
         }
       ],
       "scopeTypeAndValue": "Major=VisualCommunicationDesign BFA"
+    },
+    {
+      "generated": false,
+      "gpaRequired": 0.0,
+      "ifExpression": "majorsInclude('Writing AB')",
+      "maxClassesCounted": 0,
+      "maxCreditsCounted": 0,
+      "maxDisciplines": 0,
+      "maxTermClassesCounted": 0,
+      "maxTermCreditsCounted": 0,
+      "minDisciplines": 0,
+      "minGradeRequired": 0.0,
+      "name": "Writing A.B.",
+      "description": "The liberal arts major in Writing prepares students to become outstanding communicators with high levels of proficiency in the use of the written word. The major stresses both the artistic joy of composition and the practical application of writing skills to everyday communication challenges. Graduates may elect to pursue careers as writers, editors, or communications consultants, or may wish to apply their expertise to business, education, or the ministry. With its strong liberal arts emphasis, a Writing major is recommended as an excellent professional degree program. Majors graduate with a range of writing experience in various genres, with exposure to modern composition theory, and training in the practical application of rhetoric to life. While the program requires a comprehensive study and practice of writing, it also encourages students to discover their best voice and style",
+      "numAdvCreditsRequired": 0,
+      "numClassesRequired": 0,
+      "numCreditsRequired": 0,
+      "numResClassesRequired": 0,
+      "numResCreditsRequired": 0,
+      "numTermClassesRequired": 0,
+      "numTermCreditsRequired": 0,
+      "orGate": false,
+      "reqs": [
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 0,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Requirements (42 Credit)",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 42,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false,
+          "reqs": [
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Required Courses (12 credits)",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 12,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false,
+              "reqs": [
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "WRI-230"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Sentence Strategies",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "WRI-234"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Advanced Writing",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "WRI-235"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Creative Writing",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "ENG-481",
+                    "WRI-481"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Writing or English Capstone",
+                  "description": "ENG-481: ENG/WRI double majors only TODO - How do we handle giving WRI/ENG double majors only?",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                }
+              ]
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "ENG-100:179",
+                "ENG-181:499"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Literature Elective (except ENG-180) (12 credits)",
+              "description": "",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 12,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Electives in WRI-200 (or above) or the following COM Courses: (18 credits)",
+              "description": "",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 18,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": true,
+              "reqs": [
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "WRI-200:499"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "WRI-200 (or above)",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 1,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "COM-223"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Digital Media Arts",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "COM-224"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Introduction to Newswriting",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "COM-331"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Public Relations Writing and Publicity",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "THR-362"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Scriptwriting",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "COM-483"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Advanced Newswriting and Reporting",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "COM-100:499"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "COM course by divisional permission",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "scopeTypeAndValue": "Major=Writing AB"
     },
 
     {
