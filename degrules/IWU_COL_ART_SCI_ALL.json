@@ -29576,30 +29576,6 @@
                   "numTermClassesRequired": 0,
                   "numTermCreditsRequired": 0,
                   "orGate": false
-                },
-                {
-                  "generated": false,
-                  "gpaRequired": 0.0,
-                  "inCourses": [
-                    "EDU-3821"
-                  ],
-                  "maxClassesCounted": 0,
-                  "maxCreditsCounted": 4,
-                  "maxDisciplines": 0,
-                  "maxTermClassesCounted": 0,
-                  "maxTermCreditsCounted": 0,
-                  "minDisciplines": 0,
-                  "minGradeRequired": 0.0,
-                  "name": "Methods of Teaching Sr High/Jr High/ Middle School Teaching English to Speakers of Other Languages  TODO - How do we handle course codes with letters (EDU-382TE)",
-                  "description": "",
-                  "numAdvCreditsRequired": 0,
-                  "numClassesRequired": 0,
-                  "numCreditsRequired": 3,
-                  "numResClassesRequired": 0,
-                  "numResCreditsRequired": 0,
-                  "numTermClassesRequired": 0,
-                  "numTermCreditsRequired": 0,
-                  "orGate": false
                 }
               ]
             },
