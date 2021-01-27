@@ -893,6 +893,74 @@
         "ENG-140",
         "WRI-140"
       ]
+    },
+    {
+      "courseId": "WRI-281",
+      "prereqs": [
+        "ENG-120"
+      ]
+    },
+    {
+      "courseId": "WRI-282",
+      "prereqs": [
+        "ENG-120"
+      ]
+    },
+    {
+      "courseId": "WRI-350",
+      "prereqs": [
+        "WRI-235"
+      ]
+    },
+    {
+      "courseId": "WRI-352",
+      "prereqs": [
+        "WRI-235"
+      ]
+    },
+    {
+      "courseId": "WRI-353",
+      "prereqs": [
+        "COM-224",
+        "WRI-234"
+      ]
+    },
+    {
+      "courseId": "WRI-354",
+      "prereqs": [
+        "WRI-235"
+      ]
+    },
+    {
+      "courseId": "WRI-355",
+      "prereqs": [
+        "WRI-234"
+      ]
+    },
+    {
+      "courseId": "WRI-358",
+      "prereqs": [
+        "WRI-235"
+      ]
+    },
+    {
+      "courseId": "WRI-370",
+      "prereqs": [
+        "ENG-120"
+      ]
+    },
+    {
+      "courseId": "WRI-456",
+      "prereqs": [
+        "WRI-235"
+      ]
+    },
+    {
+      "courseId": "WRI-459",
+      "prereqs": [
+        "WRI-234",
+        "WRI-235"
+      ]
     }
   ],
   "reusableCourses": [
@@ -1234,7 +1302,8 @@
         "AppliedSpanishAndHispanicCultureSecondMajor BA",
         "English AB",
         "TESOL AB",
-        "Writing AB"
+        "Writing AB",
+        "WritingSecondMajor AB"
       ],
       "minors": [
         "English",
@@ -1242,6 +1311,10 @@
         "TESOL",
         "#WorldLanguages",
         "#Writing"
+      ],
+      "specializations": [
+        "WritingSecondMajorABCreativeWriting",
+        "WritingSecondMajorABProfessionalWriting"
       ],
       "certificates": [
         "#TESOL"
@@ -2184,7 +2257,7 @@
       "maxTermCreditsCounted": 0,
       "minDisciplines": 0,
       "minGradeRequired": 0.0,
-      "name": "Applied Spanish and Hispanic Cultures Second Major",
+      "name": "Applied Spanish and Hispanic Cultures Second Major B.A.",
       "description": "The Spanish major is designed to help students develop proficiency in the communication, cultures, connections and communities important to the language. Because of the large Spanish-speaking population in the United States, opportunities for multilingual professionals are increasing. The IWU Spanish major equips students to be world changers through the power of the Spanish language. The education major in Spanish is further designed to add training and specific professional experience to the liberal arts major (see education section of the catalog).",
       "numAdvCreditsRequired": 0,
       "numClassesRequired": 0,
@@ -23495,6 +23568,875 @@
         }
       ],
       "scopeTypeAndValue": "Major=Writing AB"
+    },
+    {
+      "generated": false,
+      "gpaRequired": 0.0,
+      "ifExpression": "major2 == 'WritingSecondMajor AB'",
+      "maxClassesCounted": 0,
+      "maxCreditsCounted": 0,
+      "maxDisciplines": 0,
+      "maxTermClassesCounted": 0,
+      "maxTermCreditsCounted": 0,
+      "minDisciplines": 0,
+      "minGradeRequired": 0.0,
+      "name": "Writing 2nd Major A.B.",
+      "description": "The liberal arts major in Writing prepares students to become outstanding communicators with high levels of proficiency in the use of the written word. The major stresses both the artistic joy of composition and the practical application of writing skills to everyday communication challenges. Graduates may elect to pursue careers as writers, editors, or communications consultants, or may wish to apply their expertise to business, education, or the ministry. With its strong liberal arts emphasis, a Writing major is recommended as an excellent professional degree program. Majors graduate with a range of writing experience in various genres, with exposure to modern composition theory, and training in the practical application of rhetoric to life. While the program requires a comprehensive study and practice of writing, it also encourages students to discover their best voice and style",
+      "numAdvCreditsRequired": 0,
+      "numClassesRequired": 0,
+      "numCreditsRequired": 0,
+      "numResClassesRequired": 0,
+      "numResCreditsRequired": 0,
+      "numTermClassesRequired": 0,
+      "numTermCreditsRequired": 0,
+      "orGate": false,
+      "reqs": [
+        {
+          "generated": false,
+          "gpaRequired": 0.0,
+          "maxClassesCounted": 0,
+          "maxCreditsCounted": 42,
+          "maxDisciplines": 0,
+          "maxTermClassesCounted": 0,
+          "maxTermCreditsCounted": 0,
+          "minDisciplines": 0,
+          "minGradeRequired": 0.0,
+          "name": "Requirements (31-42 credit)",
+          "numAdvCreditsRequired": 0,
+          "numClassesRequired": 0,
+          "numCreditsRequired": 31,
+          "numResClassesRequired": 0,
+          "numResCreditsRequired": 0,
+          "numTermClassesRequired": 0,
+          "numTermCreditsRequired": 0,
+          "orGate": false,
+          "reqs": [
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Core Requirements",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false,
+              "reqs": [
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "WRI-230"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Sentence Strategies",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "WRI-234"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Advanced Writing",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "WRI-235"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Creative Writing",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "ENG-220"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Approaches to Literary Analysis",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "WRI-481",
+                    "ENG-481"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Writing or English Capstone",
+                  "description": "ENG-481: ENG/WRI double majors only TODO - How do we handle giving WRI/ENG double majors only?",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 1,
+                  "numCreditsRequired": 3,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "WRI-360"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 3,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Writing Internship",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 1,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                }
+              ]
+            },
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Electives in the Area of Specialization (12 credit hours)",
+              "description": "These courses should be taken upon completion of the 200 level core courses listed above. However, with the permission of the academic advisor, students may take an elective simultaneously with a core course. A minimum number of one course (3 credit hours) must be taken at the 300 level or above.",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 0,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": true,
+              "reqs": [
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "ifExpression": "specializationsInclude('WritingSecondMajorABCreativeWriting') and majorsInclude('WritingSecondMajor AB')",
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Creative Writing Specialization (12 credits, 9 WRI & 3 ENG)",
+                  "description": "AP credits do not count as 'Specialization' courses.",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 12,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false,
+                  "reqs": [
+                    {
+                      "generated": false,
+                      "gpaRequired": 0.0,
+                      "maxClassesCounted": 0,
+                      "maxCreditsCounted": 0,
+                      "maxDisciplines": 0,
+                      "maxTermClassesCounted": 0,
+                      "maxTermCreditsCounted": 0,
+                      "minDisciplines": 0,
+                      "minGradeRequired": 0.0,
+                      "name": "Writing courses",
+                      "numAdvCreditsRequired": 0,
+                      "numClassesRequired": 0,
+                      "numCreditsRequired": 9,
+                      "numResClassesRequired": 0,
+                      "numResCreditsRequired": 0,
+                      "numTermClassesRequired": 0,
+                      "numTermCreditsRequired": 0,
+                      "orGate": false,
+                      "reqs": [
+                        {
+                          "generated": false,
+                          "gpaRequired": 0.0,
+                          "inCourses": [
+                            "WRI-250"
+                          ],
+                          "maxClassesCounted": 0,
+                          "maxCreditsCounted": 0,
+                          "maxDisciplines": 0,
+                          "maxTermClassesCounted": 0,
+                          "maxTermCreditsCounted": 0,
+                          "minDisciplines": 0,
+                          "minGradeRequired": 0.0,
+                          "name": "The Autobiographical Impulse",
+                          "numAdvCreditsRequired": 0,
+                          "numClassesRequired": 0,
+                          "numCreditsRequired": 3,
+                          "numResClassesRequired": 0,
+                          "numResCreditsRequired": 0,
+                          "numTermClassesRequired": 0,
+                          "numTermCreditsRequired": 0,
+                          "orGate": false
+                        },
+                        {
+                          "generated": false,
+                          "gpaRequired": 0.0,
+                          "inCourses": [
+                            "WRI-352"
+                          ],
+                          "maxClassesCounted": 0,
+                          "maxCreditsCounted": 0,
+                          "maxDisciplines": 0,
+                          "maxTermClassesCounted": 0,
+                          "maxTermCreditsCounted": 0,
+                          "minDisciplines": 0,
+                          "minGradeRequired": 0.0,
+                          "name": "Writing for Children",
+                          "numAdvCreditsRequired": 0,
+                          "numClassesRequired": 0,
+                          "numCreditsRequired": 3,
+                          "numResClassesRequired": 0,
+                          "numResCreditsRequired": 0,
+                          "numTermClassesRequired": 0,
+                          "numTermCreditsRequired": 0,
+                          "orGate": false
+                        },
+                        {
+                          "generated": false,
+                          "gpaRequired": 0.0,
+                          "inCourses": [
+                            "WRI-354"
+                          ],
+                          "maxClassesCounted": 0,
+                          "maxCreditsCounted": 0,
+                          "maxDisciplines": 0,
+                          "maxTermClassesCounted": 0,
+                          "maxTermCreditsCounted": 0,
+                          "minDisciplines": 0,
+                          "minGradeRequired": 0.0,
+                          "name": "Writing the Short Story",
+                          "numAdvCreditsRequired": 0,
+                          "numClassesRequired": 0,
+                          "numCreditsRequired": 3,
+                          "numResClassesRequired": 0,
+                          "numResCreditsRequired": 0,
+                          "numTermClassesRequired": 0,
+                          "numTermCreditsRequired": 0,
+                          "orGate": false
+                        },
+                        {
+                          "generated": false,
+                          "gpaRequired": 0.0,
+                          "inCourses": [
+                            "WRI-355"
+                          ],
+                          "maxClassesCounted": 0,
+                          "maxCreditsCounted": 0,
+                          "maxDisciplines": 0,
+                          "maxTermClassesCounted": 0,
+                          "maxTermCreditsCounted": 0,
+                          "minDisciplines": 0,
+                          "minGradeRequired": 0.0,
+                          "name": "Prose Style",
+                          "numAdvCreditsRequired": 0,
+                          "numClassesRequired": 0,
+                          "numCreditsRequired": 3,
+                          "numResClassesRequired": 0,
+                          "numResCreditsRequired": 0,
+                          "numTermClassesRequired": 0,
+                          "numTermCreditsRequired": 0,
+                          "orGate": false
+                        },
+                        {
+                          "generated": false,
+                          "gpaRequired": 0.0,
+                          "inCourses": [
+                            "WRI-358"
+                          ],
+                          "maxClassesCounted": 0,
+                          "maxCreditsCounted": 0,
+                          "maxDisciplines": 0,
+                          "maxTermClassesCounted": 0,
+                          "maxTermCreditsCounted": 0,
+                          "minDisciplines": 0,
+                          "minGradeRequired": 0.0,
+                          "name": "Poetry",
+                          "numAdvCreditsRequired": 0,
+                          "numClassesRequired": 0,
+                          "numCreditsRequired": 3,
+                          "numResClassesRequired": 0,
+                          "numResCreditsRequired": 0,
+                          "numTermClassesRequired": 0,
+                          "numTermCreditsRequired": 0,
+                          "orGate": false
+                        },
+                        {
+                          "generated": false,
+                          "gpaRequired": 0.0,
+                          "inCourses": [
+                            "WRI-459"
+                          ],
+                          "maxClassesCounted": 0,
+                          "maxCreditsCounted": 0,
+                          "maxDisciplines": 0,
+                          "maxTermClassesCounted": 0,
+                          "maxTermCreditsCounted": 0,
+                          "minDisciplines": 0,
+                          "minGradeRequired": 0.0,
+                          "name": "Creative Nonfiction",
+                          "numAdvCreditsRequired": 0,
+                          "numClassesRequired": 0,
+                          "numCreditsRequired": 3,
+                          "numResClassesRequired": 0,
+                          "numResCreditsRequired": 0,
+                          "numTermClassesRequired": 0,
+                          "numTermCreditsRequired": 0,
+                          "orGate": false
+                        },
+                        {
+                          "generated": false,
+                          "gpaRequired": 0.0,
+                          "inCourses": [
+                            "WRI-370"
+                          ],
+                          "maxClassesCounted": 0,
+                          "maxCreditsCounted": 0,
+                          "maxDisciplines": 0,
+                          "maxTermClassesCounted": 0,
+                          "maxTermCreditsCounted": 0,
+                          "minDisciplines": 0,
+                          "minGradeRequired": 0.0,
+                          "name": "Travel Writing",
+                          "numAdvCreditsRequired": 0,
+                          "numClassesRequired": 0,
+                          "numCreditsRequired": 3,
+                          "numResClassesRequired": 0,
+                          "numResCreditsRequired": 0,
+                          "numTermClassesRequired": 0,
+                          "numTermCreditsRequired": 0,
+                          "orGate": false
+                        },
+                        {
+                          "generated": false,
+                          "gpaRequired": 0.0,
+                          "inCourses": [
+                            "WRI-456"
+                          ],
+                          "maxClassesCounted": 0,
+                          "maxCreditsCounted": 0,
+                          "maxDisciplines": 0,
+                          "maxTermClassesCounted": 0,
+                          "maxTermCreditsCounted": 0,
+                          "minDisciplines": 0,
+                          "minGradeRequired": 0.0,
+                          "name": "Writing the Novel",
+                          "numAdvCreditsRequired": 0,
+                          "numClassesRequired": 0,
+                          "numCreditsRequired": 3,
+                          "numResClassesRequired": 0,
+                          "numResCreditsRequired": 0,
+                          "numTermClassesRequired": 0,
+                          "numTermCreditsRequired": 0,
+                          "orGate": false
+                        },
+                        {
+                          "generated": false,
+                          "gpaRequired": 0.0,
+                          "inCourses": [
+                            "THR-362"
+                          ],
+                          "maxClassesCounted": 0,
+                          "maxCreditsCounted": 0,
+                          "maxDisciplines": 0,
+                          "maxTermClassesCounted": 0,
+                          "maxTermCreditsCounted": 0,
+                          "minDisciplines": 0,
+                          "minGradeRequired": 0.0,
+                          "name": "Scriptwriting TODO - Should this THR course be included under the WRI credit requirement or separate?",
+                          "numAdvCreditsRequired": 0,
+                          "numClassesRequired": 0,
+                          "numCreditsRequired": 3,
+                          "numResClassesRequired": 0,
+                          "numResCreditsRequired": 0,
+                          "numTermClassesRequired": 0,
+                          "numTermCreditsRequired": 0,
+                          "orGate": false
+                        }
+                      ]
+                    },
+                    {
+                      "generated": false,
+                      "gpaRequired": 0.0,
+                      "inCourses": [
+                        "ENG-100:169",
+                        "ENG-171:179",
+                        "ENG-181:240",
+                        "ENG-242:351",
+                        "ENG-353:499"
+                      ],
+                      "maxClassesCounted": 0,
+                      "maxCreditsCounted": 0,
+                      "maxDisciplines": 0,
+                      "maxTermClassesCounted": 0,
+                      "maxTermCreditsCounted": 0,
+                      "minDisciplines": 0,
+                      "minGradeRequired": 0.0,
+                      "name": "English courses (any 3 credit hour course, except for ENG-170, ENG-180, ENG-241, ENG-352)",
+                      "numAdvCreditsRequired": 0,
+                      "numClassesRequired": 0,
+                      "numCreditsRequired": 3,
+                      "numResClassesRequired": 0,
+                      "numResCreditsRequired": 0,
+                      "numTermClassesRequired": 0,
+                      "numTermCreditsRequired": 0,
+                      "orGate": false
+                    },
+                    {
+                      "generated": false,
+                      "gpaRequired": 0.0,
+                      "inCourses": [
+                        "CHI-165:499",
+                        "FRE-165:499",
+                        "SPA-165:499"
+                      ],
+                      "maxClassesCounted": 0,
+                      "maxCreditsCounted": 12,
+                      "maxDisciplines": 0,
+                      "maxTermClassesCounted": 0,
+                      "maxTermCreditsCounted": 0,
+                      "minDisciplines": 0,
+                      "minGradeRequired": 0.0,
+                      "name": "Foreign Language (3-12 credits) TODO - How do we handle this?",
+                      "description": "All majors will achieve language competency in a modern foreign language in one of the following ways:\n1. Earn a score of 3, 4, or 5 on the College Board Advanced Placement examination: a) students who score a 3 will earn 3 credits for Beginning I, and will need to take Beginning II,  Intermediate I, and Intermediate II; b) students who score a 4 will earn 6 credits for Beginning I and Beginning II, and will need to take Intermediate I and Intermediate II;  c) students who score of 5 will earn 9 credits for Beginning I, Beginning II, and Intermediate I, and will need to take Intermediate II.\n2. Earn a score of 5, 6, or 7 on an International Baccalaureate Higher Level foreign language exam (equivalent to 12 credit hours).\n3. Take the placement test in a language previously studied (Chinese, French, or Spanish) in order to place into the highest-level language course at IWU for which the student is qualified. Students should take the placement test at registration or within the first semester2, and continue language study,- subsequent courses will vary, depending on the level of language placement. The basic requirement is four courses in a given language through the FL 238 level or a single advanced (300-) level course (please see specific details as listed below).\n4. Pass the CLEP exam in French, German, or Spanish through the Intermediate I level and take an Intermediate II (238) prior to the first semester of junior year or, if completing a Spanish minor, prior to the completion of SPA 349. Students should take the placement exam prior to registering for the CLEP exam.\n5. Pass the ACTFL (American Council on the Teaching of Foreign Languages) Oral Proficiency Interview (OPI), Writing Proficiency (WPT), Reading Proficiency (RPT) and Listening Proficiency (LTP) exams or other proficiency exam approved by the Division of Modern Language and Literature at the intermediate-mid level for languages not taught in the Foreign Language Department at Indiana Wesleyan University. Students who desire such testing must make this request via the Foreign Language Department during their first academic year at Indiana Wesleyan and take the exams on the dates listed on the exam schedule. Students may not take the exam in a language once they have begun to study the language at the university level (including transfer credit or study abroad). Proficiency exams may only be taken twice in a particular language. Students will be responsible for paying all fees associated with their exams.\n6. Pass the DELE Spanish proficiency exam at the B1 level (http://chicago.cervantes.es/en/diplomas_spanish/diplomas_dele_register_spanish.htm), pass the DELF French proficiency exam at the B1 level (https://www.afchicago.org/delf-dalf), or pass the HSK Mandarin proficiency exam Level 3 or higher (http://www.iupui.edu/~china/courses/chinese-proficency-test/). Students who desire such testing must make this request via the Foreign Language Department during their first academic year at Indiana Wesleyan and take the exams on the dates listed on the official exam schedule. Students may not take the exam in a language once they have begun to study the language at the university level (including transfer credit or study abroad). Proficiency exams may only be taken twice in a particular language. Students will be responsible for paying all fees associated with their exams.\n7. Earn 12 credits in a foreign language not previously studied. Students may choose between languages currently taught at Indiana Wesleyan University Marion Campus (Chinese, French, or Spanish).\n8. Native speakers of a language other than English may fulfill the requirement by providing proof of proficiency in that language by successful completion of a proficiency exam approved by Foreign Language faculty at the B1 level (see application form). If a student is a native speaker of a language other than English, he/she will likely profit most from either beginning or continuing study of an additional language.;\n9. Students with a documented learning disability which affects their ability to process language may petition the Center for Student Success for alternative arrangements for preapproved Foreign Language Substitution courses which meet the Indiana Wesleyan University language requirement. Petitions must include recent documentation from a qualified learning disabilities specialist showing evidence of this language-specific disability and be submitted prior to or during the spring semester of their sophomore year.\nPlease visit the Division of Modern Language and Literature for the Requirement Pathways for Language Courses at IWU.",
+                      "numAdvCreditsRequired": 0,
+                      "numClassesRequired": 0,
+                      "numCreditsRequired": 3,
+                      "numResClassesRequired": 0,
+                      "numResCreditsRequired": 0,
+                      "numTermClassesRequired": 0,
+                      "numTermCreditsRequired": 0,
+                      "orGate": false
+                    }
+                  ],
+                  "scopeTypeAndValue": ""
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "ifExpression": "specializationsInclude('WritingSecondMajorABProfessionalWriting') and majorsInclude('WritingSecondMajor AB')",
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Professional Writing Specialization (12 credits, 9 WRI & 3 ENG)",
+                  "description": "AP credits do not count as 'Specialization' courses.",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 12,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false,
+                  "reqs": [
+                    {
+                      "generated": false,
+                      "gpaRequired": 0.0,
+                      "maxClassesCounted": 0,
+                      "maxCreditsCounted": 0,
+                      "maxDisciplines": 0,
+                      "maxTermClassesCounted": 0,
+                      "maxTermCreditsCounted": 0,
+                      "minDisciplines": 0,
+                      "minGradeRequired": 0.0,
+                      "name": "Writing courses",
+                      "numAdvCreditsRequired": 0,
+                      "numClassesRequired": 0,
+                      "numCreditsRequired": 9,
+                      "numResClassesRequired": 0,
+                      "numResCreditsRequired": 0,
+                      "numTermClassesRequired": 0,
+                      "numTermCreditsRequired": 0,
+                      "orGate": false,
+                      "reqs": [
+                        {
+                          "generated": false,
+                          "gpaRequired": 0.0,
+                          "inCourses": [
+                            "WRI-210"
+                          ],
+                          "maxClassesCounted": 0,
+                          "maxCreditsCounted": 1,
+                          "maxDisciplines": 0,
+                          "maxTermClassesCounted": 0,
+                          "maxTermCreditsCounted": 0,
+                          "minDisciplines": 0,
+                          "minGradeRequired": 0.0,
+                          "name": "Theories and Methods of Writing Consultancy",
+                          "numAdvCreditsRequired": 0,
+                          "numClassesRequired": 1,
+                          "numCreditsRequired": 0,
+                          "numResClassesRequired": 0,
+                          "numResCreditsRequired": 0,
+                          "numTermClassesRequired": 0,
+                          "numTermCreditsRequired": 0,
+                          "orGate": false
+                        },
+                        {
+                          "generated": false,
+                          "gpaRequired": 0.0,
+                          "inCourses": [
+                            "WRI-281"
+                          ],
+                          "maxClassesCounted": 0,
+                          "maxCreditsCounted": 0,
+                          "maxDisciplines": 0,
+                          "maxTermClassesCounted": 0,
+                          "maxTermCreditsCounted": 0,
+                          "minDisciplines": 0,
+                          "minGradeRequired": 0.0,
+                          "name": "Art of Argument",
+                          "numAdvCreditsRequired": 0,
+                          "numClassesRequired": 0,
+                          "numCreditsRequired": 3,
+                          "numResClassesRequired": 0,
+                          "numResCreditsRequired": 0,
+                          "numTermClassesRequired": 0,
+                          "numTermCreditsRequired": 0,
+                          "orGate": false
+                        },
+                        {
+                          "generated": false,
+                          "gpaRequired": 0.0,
+                          "inCourses": [
+                            "WRI-282"
+                          ],
+                          "maxClassesCounted": 0,
+                          "maxCreditsCounted": 0,
+                          "maxDisciplines": 0,
+                          "maxTermClassesCounted": 0,
+                          "maxTermCreditsCounted": 0,
+                          "minDisciplines": 0,
+                          "minGradeRequired": 0.0,
+                          "name": "Writing in the Workplace",
+                          "numAdvCreditsRequired": 0,
+                          "numClassesRequired": 0,
+                          "numCreditsRequired": 3,
+                          "numResClassesRequired": 0,
+                          "numResCreditsRequired": 0,
+                          "numTermClassesRequired": 0,
+                          "numTermCreditsRequired": 0,
+                          "orGate": false
+                        },
+                        {
+                          "generated": false,
+                          "gpaRequired": 0.0,
+                          "inCourses": [
+                            "WRI-353"
+                          ],
+                          "maxClassesCounted": 0,
+                          "maxCreditsCounted": 0,
+                          "maxDisciplines": 0,
+                          "maxTermClassesCounted": 0,
+                          "maxTermCreditsCounted": 0,
+                          "minDisciplines": 0,
+                          "minGradeRequired": 0.0,
+                          "name": "Magazine Writing",
+                          "numAdvCreditsRequired": 0,
+                          "numClassesRequired": 0,
+                          "numCreditsRequired": 3,
+                          "numResClassesRequired": 0,
+                          "numResCreditsRequired": 0,
+                          "numTermClassesRequired": 0,
+                          "numTermCreditsRequired": 0,
+                          "orGate": false
+                        },
+                        {
+                          "generated": false,
+                          "gpaRequired": 0.0,
+                          "inCourses": [
+                            "WRI-356"
+                          ],
+                          "maxClassesCounted": 0,
+                          "maxCreditsCounted": 0,
+                          "maxDisciplines": 0,
+                          "maxTermClassesCounted": 0,
+                          "maxTermCreditsCounted": 0,
+                          "minDisciplines": 0,
+                          "minGradeRequired": 0.0,
+                          "name": "Technical Writing",
+                          "numAdvCreditsRequired": 0,
+                          "numClassesRequired": 0,
+                          "numCreditsRequired": 3,
+                          "numResClassesRequired": 0,
+                          "numResCreditsRequired": 0,
+                          "numTermClassesRequired": 0,
+                          "numTermCreditsRequired": 0,
+                          "orGate": false
+                        },
+                        {
+                          "generated": false,
+                          "gpaRequired": 0.0,
+                          "inCourses": [
+                            "WRI-390"
+                          ],
+                          "maxClassesCounted": 0,
+                          "maxCreditsCounted": 0,
+                          "maxDisciplines": 0,
+                          "maxTermClassesCounted": 0,
+                          "maxTermCreditsCounted": 0,
+                          "minDisciplines": 0,
+                          "minGradeRequired": 0.0,
+                          "name": "Teaching Writing: Composition Theory, Pedagogy, and Practice",
+                          "numAdvCreditsRequired": 0,
+                          "numClassesRequired": 0,
+                          "numCreditsRequired": 3,
+                          "numResClassesRequired": 0,
+                          "numResCreditsRequired": 0,
+                          "numTermClassesRequired": 0,
+                          "numTermCreditsRequired": 0,
+                          "orGate": false
+                        },
+                        {
+                          "generated": false,
+                          "gpaRequired": 0.0,
+                          "inCourses": [
+                            "COM-224"
+                          ],
+                          "maxClassesCounted": 0,
+                          "maxCreditsCounted": 0,
+                          "maxDisciplines": 0,
+                          "maxTermClassesCounted": 0,
+                          "maxTermCreditsCounted": 0,
+                          "minDisciplines": 0,
+                          "minGradeRequired": 0.0,
+                          "name": "Introduction to Newswriting TODO - Should this COM course be included under the WRI credit requirement or separate?",
+                          "numAdvCreditsRequired": 0,
+                          "numClassesRequired": 0,
+                          "numCreditsRequired": 3,
+                          "numResClassesRequired": 0,
+                          "numResCreditsRequired": 0,
+                          "numTermClassesRequired": 0,
+                          "numTermCreditsRequired": 0,
+                          "orGate": false
+                        },
+                        {
+                          "generated": false,
+                          "gpaRequired": 0.0,
+                          "inCourses": [
+                            "COM-331"
+                          ],
+                          "maxClassesCounted": 0,
+                          "maxCreditsCounted": 0,
+                          "maxDisciplines": 0,
+                          "maxTermClassesCounted": 0,
+                          "maxTermCreditsCounted": 0,
+                          "minDisciplines": 0,
+                          "minGradeRequired": 0.0,
+                          "name": "Public Relations Writing and Publicity TODO - Should this COM course be included under the WRI credit requirement or separate?",
+                          "numAdvCreditsRequired": 0,
+                          "numClassesRequired": 0,
+                          "numCreditsRequired": 3,
+                          "numResClassesRequired": 0,
+                          "numResCreditsRequired": 0,
+                          "numTermClassesRequired": 0,
+                          "numTermCreditsRequired": 0,
+                          "orGate": false
+                        },
+                        {
+                          "generated": false,
+                          "gpaRequired": 0.0,
+                          "inCourses": [
+                            "COM-483"
+                          ],
+                          "maxClassesCounted": 0,
+                          "maxCreditsCounted": 0,
+                          "maxDisciplines": 0,
+                          "maxTermClassesCounted": 0,
+                          "maxTermCreditsCounted": 0,
+                          "minDisciplines": 0,
+                          "minGradeRequired": 0.0,
+                          "name": "Advanced Newswriting and Reporting TODO - Should this COM course be included under the WRI credit requirement or separate?",
+                          "numAdvCreditsRequired": 0,
+                          "numClassesRequired": 0,
+                          "numCreditsRequired": 3,
+                          "numResClassesRequired": 0,
+                          "numResCreditsRequired": 0,
+                          "numTermClassesRequired": 0,
+                          "numTermCreditsRequired": 0,
+                          "orGate": false
+                        },
+                        {
+                          "generated": false,
+                          "gpaRequired": 0.0,
+                          "inCourses": [
+                            "DES-101"
+                          ],
+                          "maxClassesCounted": 0,
+                          "maxCreditsCounted": 0,
+                          "maxDisciplines": 0,
+                          "maxTermClassesCounted": 0,
+                          "maxTermCreditsCounted": 0,
+                          "minDisciplines": 0,
+                          "minGradeRequired": 0.0,
+                          "name": "DC1: Fundamentals Design Studio TODO - Should this DES course be included under the WRI credit requirement or separate?",
+                          "numAdvCreditsRequired": 0,
+                          "numClassesRequired": 0,
+                          "numCreditsRequired": 3,
+                          "numResClassesRequired": 0,
+                          "numResCreditsRequired": 0,
+                          "numTermClassesRequired": 0,
+                          "numTermCreditsRequired": 0,
+                          "orGate": false
+                        }
+                      ]
+                    },
+                    {
+                      "generated": false,
+                      "gpaRequired": 0.0,
+                      "inCourses": [
+                        "ENG-100:169",
+                        "ENG-171:179",
+                        "ENG-181:240",
+                        "ENG-242:351",
+                        "ENG-353:499"
+                      ],
+                      "maxClassesCounted": 0,
+                      "maxCreditsCounted": 0,
+                      "maxDisciplines": 0,
+                      "maxTermClassesCounted": 0,
+                      "maxTermCreditsCounted": 0,
+                      "minDisciplines": 0,
+                      "minGradeRequired": 0.0,
+                      "name": "English courses (any 3 credit hour course, except for ENG-170, ENG-180, ENG-241, ENG-352)",
+                      "numAdvCreditsRequired": 0,
+                      "numClassesRequired": 0,
+                      "numCreditsRequired": 3,
+                      "numResClassesRequired": 0,
+                      "numResCreditsRequired": 0,
+                      "numTermClassesRequired": 0,
+                      "numTermCreditsRequired": 0,
+                      "orGate": false
+                    },
+                    {
+                      "generated": false,
+                      "gpaRequired": 0.0,
+                      "inCourses": [
+                        "CHI-165:499",
+                        "FRE-165:499",
+                        "SPA-165:499"
+                      ],
+                      "maxClassesCounted": 0,
+                      "maxCreditsCounted": 12,
+                      "maxDisciplines": 0,
+                      "maxTermClassesCounted": 0,
+                      "maxTermCreditsCounted": 0,
+                      "minDisciplines": 0,
+                      "minGradeRequired": 0.0,
+                      "name": "Foreign Language (3-12 credits) TODO - How do we handle this?",
+                      "description": "All majors will achieve language competency in a modern foreign language in one of the following ways:\n1. Earn a score of 3, 4, or 5 on the College Board Advanced Placement examination: a) students who score a 3 will earn 3 credits for Beginning I, and will need to take Beginning II,  Intermediate I, and Intermediate II; b) students who score a 4 will earn 6 credits for Beginning I and Beginning II, and will need to take Intermediate I and Intermediate II;  c) students who score of 5 will earn 9 credits for Beginning I, Beginning II, and Intermediate I, and will need to take Intermediate II.\n2. Earn a score of 5, 6, or 7 on an International Baccalaureate Higher Level foreign language exam (equivalent to 12 credit hours).\n3. Take the placement test in a language previously studied (Chinese, French, or Spanish) in order to place into the highest-level language course at IWU for which the student is qualified. Students should take the placement test at registration or within the first semester2, and continue language study,- subsequent courses will vary, depending on the level of language placement. The basic requirement is four courses in a given language through the FL 238 level or a single advanced (300-) level course (please see specific details as listed below).\n4. Pass the CLEP exam in French, German, or Spanish through the Intermediate I level and take an Intermediate II (238) prior to the first semester of junior year or, if completing a Spanish minor, prior to the completion of SPA 349. Students should take the placement exam prior to registering for the CLEP exam.\n5. Pass the ACTFL (American Council on the Teaching of Foreign Languages) Oral Proficiency Interview (OPI), Writing Proficiency (WPT), Reading Proficiency (RPT) and Listening Proficiency (LTP) exams or other proficiency exam approved by the Division of Modern Language and Literature at the intermediate-mid level for languages not taught in the Foreign Language Department at Indiana Wesleyan University. Students who desire such testing must make this request via the Foreign Language Department during their first academic year at Indiana Wesleyan and take the exams on the dates listed on the exam schedule. Students may not take the exam in a language once they have begun to study the language at the university level (including transfer credit or study abroad). Proficiency exams may only be taken twice in a particular language. Students will be responsible for paying all fees associated with their exams.\n6. Pass the DELE Spanish proficiency exam at the B1 level (http://chicago.cervantes.es/en/diplomas_spanish/diplomas_dele_register_spanish.htm), pass the DELF French proficiency exam at the B1 level (https://www.afchicago.org/delf-dalf), or pass the HSK Mandarin proficiency exam Level 3 or higher (http://www.iupui.edu/~china/courses/chinese-proficency-test/). Students who desire such testing must make this request via the Foreign Language Department during their first academic year at Indiana Wesleyan and take the exams on the dates listed on the official exam schedule. Students may not take the exam in a language once they have begun to study the language at the university level (including transfer credit or study abroad). Proficiency exams may only be taken twice in a particular language. Students will be responsible for paying all fees associated with their exams.\n7. Earn 12 credits in a foreign language not previously studied. Students may choose between languages currently taught at Indiana Wesleyan University Marion Campus (Chinese, French, or Spanish).\n8. Native speakers of a language other than English may fulfill the requirement by providing proof of proficiency in that language by successful completion of a proficiency exam approved by Foreign Language faculty at the B1 level (see application form). If a student is a native speaker of a language other than English, he/she will likely profit most from either beginning or continuing study of an additional language.;\n9. Students with a documented learning disability which affects their ability to process language may petition the Center for Student Success for alternative arrangements for preapproved Foreign Language Substitution courses which meet the Indiana Wesleyan University language requirement. Petitions must include recent documentation from a qualified learning disabilities specialist showing evidence of this language-specific disability and be submitted prior to or during the spring semester of their sophomore year.\nPlease visit the Division of Modern Language and Literature for the Requirement Pathways for Language Courses at IWU.",
+                      "numAdvCreditsRequired": 0,
+                      "numClassesRequired": 0,
+                      "numCreditsRequired": 3,
+                      "numResClassesRequired": 0,
+                      "numResCreditsRequired": 0,
+                      "numTermClassesRequired": 0,
+                      "numTermCreditsRequired": 0,
+                      "orGate": false
+                    }
+                  ],
+                  "scopeTypeAndValue": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "scopeTypeAndValue": "Major=WritingSecondMajor AB"
     },
 
     {

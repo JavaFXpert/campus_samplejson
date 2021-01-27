@@ -454,6 +454,7 @@
       "#WorshipStudiesAndMusicMinistry AB",
       "#WorshipStudiesAndMusicMinistry AB",
       "#Writing AB",
+      "#WritingSecondMajor AB",
       "#Youth Ministries AS",
       "#Youth Ministries BS"
     ],
@@ -519,7 +520,9 @@
       "#MediaCommunicationBAFilm",
       "#MediaCommunicationBAJournalism",
       "#MediaCommunicationBAMediaProduction",
-      "#MediaCommunicationBASportsMedia"
+      "#MediaCommunicationBASportsMedia",
+      "#WritingSecondMajorABCreativeWriting",
+      "#WritingSecondMajorABProfessionalWriting"
     ],
     "flags": [
       "#completeLAFInternship",
