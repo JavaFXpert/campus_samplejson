@@ -1298,8 +1298,8 @@
     {
       "division": "ModernLanguageAndLiterature",
       "majors": [
-        "AppliedSpanishAndHispanicCulture BA",
-        "AppliedSpanishAndHispanicCultureSecondMajor BA",
+        "AppliedSpanishAndHispanicCultures BA",
+        "AppliedSpanishAndHispanicCulturesSecondMajor BA",
         "English AB",
         "TESOL AB",
         "Writing AB",
@@ -1540,7 +1540,7 @@
     {
       "generated": false,
       "gpaRequired": 0.0,
-      "ifExpression": "majorsInclude('AppliedSpanishAndHispanicCulture BA')",
+      "ifExpression": "majorsInclude('AppliedSpanishAndHispanicCultures BA')",
       "maxClassesCounted": 0,
       "maxCreditsCounted": 0,
       "maxDisciplines": 0,
@@ -1548,7 +1548,7 @@
       "maxTermCreditsCounted": 0,
       "minDisciplines": 0,
       "minGradeRequired": 0.0,
-      "name": "Applied Spanish and Hispanic Culture B.A.",
+      "name": "Applied Spanish and Hispanic Cultures B.A.",
       "description": "The Spanish major is designed to help students develop proficiency in the communication, cultures, connections and communities important to the language. Because of the large Spanish-speaking population in the United States, opportunities for multilingual professionals are increasing. The IWU Spanish major equips students to be world changers through the power of the Spanish language. The education major in Spanish is further designed to add training and specific professional experience to the liberal arts major (see education section of the catalog).",
       "numAdvCreditsRequired": 0,
       "numClassesRequired": 0,
@@ -1611,7 +1611,7 @@
                   "maxTermCreditsCounted": 0,
                   "minDisciplines": 0,
                   "minGradeRequired": 0.0,
-                  "name": "Beginning/Intermediate Spanish Language TODO - How do we hand AP test credits?",
+                  "name": "Beginning/Intermediate Spanish Language TODO - How do we handle AP test credits?",
                   "description": "",
                   "numAdvCreditsRequired": 0,
                   "numClassesRequired": 0,
@@ -2244,12 +2244,12 @@
           ]
         }
       ],
-      "scopeTypeAndValue": "Major=AppliedSpanishAndHispanicCulture BA"
+      "scopeTypeAndValue": "Major=AppliedSpanishAndHispanicCultures BA"
     },
     {
       "generated": false,
       "gpaRequired": 0.0,
-      "ifExpression": "major2 == 'AppliedSpanishAndHispanicCultureSecondMajor BA'",
+      "ifExpression": "major2 == 'AppliedSpanishAndHispanicCulturesSecondMajor BA'",
       "maxClassesCounted": 0,
       "maxCreditsCounted": 0,
       "maxDisciplines": 0,
@@ -2320,7 +2320,7 @@
                   "maxTermCreditsCounted": 0,
                   "minDisciplines": 0,
                   "minGradeRequired": 0.0,
-                  "name": "Beginning/Intermediate Spanish Language TODO - How do we hand AP test credits?",
+                  "name": "Beginning/Intermediate Spanish Language TODO - How do we handle AP test credits?",
                   "description": "",
                   "numAdvCreditsRequired": 0,
                   "numClassesRequired": 0,
@@ -2888,7 +2888,7 @@
           ]
         }
       ],
-      "scopeTypeAndValue": "Major=AppliedSpanishAndHispanicCultureSecondMajor BA"
+      "scopeTypeAndValue": "Major=AppliedSpanishAndHispanicCulturesSecondMajor BA"
     },
     {
       "generated": false,
@@ -7192,7 +7192,8 @@
                 "TSL-165:499",
                 "CHI-165:499",
                 "FRE-165:499",
-                "ENG-165:499",
+                "ENG-165:179",
+                "ENG-181:499",
                 "SPA-165:499"
               ],
               "maxClassesCounted": 0,
@@ -7202,7 +7203,7 @@
               "maxTermCreditsCounted": 0,
               "minDisciplines": 0,
               "minGradeRequired": 0.0,
-              "name": "English, Writing, Education, TESOL, Additional Foreign Language Electives (9 credits at 165 level or higher with the exceptions of ENG-180) TODO - How do we include and exclude all the course codes?",
+              "name": "English, Writing, Education, TESOL, Additional Foreign Language Electives (9 credits at 165 level or higher with the exceptions of ENG-180)",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
               "numCreditsRequired": 6,
@@ -19402,9 +19403,9 @@
               "generated": false,
               "gpaRequired": 0.0,
               "inCourses": [
-                "CHI-165:499",
-                "FRE-165:499",
-                "SPA-165:499"
+                "CHI-100:499",
+                "FRE-100:499",
+                "SPA-100:499"
               ],
               "maxClassesCounted": 0,
               "maxCreditsCounted": 12,
@@ -24076,9 +24077,9 @@
                       "generated": false,
                       "gpaRequired": 0.0,
                       "inCourses": [
-                        "CHI-165:499",
-                        "FRE-165:499",
-                        "SPA-165:499"
+                        "CHI-100:499",
+                        "FRE-100:499",
+                        "SPA-100:499"
                       ],
                       "maxClassesCounted": 0,
                       "maxCreditsCounted": 12,
@@ -24406,9 +24407,9 @@
                       "generated": false,
                       "gpaRequired": 0.0,
                       "inCourses": [
-                        "CHI-165:499",
-                        "FRE-165:499",
-                        "SPA-165:499"
+                        "CHI-100:499",
+                        "FRE-100:499",
+                        "SPA-100:499"
                       ],
                       "maxClassesCounted": 0,
                       "maxCreditsCounted": 12,
@@ -30987,9 +30988,9 @@
               "generated": false,
               "gpaRequired": 0.0,
               "inCourses": [
-                "CHI-165:499",
-                "FRE-165:499",
-                "SPA-165:499"
+                "CHI-100:499",
+                "FRE-100:499",
+                "SPA-100:499"
               ],
               "maxClassesCounted": 0,
               "maxCreditsCounted": 12,
