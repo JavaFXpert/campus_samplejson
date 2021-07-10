@@ -14832,7 +14832,7 @@
               "generated": false,
               "gpaRequired": 0.0,
               "inCourses": [
-                "CPS-300:499"
+                "CPS-300:399"
               ],
               "maxClassesCounted": 0,
               "maxCreditsCounted": 0,
@@ -15457,7 +15457,7 @@
               "generated": false,
               "gpaRequired": 0.0,
               "inCourses": [
-                "CPS-300:499"
+                "CPS-300:399"
               ],
               "maxClassesCounted": 0,
               "maxCreditsCounted": 0,
@@ -20638,7 +20638,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "XXX-XXX"
+                    "*-100:499"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -33755,7 +33755,7 @@
                       "maxTermCreditsCounted": 0,
                       "minDisciplines": 0,
                       "minGradeRequired": 0.0,
-                      "name": "Other course approved by minor advisor TODO (Ask Gordon to clarify extent of elective options",
+                      "name": "Other course approved by minor advisor TODO (Ask Gordon to clarify extent of elective options)",
                       "numAdvCreditsRequired": 0,
                       "numClassesRequired": 0,
                       "numCreditsRequired": 4,
@@ -34166,7 +34166,7 @@
       "minDisciplines": 0,
       "minGradeRequired": 0.0,
       "name": "Economics Minor",
-      "description": "TODO (Ask Gordon for clarification)\nNote: International affairs majors who wish to minor in economics must take ECB 311 and at least 4 credits of economics beyond what is required for the international affairs major.",
+      "description": "TODO \nNote: International affairs majors who wish to minor in economics must take ECB 311 and at least 4 credits of economics beyond what is required for the international affairs major.",
       "numAdvCreditsRequired": 0,
       "numClassesRequired": 0,
       "numCreditsRequired": 0,
@@ -34798,7 +34798,7 @@
                   "minDisciplines": 0,
                   "minGradeRequired": 0.0,
                   "name": "Internship",
-                  "description": "Credits: 2 - 6 (2 - 3 credits only) TODO - Is it 2 to 6 credits or 2 to 3 credits?",
+                  "description": "Credits: 2 - 6 (2 - 3 credits only)",
                   "numAdvCreditsRequired": 0,
                   "numClassesRequired": 0,
                   "numCreditsRequired": 2,

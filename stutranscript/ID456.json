@@ -1,4 +1,14 @@
 {
+  "majors": [
+    "HeritageChristianGeneralDiploma",
+    "HeritageChristianCollegePrepCore40Diploma",
+    "HeritageChristianAcademicHonorsDiploma",
+    "IWUAssociateOfScienceIntegrativeStudies"
+  ],
+  "flags": [
+    "saltServicesHoursRequirement",
+    "intertermRequirement"
+  ],
   "coursesTaken": [
     {
       "courseId": "HNR-100",
