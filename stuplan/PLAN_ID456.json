@@ -2,7 +2,7 @@
   "studentId": "ID456",
   "coursesPlanned": [
     {
-      "courseId": "CIS-497",
+      "courseId": "BIL-102",
       "examType": "",
       "numCredits": 3,
       "termSeason": "Fall",

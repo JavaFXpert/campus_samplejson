@@ -11,87 +11,87 @@
   ],
   "coursesTaken": [
     {
-      "courseId": "HNR-100",
-      "grade": "CR",
-      "numCredits": 1,
+      "courseId": "BIL-102",
+      "grade": "A",
+      "numCredits": 3,
       "examType": "",
       "termSeason": "Fall",
       "termYear": 2018
     },
     {
-      "courseId": "HNR-100",
-      "grade": "CR",
-      "numCredits": 1,
+      "courseId": "GEN-111",
+      "grade": "A",
+      "numCredits": 3,
       "examType": "",
       "termSeason": "Spring",
       "termYear": 2019
     },
     {
-      "courseId": "HNR-100",
-      "grade": "CR",
+      "courseId": "UNV-104",
+      "grade": "B",
       "numCredits": 1,
       "examType": "",
       "termSeason": "Fall",
       "termYear": 2019
     },
     {
-      "courseId": "HNR-100",
-      "grade": "CR",
-      "numCredits": 1,
+      "courseId": "UNV-201",
+      "grade": "B",
+      "numCredits": 2,
       "examType": "",
       "termSeason": "Spring",
       "termYear": 2020
     },
     {
-      "courseId": "CIS-125",
+      "courseId": "SCED-101",
       "examType": "",
       "grade": "A",
-      "numCredits": 4,
+      "numCredits": 2,
       "termSeason": "Fall",
       "termYear": 2017
     },
     {
-      "courseId": "CIS-126",
+      "courseId": "SCED-1002",
       "examType": "",
-      "grade": "C",
-      "numCredits": 4,
+      "grade": "A",
+      "numCredits": 2,
       "termSeason": "Fall",
       "termYear": 2017
     },
     {
-      "courseId": "CIS-221",
+      "courseId": "SCED-1003",
       "examType": "",
       "grade": "B+",
-      "numCredits": 4,
+      "numCredits": 2,
       "termSeason": "Spring",
       "termYear": 2019
     },
     {
-      "courseId": "CIS-222",
+      "courseId": "SCED-1004",
       "examType": "",
       "grade": "B+",
-      "numCredits": 4,
+      "numCredits": 2,
       "termSeason": "Fall",
       "termYear": 2018
     },
     {
-      "courseId": "CIS-301",
+      "courseId": "SCED-3001",
       "examType": "",
-      "grade": "TR",
-      "numCredits": 3,
+      "grade": "A",
+      "numCredits": 2,
       "termSeason": "Fall",
       "termYear": 2019
     },
     {
-      "courseId": "CIS-302",
+      "courseId": "SCED-2001",
       "examType": "",
-      "grade": "B-",
-      "numCredits": 3,
+      "grade": "A",
+      "numCredits": 6,
       "termSeason": "Fall",
       "termYear": 2019
     },
     {
-      "courseId": "CIS-320",
+      "courseId": "SCED-3001",
       "examType": "",
       "grade": "B",
       "numCredits": 4,
@@ -99,26 +99,26 @@
       "termYear": 2018
     },
     {
-      "courseId": "CIS-325",
+      "courseId": "SCED-8001",
       "examType": "",
       "grade": "A-",
-      "numCredits": 4,
+      "numCredits": 2,
       "termSeason": "Winter",
       "termYear": 2018
     },
     {
-      "courseId": "CIS-336",
+      "courseId": "SCED-8051",
       "examType": "",
       "grade": "B",
-      "numCredits": 3,
+      "numCredits": 2,
       "termSeason": "Spring",
       "termYear": 2018
     },
     {
-      "courseId": "CIS-342",
+      "courseId": "SCED-5001",
       "examType": "",
-      "grade": "C-",
-      "numCredits": 3,
+      "grade": "C+",
+      "numCredits": 2,
       "termSeason": "Spring",
       "termYear": 2018
     },

@@ -1585,7 +1585,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-1001"
+                    "SCED-101"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1677,7 +1677,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-?"
+                    "SCED-1005:1999"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1907,6 +1907,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
+                    "BIL-102",
                     "SCED-7001:7999"
                   ],
                   "maxClassesCounted": 0,
@@ -1926,7 +1927,8 @@
                   "numTermCreditsRequired": 0,
                   "orGate": false
                 }
-              ]
+              ],
+              "scopeTypeAndValue": "Topic=Bible"
             },
             {
               "generated": false,
@@ -2059,98 +2061,6 @@
                   "numAdvCreditsRequired": 0,
                   "numClassesRequired": 0,
                   "numCreditsRequired": 2,
-                  "numResClassesRequired": 0,
-                  "numResCreditsRequired": 0,
-                  "numTermClassesRequired": 0,
-                  "numTermCreditsRequired": 0,
-                  "orGate": false
-                },
-                {
-                  "generated": false,
-                  "gpaRequired": 0.0,
-                  "inCourses": [
-                    "SCED-4001:4999"
-                  ],
-                  "maxClassesCounted": 0,
-                  "maxCreditsCounted": 0,
-                  "maxDisciplines": 0,
-                  "maxTermClassesCounted": 0,
-                  "maxTermCreditsCounted": 0,
-                  "minDisciplines": 0,
-                  "minGradeRequired": 0.0,
-                  "name": "Social Studies",
-                  "numAdvCreditsRequired": 0,
-                  "numClassesRequired": 0,
-                  "numCreditsRequired": 1,
-                  "numResClassesRequired": 0,
-                  "numResCreditsRequired": 0,
-                  "numTermClassesRequired": 0,
-                  "numTermCreditsRequired": 0,
-                  "orGate": false
-                },
-                {
-                  "generated": false,
-                  "gpaRequired": 0.0,
-                  "inCourses": [
-                    "SCED-3001:3999"
-                  ],
-                  "maxClassesCounted": 0,
-                  "maxCreditsCounted": 0,
-                  "maxDisciplines": 0,
-                  "maxTermClassesCounted": 0,
-                  "maxTermCreditsCounted": 0,
-                  "minDisciplines": 0,
-                  "minGradeRequired": 0.0,
-                  "name": "Science",
-                  "numAdvCreditsRequired": 0,
-                  "numClassesRequired": 0,
-                  "numCreditsRequired": 1,
-                  "numResClassesRequired": 0,
-                  "numResCreditsRequired": 0,
-                  "numTermClassesRequired": 0,
-                  "numTermCreditsRequired": 0,
-                  "orGate": false
-                },
-                {
-                  "generated": false,
-                  "gpaRequired": 0.0,
-                  "inCourses": [
-                    "SCED-2001:2999"
-                  ],
-                  "maxClassesCounted": 0,
-                  "maxCreditsCounted": 0,
-                  "maxDisciplines": 0,
-                  "maxTermClassesCounted": 0,
-                  "maxTermCreditsCounted": 0,
-                  "minDisciplines": 0,
-                  "minGradeRequired": 0.0,
-                  "name": "Mathematics",
-                  "numAdvCreditsRequired": 0,
-                  "numClassesRequired": 0,
-                  "numCreditsRequired": 1,
-                  "numResClassesRequired": 0,
-                  "numResCreditsRequired": 0,
-                  "numTermClassesRequired": 0,
-                  "numTermCreditsRequired": 0,
-                  "orGate": false
-                },
-                {
-                  "generated": false,
-                  "gpaRequired": 0.0,
-                  "inCourses": [
-                    "SCED-24001:24999"
-                  ],
-                  "maxClassesCounted": 0,
-                  "maxCreditsCounted": 0,
-                  "maxDisciplines": 0,
-                  "maxTermClassesCounted": 0,
-                  "maxTermCreditsCounted": 0,
-                  "minDisciplines": 0,
-                  "minGradeRequired": 0.0,
-                  "name": "World Language",
-                  "numAdvCreditsRequired": 0,
-                  "numClassesRequired": 0,
-                  "numCreditsRequired": 1,
                   "numResClassesRequired": 0,
                   "numResCreditsRequired": 0,
                   "numTermClassesRequired": 0,
@@ -2371,7 +2281,7 @@
           "generated": false,
           "gpaRequired": 2.0,
           "inCourses": [
-            "*-100:499"
+            "COM-100:499"
           ],
           "maxClassesCounted": 0,
           "maxCreditsCounted": 0,
@@ -2380,7 +2290,7 @@
           "maxTermCreditsCounted": 0,
           "minDisciplines": 1,
           "minGradeRequired": 0.0,
-          "name": "Concentration in one subject area (15 credits)",
+          "name": "Concentration in one subject area (15 credits) TODO - What concentrations are permitted?",
           "numAdvCreditsRequired": 0,
           "numClassesRequired": 0,
           "numCreditsRequired": 15,
@@ -2393,9 +2303,6 @@
         {
           "generated": false,
           "gpaRequired": 0.0,
-          "inCourses": [
-            "*-100:499"
-          ],
           "maxClassesCounted": 0,
           "maxCreditsCounted": 0,
           "maxDisciplines": 0,
@@ -2411,7 +2318,39 @@
           "numResCreditsRequired": 0,
           "numTermClassesRequired": 0,
           "numTermCreditsRequired": 0,
-          "orGate": false
+          "orGate": false,
+          "reqs": [
+            {
+              "generated": false,
+              "gpaRequired": 0.0,
+              "inCourses": [
+                "BIL-102"
+              ],
+              "maxClassesCounted": 0,
+              "maxCreditsCounted": 0,
+              "maxDisciplines": 0,
+              "maxTermClassesCounted": 0,
+              "maxTermCreditsCounted": 0,
+              "minDisciplines": 0,
+              "minGradeRequired": 0.0,
+              "name": "Bible - New Testament",
+              "numAdvCreditsRequired": 0,
+              "numClassesRequired": 0,
+              "numCreditsRequired": 3,
+              "numResClassesRequired": 0,
+              "numResCreditsRequired": 0,
+              "numTermClassesRequired": 0,
+              "numTermCreditsRequired": 0,
+              "orGate": false,
+              "applyToScopes": [
+                {
+                  "scopeTypeAndValue": "Topic=Bible",
+                  "maxCreditsCounted": 3,
+                  "maxClassesCounted": -1
+                }
+              ]
+            }
+          ]
         }
       ],
       "scopeTypeAndValue": "Major=IWUAssociateOfScienceIntegrativeStudies"
