@@ -51,7 +51,7 @@
       "termYear": 2017
     },
     {
-      "courseId": "SCED-1002",
+      "courseId": "SCED-102",
       "examType": "",
       "grade": "A",
       "numCredits": 2,
@@ -59,7 +59,7 @@
       "termYear": 2017
     },
     {
-      "courseId": "SCED-1003",
+      "courseId": "SCED-103",
       "examType": "",
       "grade": "B+",
       "numCredits": 2,
@@ -67,7 +67,7 @@
       "termYear": 2019
     },
     {
-      "courseId": "SCED-1004",
+      "courseId": "SCED-104",
       "examType": "",
       "grade": "B+",
       "numCredits": 2,
@@ -75,7 +75,7 @@
       "termYear": 2018
     },
     {
-      "courseId": "SCED-3001",
+      "courseId": "SCED-301",
       "examType": "",
       "grade": "A",
       "numCredits": 2,
@@ -83,7 +83,7 @@
       "termYear": 2019
     },
     {
-      "courseId": "SCED-2001",
+      "courseId": "SCED-201",
       "examType": "",
       "grade": "A",
       "numCredits": 6,
@@ -91,7 +91,7 @@
       "termYear": 2019
     },
     {
-      "courseId": "SCED-3001",
+      "courseId": "SCED-301",
       "examType": "",
       "grade": "B",
       "numCredits": 4,
@@ -99,7 +99,7 @@
       "termYear": 2018
     },
     {
-      "courseId": "SCED-8001",
+      "courseId": "SCED-801",
       "examType": "",
       "grade": "A-",
       "numCredits": 2,
@@ -107,7 +107,7 @@
       "termYear": 2018
     },
     {
-      "courseId": "SCED-8051",
+      "courseId": "SCED-851",
       "examType": "",
       "grade": "B",
       "numCredits": 2,
@@ -115,7 +115,7 @@
       "termYear": 2018
     },
     {
-      "courseId": "SCED-5001",
+      "courseId": "SCED-501",
       "examType": "",
       "grade": "C+",
       "numCredits": 2,
@@ -123,7 +123,7 @@
       "termYear": 2018
     },
     {
-      "courseId": "CIS-363",
+      "courseId": "SCED-901",
       "examType": "",
       "grade": "C+",
       "numCredits": 3,
@@ -131,15 +131,15 @@
       "termYear": 2018
     },
     {
-      "courseId": "CIS-482",
+      "courseId": "SCED-902",
       "examType": "",
-      "grade": "C",
+      "grade": "B",
       "numCredits": 2,
       "termSeason": "Spring",
       "termYear": 2020
     },
     {
-      "courseId": "CIS-492",
+      "courseId": "SCED-903",
       "examType": "",
       "grade": "C-",
       "numCredits": 2,
@@ -147,7 +147,7 @@
       "termYear": 2020
     },
     {
-      "courseId": "MUS-185",
+      "courseId": "SCED-904",
       "examType": "",
       "grade": "C+",
       "numCredits": 2,
@@ -155,7 +155,7 @@
       "termYear": 2019
     },
     {
-      "courseId": "MUS-188",
+      "courseId": "SCED-905",
       "examType": "",
       "grade": "C",
       "numCredits": 1,
@@ -163,7 +163,7 @@
       "termYear": 2018
     },
     {
-      "courseId": "MUS-188",
+      "courseId": "SCED-906",
       "examType": "",
       "grade": "B",
       "numCredits": 1,
@@ -171,7 +171,7 @@
       "termYear": 2017
     },
     {
-      "courseId": "MUS-188",
+      "courseId": "SCED-907",
       "examType": "",
       "grade": "A",
       "numCredits": 1,
@@ -179,7 +179,7 @@
       "termYear": 2019
     },
     {
-      "courseId": "MUS-187",
+      "courseId": "SCED-908",
       "examType": "",
       "grade": "C",
       "numCredits": 1,
@@ -187,7 +187,7 @@
       "termYear": 2019
     },
     {
-      "courseId": "MUS-187",
+      "courseId": "SCED-909",
       "examType": "",
       "grade": "B",
       "numCredits": 1,
@@ -195,23 +195,23 @@
       "termYear": 2018
     },
     {
-      "courseId": "MUS-187",
+      "courseId": "SCED-702",
       "examType": "",
       "grade": "C",
-      "numCredits": 1,
+      "numCredits": 3,
       "termSeason": "Summer",
       "termYear": 2019
     },
     {
-      "courseId": "ENG-180",
+      "courseId": "SCED-241",
       "examType": "AP",
       "grade": "CR",
       "numCredits": 3
     },
     {
-      "courseId": "PHL-180",
+      "courseId": "SCED-242",
       "examType": "",
-      "grade": "D+",
+      "grade": "A",
       "numCredits": 3,
       "termSeason": "Summer",
       "termYear": 2017
@@ -225,15 +225,15 @@
       "termYear": 2018
     },
     {
-      "courseId": "ENG-301",
+      "courseId": "SCED-229",
       "examType": "",
-      "grade": "C-",
+      "grade": "A",
       "numCredits": 3,
       "termSeason": "Winter",
       "termYear": 2019
     },
     {
-      "courseId": "THE-101",
+      "courseId": "SCED-239",
       "examType": "",
       "grade": "A",
       "numCredits": 3,
@@ -241,7 +241,7 @@
       "termYear": 2019
     },
     {
-      "courseId": "THE-102",
+      "courseId": "SCED-402",
       "examType": "",
       "grade": "A",
       "numCredits": 3,
@@ -249,7 +249,7 @@
       "termYear": 2018
     },
     {
-      "courseId": "JAV-101",
+      "courseId": "SCED-403",
       "examType": "",
       "grade": "A",
       "numCredits": 3,
@@ -257,15 +257,15 @@
       "termYear": 2017
     },
     {
-      "courseId": "CPP-101",
+      "courseId": "SCED-302",
       "examType": "",
-      "grade": "IP",
+      "grade": "B",
       "numCredits": 3,
       "termSeason": "Summer",
       "termYear": 2019
     },
     {
-      "courseId": "FOR-101",
+      "courseId": "SCED-303",
       "examType": "",
       "grade": "A",
       "numCredits": 3,

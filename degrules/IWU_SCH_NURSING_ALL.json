@@ -1608,7 +1608,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-1002"
+                    "SCED-102"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1631,7 +1631,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-1003"
+                    "SCED-103"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1654,7 +1654,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-1004"
+                    "SCED-104"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1677,7 +1677,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-1005:1999"
+                    "SCED-105:199"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1723,7 +1723,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-4001:4999"
+                    "SCED-401:499"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1769,7 +1769,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-3001:3999"
+                    "SCED-301:399"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1815,7 +1815,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-2001:2999"
+                    "SCED-201:299"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1861,7 +1861,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-24001:24999"
+                    "SCED-241:249"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1908,7 +1908,7 @@
                   "gpaRequired": 0.0,
                   "inCourses": [
                     "BIL-102",
-                    "SCED-7001:7999"
+                    "SCED-701:799"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1955,7 +1955,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-8001:8019"
+                    "SCED-801:819"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -2001,8 +2001,8 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-8051:8058",
-                    "SCED-8079:8099"
+                    "SCED-851:858",
+                    "SCED-879:899"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -2048,7 +2048,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-5001:5999"
+                    "SCED-501:599"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -2094,7 +2094,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-1001:24999"
+                    "SCED-901:949"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
