@@ -365,7 +365,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-?"
+                    "SCED-1005:1006"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -411,7 +411,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-4001:4999"
+                    "SCED-4051:4258"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -457,7 +457,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-3001:3999"
+                    "SCED-3003:3207"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -503,7 +503,9 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-2001:2999"
+                    "SCED-2052",
+                    "SCED-2056",
+                    "SCED-2072"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -512,7 +514,7 @@
                   "maxTermCreditsCounted": 0,
                   "minDisciplines": 0,
                   "minGradeRequired": 0.0,
-                  "name": "Mathematics courses",
+                  "name": "Algebra I and Algebra 2 or Geometry courses",
                   "numAdvCreditsRequired": 0,
                   "numClassesRequired": 0,
                   "numCreditsRequired": 4,
@@ -595,7 +597,9 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-8001:8019"
+                    "SCED-8001",
+                    "SCED-8005",
+                    "SCED-8016"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -630,7 +634,7 @@
               "description": "",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
-              "numCreditsRequired": 2,
+              "numCreditsRequired": 1,
               "numResClassesRequired": 0,
               "numResCreditsRequired": 0,
               "numTermClassesRequired": 0,
@@ -641,8 +645,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-8051:8058",
-                    "SCED-8079:8099"
+                    "SCED-8051"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -654,7 +657,7 @@
                   "name": "Health courses",
                   "numAdvCreditsRequired": 0,
                   "numClassesRequired": 0,
-                  "numCreditsRequired": 2,
+                  "numCreditsRequired": 1,
                   "numResClassesRequired": 0,
                   "numResCreditsRequired": 0,
                   "numTermClassesRequired": 0,
@@ -688,7 +691,12 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-1001:24999"
+                    "SCED-5152",
+                    "SCED-10013:10157",
+                    "SCED-12104",
+                    "SCED-15051",
+                    "SCED-19262",
+                    "SCED-21017:21018"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -940,7 +948,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "1 Credit ?(TODO: We need to narrow scope of the SCED)"
+                    "SCED-1005:1006"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -949,7 +957,7 @@
                   "maxTermCreditsCounted": 0,
                   "minDisciplines": 0,
                   "minGradeRequired": 0.0,
-                  "name": "1 Credit ?",
+                  "name": "1 Credit ?(TODO: We need to narrow scope of the SCED)",
                   "numAdvCreditsRequired": 0,
                   "numClassesRequired": 0,
                   "numCreditsRequired": 1,
@@ -986,7 +994,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-4001:4999"
+                    "SCED-4051:4258"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1032,7 +1040,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-3001:3999"
+                    "SCED-3003:3207"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1078,7 +1086,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-2001:2999"
+                    "SCED-2052"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1087,10 +1095,56 @@
                   "maxTermCreditsCounted": 0,
                   "minDisciplines": 0,
                   "minGradeRequired": 0.0,
-                  "name": "Mathematics courses",
+                  "name": "Algebra I",
                   "numAdvCreditsRequired": 0,
                   "numClassesRequired": 0,
-                  "numCreditsRequired": 6,
+                  "numCreditsRequired": 2,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SCED-2072"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Geometry",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 2,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SCED-2056"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Algebra II",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 2,
                   "numResClassesRequired": 0,
                   "numResCreditsRequired": 0,
                   "numTermClassesRequired": 0,
@@ -1354,7 +1408,9 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-8001:8019"
+                    "SCED-8001",
+                    "SCED-8005",
+                    "SCED-8016"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1389,7 +1445,7 @@
               "description": "",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
-              "numCreditsRequired": 2,
+              "numCreditsRequired": 1,
               "numResClassesRequired": 0,
               "numResCreditsRequired": 0,
               "numTermClassesRequired": 0,
@@ -1400,8 +1456,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-8051:8058",
-                    "SCED-8079:8099"
+                    "SCED-8051"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1413,7 +1468,7 @@
                   "name": "Health courses",
                   "numAdvCreditsRequired": 0,
                   "numClassesRequired": 0,
-                  "numCreditsRequired": 2,
+                  "numCreditsRequired": 1,
                   "numResClassesRequired": 0,
                   "numResCreditsRequired": 0,
                   "numTermClassesRequired": 0,
@@ -1447,7 +1502,12 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-1001:24999"
+                    "SCED-5152",
+                    "SCED-10013:10157",
+                    "SCED-12104",
+                    "SCED-15051",
+                    "SCED-19262",
+                    "SCED-21017:21018"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1585,7 +1645,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-101"
+                    "SCED-1001"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1608,7 +1668,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-102"
+                    "SCED-1002"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1631,7 +1691,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-103"
+                    "SCED-1003"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1654,7 +1714,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-104"
+                    "SCED-1004"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1677,7 +1737,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-105:199"
+                    "SCED-1005:1006"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1723,7 +1783,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-401:499"
+                    "SCED-4051:4258"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1769,7 +1829,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-301:399"
+                    "SCED-3003:3207"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1815,7 +1875,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-201:299"
+                    "SCED-2052"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1824,10 +1884,85 @@
                   "maxTermCreditsCounted": 0,
                   "minDisciplines": 0,
                   "minGradeRequired": 0.0,
-                  "name": "Mathematics courses",
+                  "name": "Algebra I",
                   "numAdvCreditsRequired": 0,
                   "numClassesRequired": 0,
-                  "numCreditsRequired": 6,
+                  "numCreditsRequired": 2,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SCED-2072"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Geometry",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 2,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SCED-2056"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Algebra II",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 2,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SCED-2103",
+                    "SCED-2110",
+                    "SCED-2124",
+                    "SCED-2125",
+                    "SCED-2201",
+                    "SCED-2203",
+                    "SCED-2205"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Other Mathematics courses",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 2,
                   "numResClassesRequired": 0,
                   "numResCreditsRequired": 0,
                   "numTermClassesRequired": 0,
@@ -1847,7 +1982,7 @@
               "minDisciplines": 0,
               "minGradeRequired": 0.0,
               "name": "World Languages",
-              "description": "",
+              "description": "6 credits of Spanish, 6 credits of French or 4 credits of each (8 credits total) ",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
               "numCreditsRequired": 6,
@@ -1855,13 +1990,64 @@
               "numResCreditsRequired": 0,
               "numTermClassesRequired": 0,
               "numTermCreditsRequired": 0,
-              "orGate": false,
+              "orGate": true,
               "reqs": [
                 {
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-241:249"
+                    "SCED-24102:24105",
+                    "SCED-24114"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "French I,II,III,IV & AP courses",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 6,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SCED-24052:24055",
+                    "SCED-24064:24065"
+                  ],
+                  "maxClassesCounted": 0,
+                  "maxCreditsCounted": 0,
+                  "maxDisciplines": 0,
+                  "maxTermClassesCounted": 0,
+                  "maxTermCreditsCounted": 0,
+                  "minDisciplines": 0,
+                  "minGradeRequired": 0.0,
+                  "name": "Spanish I,II,III,IV & AP courses",
+                  "numAdvCreditsRequired": 0,
+                  "numClassesRequired": 0,
+                  "numCreditsRequired": 6,
+                  "numResClassesRequired": 0,
+                  "numResCreditsRequired": 0,
+                  "numTermClassesRequired": 0,
+                  "numTermCreditsRequired": 0,
+                  "orGate": false
+                },
+                {
+                  "generated": false,
+                  "gpaRequired": 0.0,
+                  "inCourses": [
+                    "SCED-24052:24055",
+                    "SCED-24064:24065",
+                    "SCED-24102:24105",
+                    "SCED-24114"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1873,7 +2059,7 @@
                   "name": "World Language courses",
                   "numAdvCreditsRequired": 0,
                   "numClassesRequired": 0,
-                  "numCreditsRequired": 4,
+                  "numCreditsRequired": 8,
                   "numResClassesRequired": 0,
                   "numResCreditsRequired": 0,
                   "numTermClassesRequired": 0,
@@ -1908,7 +2094,7 @@
                   "gpaRequired": 0.0,
                   "inCourses": [
                     "BIL-102",
-                    "SCED-701:799"
+                    "SCED-7001:7999"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1955,7 +2141,9 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-801:819"
+                    "SCED-8001",
+                    "SCED-8005",
+                    "SCED-8016"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -1990,7 +2178,7 @@
               "description": "",
               "numAdvCreditsRequired": 0,
               "numClassesRequired": 0,
-              "numCreditsRequired": 2,
+              "numCreditsRequired": 1,
               "numResClassesRequired": 0,
               "numResCreditsRequired": 0,
               "numTermClassesRequired": 0,
@@ -2001,8 +2189,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-851:858",
-                    "SCED-879:899"
+                    "SCED-8051"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -2014,7 +2201,7 @@
                   "name": "Health courses",
                   "numAdvCreditsRequired": 0,
                   "numClassesRequired": 0,
-                  "numCreditsRequired": 2,
+                  "numCreditsRequired": 1,
                   "numResClassesRequired": 0,
                   "numResCreditsRequired": 0,
                   "numTermClassesRequired": 0,
@@ -2048,7 +2235,7 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-501:599"
+                    "SCED-5052:5175"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
@@ -2094,7 +2281,12 @@
                   "generated": false,
                   "gpaRequired": 0.0,
                   "inCourses": [
-                    "SCED-901:949"
+                    "SCED-5152",
+                    "SCED-10013:10157",
+                    "SCED-12104",
+                    "SCED-15051",
+                    "SCED-19262",
+                    "SCED-21017:21018"
                   ],
                   "maxClassesCounted": 0,
                   "maxCreditsCounted": 0,
