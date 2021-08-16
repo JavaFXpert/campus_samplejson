@@ -1,13 +1,31 @@
 {
   "majors": [
+    "ConcordiaLutheranGeneralDiploma",
+    "ConcordiaLutheranCore40Diploma",
+    "ConcordiaLutheranAcademicHonorsDiploma",
     "HeritageChristianGeneralDiploma",
     "HeritageChristianCollegePrepCore40Diploma",
     "HeritageChristianAcademicHonorsDiploma",
     "IWUIntegrativeStudiesLiberalArts AS"
   ],
   "flags": [
+    "apIbDualCreditCambridgeInternationalCoursesOrClep",
+    "aSVAB",
+    "careerTechnicalEducationConcentrator",
+    "collegeReadyBenchmarkACT",
+    "collegeReadyBenchmarkSAT",
+    "federallyRecognizedApprenticeship",
+    "fourCreditsTwoCoursesAPTwoExams",
+    "intertermRequirement",
+    "locallyCreatedPathway",
+    "requiredScoreOnSATOrACT",
+    "projectBasedLearningExperience",
     "saltServicesHoursRequirement",
-    "intertermRequirement"
+    "serviceBasedLearningExperience",
+    "sixCollegeCreditsDualCredits",
+    "stateAndIndustryCredentialOrCertificate",
+    "threeCollegeCreditsTwoAPCreditsAndExam",
+    "workBasedLearningExperience"
   ],
   "coursesTaken": [
     {
@@ -43,7 +61,7 @@
       "termYear": 2020
     },
     {
-      "courseId": "SCED-101",
+      "courseId": "SCED-1001",
       "examType": "",
       "grade": "A",
       "numCredits": 2,
@@ -51,7 +69,7 @@
       "termYear": 2017
     },
     {
-      "courseId": "SCED-102",
+      "courseId": "SCED-1002",
       "examType": "",
       "grade": "A",
       "numCredits": 2,
@@ -59,7 +77,7 @@
       "termYear": 2017
     },
     {
-      "courseId": "SCED-103",
+      "courseId": "SCED-1003",
       "examType": "",
       "grade": "B+",
       "numCredits": 2,
@@ -67,7 +85,7 @@
       "termYear": 2019
     },
     {
-      "courseId": "SCED-104",
+      "courseId": "SCED-1004",
       "examType": "",
       "grade": "B+",
       "numCredits": 2,
@@ -75,7 +93,7 @@
       "termYear": 2018
     },
     {
-      "courseId": "SCED-301",
+      "courseId": "SCED-3051",
       "examType": "",
       "grade": "A",
       "numCredits": 2,
@@ -83,23 +101,23 @@
       "termYear": 2019
     },
     {
-      "courseId": "SCED-201",
+      "courseId": "SCED-2052",
       "examType": "",
       "grade": "A",
-      "numCredits": 6,
+      "numCredits": 2,
       "termSeason": "Fall",
       "termYear": 2019
     },
     {
-      "courseId": "SCED-301",
+      "courseId": "SCED-3101",
       "examType": "",
       "grade": "B",
-      "numCredits": 4,
+      "numCredits": 2,
       "termSeason": "Winter",
       "termYear": 2018
     },
     {
-      "courseId": "SCED-801",
+      "courseId": "SCED-3151",
       "examType": "",
       "grade": "A-",
       "numCredits": 2,
